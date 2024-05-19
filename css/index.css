@@ -1750,7 +1750,7 @@ figure.highlight pre .javascript .function {
 #article-container pre,
 #article-container code {
   font-size: 16px;
-  font-family: consolas, Menlo, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif !important;
+  font-family: consolas, Menlo, "Microsoft YaHei UI Light", "Microsoft JhengHei", "Microsoft YaHei UI Light", sans-serif !important;
 }
 #article-container code {
   padding: 2px 4px;

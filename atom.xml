@@ -6,7 +6,7 @@
   <link href="http://exef-star.github.io/atom.xml" rel="self"/>
   
   <link href="http://exef-star.github.io/"/>
-  <updated>2024-05-26T09:47:04.689Z</updated>
+  <updated>2024-06-02T09:57:58.199Z</updated>
   <id>http://exef-star.github.io/</id>
   
   <author>
@@ -15,6 +15,44 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Python简易计算器</title>
+    <link href="http://exef-star.github.io/2024/06/02/Python%E7%AE%80%E6%98%93%E8%AE%A1%E7%AE%97%E5%99%A8/"/>
+    <id>http://exef-star.github.io/2024/06/02/Python%E7%AE%80%E6%98%93%E8%AE%A1%E7%AE%97%E5%99%A8/</id>
+    <published>2024-06-02T09:45:59.000Z</published>
+    <updated>2024-06-02T09:57:58.199Z</updated>
+    
+    
+    <summary type="html">Python简易计算器</summary>
+    
+    
+    
+    <category term="Python" scheme="http://exef-star.github.io/categories/Python/"/>
+    
+    
+    <category term="Python" scheme="http://exef-star.github.io/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Minecraft中的Options.txt</title>
+    <link href="http://exef-star.github.io/2024/06/02/Minecraft%E4%B8%AD%E7%9A%84Option-txt/"/>
+    <id>http://exef-star.github.io/2024/06/02/Minecraft%E4%B8%AD%E7%9A%84Option-txt/</id>
+    <published>2024-06-02T03:41:36.000Z</published>
+    <updated>2024-06-02T09:45:20.965Z</updated>
+    
+    
+    <summary type="html">option参数</summary>
+    
+    
+    
+    <category term="Minecraft" scheme="http://exef-star.github.io/categories/Minecraft/"/>
+    
+    
+    <category term="Minecraft" scheme="http://exef-star.github.io/tags/Minecraft/"/>
+    
+  </entry>
   
   <entry>
     <title>🧀怀旧1.12.2—我的世界1.12.2模组（附赠光影）🥙</title>

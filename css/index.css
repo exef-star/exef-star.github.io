@@ -1483,7 +1483,7 @@ body {
   background: var(--global-bg);
   color: var(--font-color);
   font-size: var(--global-font-size);
-  font-family: FZFWZhuZiAYuanJWD,"Segoe UI", "FZFW ZhuZi A YuanS D", FZFW ZhuZi A YuanS D, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: FZFW ZhuZi A YuanS D, FZFW ZhuZi A YuansS D, "FZFW ZhuZi A YuanS D", "FZFW ZhuZi A YuanS D", Lato, Roboto, "FZFW ZhuZi A YuanS D", "FZFW ZhuZi A YuanS D", "FZFW ZhuZi A YuanS D", sans-serif;
   line-height: 2;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
@@ -1755,7 +1755,7 @@ figure.highlight pre .javascript .function {
 #article-container pre,
 #article-container code {
   font-size: 16px;
-  font-family: consolas, FZFW ZhuZi A YuanS D, "FZFW ZhuZi A YuanS D", "FZFW ZhuZi A YuanS D", "FZFW ZhuZi A YuanS D", sans-serif !important;
+  font-family: consolas, Menlo, "FZFW ZhuZi A YuanS D", "FZFW ZhuZi A YuanS D", "FZFW ZhuZi A YuansS D", sans-serif !important;
 }
 #article-container code {
   padding: 2px 4px;

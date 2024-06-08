@@ -1,0 +1,4 @@
+/* 夜间模式页面调整 */
+[data-theme=dark] {
+    --card-bg: rgba(0, 0, 0, 0) !important; /* 全局背景调整 */
+}

@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://exef-star.github.io/about/index.html</loc>
+    
+    <lastmod>2024-06-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://exef-star.github.io/link/index.html</loc>
     
     <lastmod>2024-06-16</lastmod>
@@ -137,15 +146,6 @@
   </url>
   
   <url>
-    <loc>http://exef-star.github.io/about/index.html</loc>
-    
-    <lastmod>2024-05-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://exef-star.github.io/comments/index.html</loc>
     
     <lastmod>2024-05-26</lastmod>
@@ -182,14 +182,14 @@
 
   
   <url>
-    <loc>http://exef-star.github.io/tags/Minecraft/</loc>
+    <loc>http://exef-star.github.io/tags/PCL/</loc>
     <lastmod>2024-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://exef-star.github.io/tags/PCL/</loc>
+    <loc>http://exef-star.github.io/tags/Minecraft/</loc>
     <lastmod>2024-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -219,14 +219,14 @@
 
   
   <url>
-    <loc>http://exef-star.github.io/categories/Minecraft/</loc>
+    <loc>http://exef-star.github.io/categories/PCL/</loc>
     <lastmod>2024-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://exef-star.github.io/categories/PCL/</loc>
+    <loc>http://exef-star.github.io/categories/Minecraft/</loc>
     <lastmod>2024-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

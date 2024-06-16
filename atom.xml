@@ -6,7 +6,7 @@
   <link href="http://exef-star.github.io/atom.xml" rel="self"/>
   
   <link href="http://exef-star.github.io/"/>
-  <updated>2024-06-15T10:56:30.873Z</updated>
+  <updated>2024-06-16T09:22:15.323Z</updated>
   <id>http://exef-star.github.io/</id>
   
   <author>
@@ -17,14 +17,35 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>[Python]检测Minecraft服务器的延迟和在线玩家</title>
+    <link href="http://exef-star.github.io/2024/06/16/Python-%E6%A3%80%E6%B5%8BMinecraft%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84%E5%BB%B6%E8%BF%9F%E5%92%8C%E5%9C%A8%E7%BA%BF%E7%8E%A9%E5%AE%B6/"/>
+    <id>http://exef-star.github.io/2024/06/16/Python-%E6%A3%80%E6%B5%8BMinecraft%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84%E5%BB%B6%E8%BF%9F%E5%92%8C%E5%9C%A8%E7%BA%BF%E7%8E%A9%E5%AE%B6/</id>
+    <published>2024-06-16T08:45:17.000Z</published>
+    <updated>2024-06-16T09:22:15.323Z</updated>
+    
+    
+    <summary type="html">利用Python的mcstatus库检测Minecraft服务器在线玩家以及延迟</summary>
+    
+    
+    
+    <category term="Minecraft" scheme="http://exef-star.github.io/categories/Minecraft/"/>
+    
+    
+    <category term="Minecraft" scheme="http://exef-star.github.io/tags/Minecraft/"/>
+    
+    <category term="Python" scheme="http://exef-star.github.io/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
     <title>PCL粗略使用</title>
     <link href="http://exef-star.github.io/2024/06/10/PCL%E7%B2%97%E7%95%A5%E4%BD%BF%E7%94%A8/"/>
     <id>http://exef-star.github.io/2024/06/10/PCL%E7%B2%97%E7%95%A5%E4%BD%BF%E7%94%A8/</id>
     <published>2024-06-10T09:08:42.000Z</published>
-    <updated>2024-06-15T10:56:30.873Z</updated>
+    <updated>2024-06-16T06:55:23.452Z</updated>
     
     
-    <summary type="html">PCL</summary>
+    <summary type="html">讲述如何使用PCL2</summary>
     
     
     
@@ -59,10 +80,10 @@
     <link href="http://exef-star.github.io/2024/06/02/Minecraft%E4%B8%AD%E7%9A%84Option-txt/"/>
     <id>http://exef-star.github.io/2024/06/02/Minecraft%E4%B8%AD%E7%9A%84Option-txt/</id>
     <published>2024-06-02T03:41:36.000Z</published>
-    <updated>2024-06-15T09:03:42.579Z</updated>
+    <updated>2024-06-16T06:55:03.966Z</updated>
     
     
-    <summary type="html">option参数</summary>
+    <summary type="html">在Minecraft中option的参数列表</summary>
     
     
     
@@ -78,7 +99,7 @@
     <link href="http://exef-star.github.io/2024/05/26/%E6%80%80%E6%97%A71-12-2%E2%80%94%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C1-12%E6%A8%A1%E7%BB%84%EF%BC%88%E9%99%84%E8%B5%A0%E5%85%89%E5%BD%B1%EF%BC%89/"/>
     <id>http://exef-star.github.io/2024/05/26/%E6%80%80%E6%97%A71-12-2%E2%80%94%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C1-12%E6%A8%A1%E7%BB%84%EF%BC%88%E9%99%84%E8%B5%A0%E5%85%89%E5%BD%B1%EF%BC%89/</id>
     <published>2024-05-26T07:42:03.000Z</published>
-    <updated>2024-06-15T09:03:38.018Z</updated>
+    <updated>2024-06-16T06:55:44.163Z</updated>
     
     
     <summary type="html">MinecraftMod</summary>
@@ -97,10 +118,10 @@
     <link href="http://exef-star.github.io/2024/05/17/%E6%80%BB%E7%BB%93%E4%B8%80%E4%B8%8BHexo%E7%9A%84%E5%B0%8F%E6%95%99%E7%A8%8B/"/>
     <id>http://exef-star.github.io/2024/05/17/%E6%80%BB%E7%BB%93%E4%B8%80%E4%B8%8BHexo%E7%9A%84%E5%B0%8F%E6%95%99%E7%A8%8B/</id>
     <published>2024-05-17T12:18:12.000Z</published>
-    <updated>2024-05-26T08:08:53.238Z</updated>
+    <updated>2024-06-16T06:55:59.567Z</updated>
     
     
-    <summary type="html">总结一下Hexo的小教程</summary>
+    <summary type="html">Hexo的小笔记</summary>
     
     
     

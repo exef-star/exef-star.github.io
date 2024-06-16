@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>[Python]检测Minecraft服务器的延迟和在线玩家</title>
+      <link href="/2024/06/16/Python-%E6%A3%80%E6%B5%8BMinecraft%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84%E5%BB%B6%E8%BF%9F%E5%92%8C%E5%9C%A8%E7%BA%BF%E7%8E%A9%E5%AE%B6/"/>
+      <url>/2024/06/16/Python-%E6%A3%80%E6%B5%8BMinecraft%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84%E5%BB%B6%E8%BF%9F%E5%92%8C%E5%9C%A8%E7%BA%BF%E7%8E%A9%E5%AE%B6/</url>
+      
+        <content type="html"><![CDATA[<h1 id="序言"><a href="#序言" class="headerlink" title="序言"></a>序言</h1><p>自从下载了Minecraft，就想琢磨一下这玩意能不能加服务器</p><p>今天在网上看到了一个库，叫mcstatus，是一个用来检测Minecraft服务器延迟和在线玩家数的PYPI库，具体看仓库</p><a class="btn-beautify outline blue larger" href="https://gitcode.com/py-mine/mcstatus/overview?utm_source=artical_gitcode"   title="直达链接"><i class="far fa-hand-point-right"></i><span>直达链接</span></a><p>这个库的语法很简单，基本上官方给的代码去掉注释只有几行代码，这对文件体积来说非常👍nice</p><h1 id="基本代码"><a href="#基本代码" class="headerlink" title="基本代码"></a>基本代码</h1><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> mcstatus <span class="keyword">import</span> JavaServer</span><br><span class="line"></span><br><span class="line"><span class="comment"># 您可以在minecraft地址字段中输入相同的地址到&#x27;lookup&#x27;函数</span></span><br><span class="line"><span class="comment"># 如果您已知主机和端口，则可以跳过此步骤并直接使用JavaServer(&quot;example.org&quot;, 1234)</span></span><br><span class="line">server = JavaServer.lookup(<span class="string">&quot;example.com&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># &#x27;status&#x27;适用于所有版本1.7及以上Minecraft服务器。</span></span><br><span class="line"><span class="comment"># 不要期望玩家列表总是完整的，因为许多服务器运行插件来隐藏此信息，</span></span><br><span class="line"><span class="comment"># 或限制返回的玩家数量，甚至修改列表以包含虚假玩家，以实现自定义消息功能。</span></span><br><span class="line">status = server.status()</span><br><span class="line"><span class="built_in">print</span>(<span class="string">f&quot;服务器有<span class="subst">&#123;status.players.online&#125;</span>位在线玩家，响应时间为<span class="subst">&#123;status.latency&#125;</span>毫秒&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># &#x27;ping&#x27;也适用于所有版本1.7及以上Minecraft服务器。</span></span><br><span class="line"><span class="comment"># 虽然它被包括在&#x27;status&#x27;调用中，但如果您不需要额外的信息，也可以单独使用。</span></span><br><span class="line">latency = server.ping()</span><br><span class="line"><span class="built_in">print</span>(<span class="string">f&quot;服务器响应时间为<span class="subst">&#123;latency&#125;</span>毫秒&quot;</span>)</span><br></pre></td></tr></table></figure><p>这里的代码不是原来的，因为最后的第三段代码显示出<code>socket.timeout: timed out</code>，这就说明服务器离你有点远</p><h2 id="改进代码"><a href="#改进代码" class="headerlink" title="改进代码"></a>改进代码</h2><p>增加了可以输入域名查询服务器</p><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> mcstatus <span class="keyword">import</span> JavaServer</span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;请输入要测评的Minecraft服务器域名（不能包括http或https开头）&#x27;</span>)</span><br><span class="line">a = <span class="built_in">input</span>(<span class="string">&#x27;&gt;&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 您可以在minecraft地址字段中输入相同的地址到&#x27;lookup&#x27;函数</span></span><br><span class="line"><span class="comment"># 如果您已知主机和端口，则可以跳过此步骤并直接使用JavaServer(&quot;example.org&quot;, 1234)</span></span><br><span class="line">server = JavaServer.lookup(a)</span><br><span class="line"></span><br><span class="line"><span class="comment"># &#x27;status&#x27;适用于所有版本1.7及以上Minecraft服务器。</span></span><br><span class="line"><span class="comment"># 不要期望玩家列表总是完整的，因为许多服务器运行插件来隐藏此信息，</span></span><br><span class="line"><span class="comment"># 或限制返回的玩家数量，甚至修改列表以包含虚假玩家，以实现自定义消息功能。</span></span><br><span class="line">status = server.status()</span><br><span class="line"><span class="built_in">print</span>(<span class="string">f&quot;服务器有<span class="subst">&#123;status.players.online&#125;</span>位在线玩家，响应时间为<span class="subst">&#123;status.latency&#125;</span>毫秒&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># &#x27;ping&#x27;也适用于所有版本1.7及以上Minecraft服务器。</span></span><br><span class="line"><span class="comment"># 虽然它被包括在&#x27;status&#x27;调用中，但如果您不需要额外的信息，也可以单独使用。</span></span><br><span class="line">latency = server.ping()</span><br><span class="line"><span class="built_in">print</span>(<span class="string">f&quot;服务器响应时间为<span class="subst">&#123;latency&#125;</span>毫秒&quot;</span>)</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> Minecraft </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Minecraft </tag>
+            
+            <tag> Python </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>PCL粗略使用</title>
       <link href="/2024/06/10/PCL%E7%B2%97%E7%95%A5%E4%BD%BF%E7%94%A8/"/>
       <url>/2024/06/10/PCL%E7%B2%97%E7%95%A5%E4%BD%BF%E7%94%A8/</url>

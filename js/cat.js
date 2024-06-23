@@ -28,15 +28,15 @@ if (document.body.clientWidth > 992) {
         $.fn.nekoScroll = function (option) {
             var defaultSetting = {
                 top: '0',
-                scroWidth: 6 + 'px',
+                scroWidth: 5 + 'px',
                 z_index: 9999,
                 zoom: 0.9,
                 borderRadius: 5 + 'px',
-                right: 60 + 'px',
+                right: 70 + 'px',
                 // 这里可以换为你喜欢的图片，例如我就换为了雪人，但是要抠图
                 nekoImg: "https://pic.imgdb.cn/item/6677f1c3d9c307b7e9c64677.png",
-                hoverMsg: "孩子放我出去~",
-                color: "#6f42c1",
+                hoverMsg: "放我出去",
+                color: "#000000",
                 during: 500,
                 blog_body: "body",
             };

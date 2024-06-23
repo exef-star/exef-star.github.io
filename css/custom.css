@@ -304,12 +304,14 @@ svg.icon {
 #recent-posts > .recent-post-item {
   background: var(--trans-light);
   backdrop-filter: var(--backdrop-filter);
+  border: var(--border-style);
 }
 
 /* 首页侧栏卡片 */
 #aside-content .card-widget {
   background: var(--trans-light);
   backdrop-filter: var(--backdrop-filter);
+  border: var(--border-style);
 }
 
 /* 文章页、归档页、普通页面 */
@@ -318,6 +320,7 @@ div#page,
 div#archive {
   background: var(--trans-light);
   backdrop-filter: var(--backdrop-filter);
+  border: var(--border-style);
 }
 
 /* 导航栏 */

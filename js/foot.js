@@ -12,7 +12,7 @@ document.addEventListener("copy", function () {
             data: function () {
                 this.$notify({
                     title: "哎嘿！复制成功🍬",
-                    message: "你成功的复制了一段了代码，孩子你无敌了！",
+                    message: "你成功的复制了一段文字🍒，孩子你无敌了！",
                     position: 'top-left',
                     offset: 50,
                     showClose: true,

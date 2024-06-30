@@ -27,15 +27,15 @@ if (document.body.clientWidth > 992) {
     (function ($) {
         $.fn.nekoScroll = function (option) {
             var defaultSetting = {
-                top: '0',
+                top: '-1',
                 scroWidth: 5 + 'px',
                 z_index: 9999,
-                zoom: 0.9,
+                zoom: 2.0,
                 borderRadius: 5 + 'px',
-                right: 70 + 'px',
-                // 这里可以换为你喜欢的图片，例如我就换为了雪人，但是要抠图
-                nekoImg: "https://pic.imgdb.cn/item/6677f1c3d9c307b7e9c64677.png",
-                hoverMsg: "放我出去",
+                right: 80 + 'px',
+                // 这里可以换为你喜欢的图片，例如我就换为了MC头像，但是要抠图,
+                nekoImg: "https://pic.imgdb.cn/item/667f87b7d9c307b7e9f2dcb7.png",
+                hoverMsg: "亻尔女子",
                 color: "#000000",
                 during: 500,
                 blog_body: "body",
@@ -52,7 +52,7 @@ if (document.body.clientWidth > 992) {
                     'position': 'fixed',
                     'width': setting.scroWidth,
                     'top': setting.top,
-                    'height': basicInfo.Band_H * setting.zoom * basicInfo.ViewH * 0.01 + 'px',
+                    'height': basicInfo.Band_H * setting.zoom * basicInfo.ViewH * 0.1 + 'px',
                     'z-index': setting.z_index,
                     'background-color': setting.bgcolor,
                     "border-radius": setting.borderRadius,

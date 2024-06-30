@@ -4,9 +4,9 @@ body::-webkit-scrollbar {
 }
 
 .neko {
-    width: 64px;
-    height: 64px;
-    background-image: url("https://pic.imgdb.cn/item/6677f1c3d9c307b7e9c64677.png");
+    width: 74px;
+    height: 74px;
+    background-image: url("https://pic.imgdb.cn/item/667f87b7d9c307b7e9f2dcb7.png");
     position: absolute;
     right: 32px;
     background-repeat: no-repeat;

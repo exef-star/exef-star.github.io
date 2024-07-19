@@ -469,6 +469,89 @@ div#archive {
   }
 }
 
+/*哔哩哔哩视频适配*/
+.aspect-ratio {
+  position: relative;
+  width: 90%;
+  height: auto;
+  padding-bottom: 75%;
+  margin: 3% auto;
+  text-align: center;
+}
+.aspect-ratio iframe {
+  position: absolute;
+  width: 100%;
+  height: 86%;
+  left: 0;
+  top: 0;
+}
+
+/* 当用户点击输入框时显示 */
+.el-input.el-input--small.el-input-group.el-input-group--prepend:focus-within::before,
+.el-input.el-input--small.el-input-group.el-input-group--prepend:focus-within::after {
+  display: block;
+}
+
+/* 主内容区 */
+.el-input.el-input--small.el-input-group.el-input-group--prepend::before {
+  /* 先隐藏起来 */
+  display: none;
+  /* 绝对定位 */
+  position: absolute;
+  /* 向上移动60像素 */
+  top: -60px;
+  /* 文字强制不换行，防止left:50%导致的文字换行 */
+  white-space: nowrap;
+  /* 圆角 */
+  border-radius: 10px;
+  /* 距离左边50% */
+  left: 50%;
+  /* 然后再向左边挪动自身的一半，即可实现居中 */
+  transform: translate(-50%);
+  /* 填充 */
+  padding: 14px 18px;
+  background: #444;
+  color: #fff;
+}
+
+/* 小角标 */
+.el-input.el-input--small.el-input-group.el-input-group--prepend::after {
+  display: none;
+  content: '';
+  position: absolute;
+  /* 内容大小（宽高）为0且边框大小不为0的情况下，每一条边（4个边）都是一个三角形，组成一个正方形。
+  我们先将所有边框透明，再给其中的一条边添加颜色就可以实现小三角图标 */
+  border: 12px solid transparent;
+  border-top-color: #444;
+  left: 50%;
+  transform: translate(-50%, -48px);
+}
+
+#nav *::after{
+  background-color: transparent!important;
+}
+
+/* 帧率检测 */
+#fps {
+  position: fixed;
+  /* 指定位置 */
+  left: 10px;
+  bottom: 10px;
+  z-index: 1919810;
+}
+[data-theme="light"] #fps {
+  background-color: rgba(255, 255, 255, 0.85);
+  backdrop-filter: var(--backdrop-filter);
+  padding: 4px;
+  border-radius: 4px;
+}
+[data-theme="dark"] #fps {
+  background-color: rgba(0, 0, 0, 0.72);
+  backdrop-filter: var(--backdrop-filter);
+  padding: 4px;
+  border-radius: 4px;
+}
+
 /* 右键菜单 */
 #rightMenu {
   display: none;
@@ -531,73 +614,371 @@ div#archive {
   display: none;
 }
 
-/*哔哩哔哩视频适配*/
-.aspect-ratio {
-  position: relative;
-  width: 90%;
-  height: auto;
-  padding-bottom: 75%;
-  margin: 3% auto;
+#site-name::before{
+  opacity: 0;
+  background-color: var(--lyx-theme)!important;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  transition: .3s;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  -ms-transition: .3s;
+  -o-transition: .3s;
+  position:absolute;
+  top:0!important;
+  right:0!important;
+  width:100%;
+  height:100%;
+  content: "\f015";
+  box-shadow: 0 0 5px var(--lyx-theme);
+  font-family: "Font Awesome 6 Free";
   text-align: center;
+  color:white;
+  line-height:34px;/*如果有溢出或者垂直不居中的现象微调一下这个参数*/
+  font-size: 18px;/*根据个人喜好*/
 }
-.aspect-ratio iframe {
-  position: absolute;
+#site-name:hover::before{
+  opacity: 1;
+  scale:1.03;
+}
+#site-name{
+  position: relative;
+  font-size: 24px; /*一定要把字体调大点，否则效果惨不忍睹！*/
+}
+:root{
+  --lyx-theme:#00c4b6 /*我的主题色*/
+}
+
+/* 侧边栏个人信息卡片动态渐变色 */
+#aside-content > .card-widget.card-info {
+  background: linear-gradient(
+    -45deg,
+    #e8d8b9,
+    #eccec5,
+    #a3e9eb,
+    #bdbdf0,
+    #eec1ea
+  );
+  box-shadow: 0 0 5px rgb(66, 68, 68);
+  position: relative;
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 10s ease infinite;
+  -moz-animation: Gradient 10s ease infinite;
+  animation: Gradient 10s ease infinite !important;
+}
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* 黑夜模式适配 */
+[data-theme="dark"] #aside-content > .card-widget.card-info {
+  background: #191919ee;
+}
+
+/* 标题 */
+
+.bb-info {
+  display: inline;
+  float: right;
+  line-height: 1;
+  color: var(--Jay-secondtext);
+  margin-left: auto;
+  margin-bottom: 1rem;
+  margin-right: 0.5rem;
+}
+
+.bb-info:hover {
+  color: var(--Jay-hovertext);
+}
+
+#bber {
+  margin-top: 1rem;
   width: 100%;
-  height: 86%;
-  left: 0;
-  top: 0;
 }
 
-/* 设置文字内容 :nth-child(1)的作用是选择第几个 */
-.el-input.el-input--small.el-input-group.el-input-group--prepend:nth-child(1):before {
-  content: '输入QQ号会自动获取昵称和头像🐧';
+
+/* 每条动态 */
+
+#bber div.bber-content {
+  display: flex;
+  flex-direction: initial;
+  flex-wrap: wrap;
+  border-radius: 12px;
+  width: 100%;
+  height: 100%;
 }
 
-.el-input.el-input--small.el-input-group.el-input-group--prepend:nth-child(2):before {
-  content: '收到回复将会发送到您的邮箱📧';
+#bber>section>ul>li.item {
+  margin-bottom: 1rem;
 }
 
-.el-input.el-input--small.el-input-group.el-input-group--prepend:nth-child(3):before {
-  content: '可以通过昵称访问您的网站🔗';
+#bber .bber-info {
+  display: flex;
+  align-items: center;
 }
 
-/* 当用户点击输入框时显示 */
-.el-input.el-input--small.el-input-group.el-input-group--prepend:focus-within::before,
-.el-input.el-input--small.el-input-group.el-input-group--prepend:focus-within::after {
-  display: block;
+#bber .bber-info .fa-rectangles-mixed {
+  margin-right: 8px;
 }
 
-/* 主内容区 */
-.el-input.el-input--small.el-input-group.el-input-group--prepend::before {
-  /* 先隐藏起来 */
+#bber .bber-content-link {
+  display: flex;
+  margin-left: 0.5rem;
+  color: var(--Jay-secondtext);
+  font-size: 0.7rem;
+  align-items: center;
+  background-color: rgba(245, 108, 108, 0.13);
+  color: #f56c6c;
+  padding: 0 8px;
+  border-radius: 20px;
+}
+
+#bber .bber-content-link:hover {
+  background-color: var(--Jay-main);
+  color: var(--Jay-white);
+}
+
+#bber .bber-content-link i {
+  margin-right: 3px;
+}
+
+#bber .bber-reply {
+  cursor: pointer;
+  padding: 0 4px;
+}
+
+#bber .bber-bottom {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#bber .count {
+  color: var(--Jay-secondtext);
+  font-size: 0.8rem;
+}
+
+#bber p {
+  margin: 0;
+}
+
+#bber .datafrom i {
+  margin-right: 4px;
+}
+
+
+/* 音乐 */
+
+#bber .bber-music {
+  width: 100%;
+  height: 90px;
+  margin: 0.5rem 0;
+  border-radius: 8px;
+  overflow: hidden;
+  border: var(--style-border-always);
+  background: var(--Jay-secondbg);
+}
+
+#bber .aplayer {
+  margin: 0;
+}
+
+#bber .aplayer .aplayer-info .aplayer-music .aplayer-title {
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin: 0;
+  color: var(--Jay-black);
+}
+
+#bber .aplayer.aplayer-withlrc .aplayer-pic {
+  height: 82px;
+  width: 82px;
+  margin: 4px;
+  border-radius: 4px;
+}
+
+#bber .aplayer .aplayer-info .aplayer-music {
+  height: 23px;
+}
+
+#bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap {
+  padding: 0;
+}
+
+#bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar {
+  background: var(--Jay-gray);
+  height: 8px;
+  border-radius: 12px;
+  transition: 0.3s;
+  overflow: hidden;
+}
+
+#bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap:hover .aplayer-bar {
+  height: 12px;
+}
+
+#bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-played {
+  height: 100%;
+  border-radius: 12px;
+}
+
+#bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-loaded {
+  height: 100%;
+  border-radius: 12px;
+}
+
+#bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-played .aplayer-thumb {
   display: none;
-  /* 绝对定位 */
-  position: absolute;
-  /* 向上移动60像素 */
-  top: -60px;
-  /* 文字强制不换行，防止left:50%导致的文字换行 */
-  white-space: nowrap;
-  /* 圆角 */
-  border-radius: 10px;
-  /* 距离左边50% */
-  left: 50%;
-  /* 然后再向左边挪动自身的一半，即可实现居中 */
-  transform: translate(-50%);
-  /* 填充 */
-  padding: 14px 18px;
-  background: #444;
-  color: #fff;
 }
 
-/* 小角标 */
-.el-input.el-input--small.el-input-group.el-input-group--prepend::after {
+#bber .aplayer .aplayer-info .aplayer-controller {
+  align-items: center;
+}
+
+#bber .aplayer .aplayer-info .aplayer-controller .aplayer-time {
+  position: initial;
+}
+
+#bber .bber-music .aplayer-lrc {
   display: none;
-  content: '';
-  position: absolute;
-  /* 内容大小（宽高）为0且边框大小不为0的情况下，每一条边（4个边）都是一个三角形，组成一个正方形。
-  我们先将所有边框透明，再给其中的一条边添加颜色就可以实现小三角图标 */
-  border: 12px solid transparent;
-  border-top-color: #444;
-  left: 50%;
-  transform: translate(-50%, -48px);
+}
+
+
+/* 只能展示30条的提示 */
+
+#bber-tips {
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+
+/* 图片 */
+
+#bber .bber-content-img img {
+  object-fit: cover;
+  max-height: 100%;
+  border-radius: 12px;
+}
+
+#bber .bber-content-img {
+  height: 100px;
+  margin: auto;
+  margin-top: 0.2rem;
+  margin-bottom: 0.3rem;
+  margin-left: 0;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+  width: 100%;
+  justify-content: space-around;
+}
+
+
+/* 时间 */
+
+#bber>section>ul>li>div .bber-info-time,
+#bber>section>ul>li>div .bber-info-from {
+  color: var(--Jay-fontcolor);
+  font-size: 0.7rem;
+  background-color: var(--Jay-gray-op);
+  padding: 0 8px;
+  border-radius: 20px;
+  cursor: default;
+  display: flex;
+  align-items: center;
+}
+
+#bber>section>ul>li>div .bber-info-time i,
+#bber>section>ul>li>div .bber-info-from i {
+  margin-right: 8px;
+  font-size: 16px;
+}
+
+#bber .bber-info-from {
+  margin-left: 0.5rem;
+}
+
+
+/* 内容 */
+
+#bber .bber-content .datacont {
+  order: 0;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: var(--Jay-fontcolor);
+  width: 100%;
+  line-height: 1.38;
+  border-radius: 12px;
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  letter-spacing: 0.5px;
+}
+
+
+/* 设备 */
+
+#bber>section>ul>li>div .datafrom {
+  order: 2;
+  color: var(--Jay-secondtext);
+  font-size: 0.7rem;
+  margin-left: 8px;
+}
+
+#bber>section>ul>li>div .datafrom small {
+  font-size: 0.7rem;
+}
+
+
+/* 视频 */
+
+#bber .bber-container-video {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#bber .bber-container-video .bber-video {
+  width: 100%;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after{
+  color:#00c4b6!important; /*自己改*/
 }

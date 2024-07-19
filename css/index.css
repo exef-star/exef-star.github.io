@@ -1445,8 +1445,8 @@ canvas:not(#ribbon-canvas),
   --search-bg: #f6f8fa;
   --search-input-color: #4c4948;
   --search-a-color: #4c4948;
-  --preloader-bg: #37474f;
-  --preloader-color: #fff;
+  --preloader-bg: #fff;
+  --preloader-color: #000;
   --tab-border-color: #f0f0f0;
   --tab-botton-bg: #f0f0f0;
   --tab-botton-color: #1f2d3d;
@@ -3726,6 +3726,13 @@ h1.page-title + .tag-cloud-list {
   background-attachment: scroll;
   background-position: bottom;
   background-size: cover;
+}
+#footer:before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--mark-bg);
+  content: '';
 }
 #footer-wrap {
   position: relative;

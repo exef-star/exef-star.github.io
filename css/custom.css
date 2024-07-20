@@ -298,6 +298,8 @@ svg.icon {
   --trans-dark: rgba(25, 25, 25, 0.88);
   --border-style: 1px solid rgb(169, 169, 169);
   --backdrop-filter: blur(5px) saturate(150%);
+  --font-color: #000;
+  --hantafrog: #00c4b6;
 }
 
 /* 首页文章卡片 */
@@ -708,277 +710,87 @@ div#archive {
   background: #191919ee;
 }
 
-/* 标题 */
-
-.bb-info {
-  display: inline;
-  float: right;
-  line-height: 1;
-  color: var(--Jay-secondtext);
-  margin-left: auto;
-  margin-bottom: 1rem;
-  margin-right: 0.5rem;
+#todolist-box{
+  margin: 0 10px;
 }
-
-.bb-info:hover {
-  color: var(--Jay-hovertext);
-}
-
-#bber {
-  margin-top: 1rem;
-  width: 100%;
-}
-
-
-/* 每条动态 */
-
-#bber div.bber-content {
+#todolist-main{
   display: flex;
-  flex-direction: initial;
+  flex-direction: row;
   flex-wrap: wrap;
-  border-radius: 12px;
-  width: 100%;
-  height: 100%;
+  justify-content: center;
+  margin: 16px 0 10px;
 }
-
-#bber>section>ul>li.item {
-  margin-bottom: 1rem;
+#todolist-main li{
+  list-style:none;
+  font-size: 17px;
 }
-
-#bber .bber-info {
-  display: flex;
-  align-items: center;
-}
-
-#bber .bber-info .fa-rectangles-mixed {
-  margin-right: 8px;
-}
-
-#bber .bber-content-link {
-  display: flex;
-  margin-left: 0.5rem;
-  color: var(--Jay-secondtext);
-  font-size: 0.7rem;
-  align-items: center;
-  background-color: rgba(245, 108, 108, 0.13);
-  color: #f56c6c;
-  padding: 0 8px;
-  border-radius: 20px;
-}
-
-#bber .bber-content-link:hover {
-  background-color: var(--Jay-main);
-  color: var(--Jay-white);
-}
-
-#bber .bber-content-link i {
-  margin-right: 3px;
-}
-
-#bber .bber-reply {
-  cursor: pointer;
-  padding: 0 4px;
-}
-
-#bber .bber-bottom {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
-
-#bber .count {
-  color: var(--Jay-secondtext);
-  font-size: 0.8rem;
-}
-
-#bber p {
+#todolist-main ul{
   margin: 0;
-}
-
-#bber .datafrom i {
-  margin-right: 4px;
-}
-
-
-/* 音乐 */
-
-#bber .bber-music {
-  width: 100%;
-  height: 90px;
-  margin: 0.5rem 0;
-  border-radius: 8px;
-  overflow: hidden;
-  border: var(--style-border-always);
-  background: var(--Jay-secondbg);
-}
-
-#bber .aplayer {
-  margin: 0;
-}
-
-#bber .aplayer .aplayer-info .aplayer-music .aplayer-title {
-  font-size: 0.8rem;
-  font-weight: bold;
-  margin: 0;
-  color: var(--Jay-black);
-}
-
-#bber .aplayer.aplayer-withlrc .aplayer-pic {
-  height: 82px;
-  width: 82px;
-  margin: 4px;
-  border-radius: 4px;
-}
-
-#bber .aplayer .aplayer-info .aplayer-music {
-  height: 23px;
-}
-
-#bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap {
   padding: 0;
 }
-
-#bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar {
-  background: var(--Jay-gray);
-  height: 8px;
-  border-radius: 12px;
-  transition: 0.3s;
-  overflow: hidden;
+#todolist-left{
+  width: 50%;
+  padding: 0 8px 0 0;
 }
-
-#bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap:hover .aplayer-bar {
-  height: 12px;
+#todolist-right{
+  width: 50%;
+  padding: 0 0 0 8px;
 }
-
-#bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-played {
-  height: 100%;
-  border-radius: 12px;
-}
-
-#bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-loaded {
-  height: 100%;
-  border-radius: 12px;
-}
-
-#bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-played .aplayer-thumb {
-  display: none;
-}
-
-#bber .aplayer .aplayer-info .aplayer-controller {
-  align-items: center;
-}
-
-#bber .aplayer .aplayer-info .aplayer-controller .aplayer-time {
-  position: initial;
-}
-
-#bber .bber-music .aplayer-lrc {
-  display: none;
-}
-
-
-/* 只能展示30条的提示 */
-
-#bber-tips {
-  font-size: 14px;
-  display: flex;
-  justify-content: center;
-  margin-top: 1rem;
-}
-
-
-/* 图片 */
-
-#bber .bber-content-img img {
-  object-fit: cover;
-  max-height: 100%;
-  border-radius: 12px;
-}
-
-#bber .bber-content-img {
-  height: 100px;
-  margin: auto;
-  margin-top: 0.2rem;
-  margin-bottom: 0.3rem;
-  margin-left: 0;
-  border-radius: 12px;
-  overflow: hidden;
-  display: flex;
+.todolist-item{
   position: relative;
-  width: 100%;
-  justify-content: space-around;
-}
-
-
-/* 时间 */
-
-#bber>section>ul>li>div .bber-info-time,
-#bber>section>ul>li>div .bber-info-from {
-  color: var(--Jay-fontcolor);
-  font-size: 0.7rem;
-  background-color: var(--Jay-gray-op);
-  padding: 0 8px;
-  border-radius: 20px;
-  cursor: default;
-  display: flex;
-  align-items: center;
-}
-
-#bber>section>ul>li>div .bber-info-time i,
-#bber>section>ul>li>div .bber-info-from i {
-  margin-right: 8px;
-  font-size: 16px;
-}
-
-#bber .bber-info-from {
-  margin-left: 0.5rem;
-}
-
-
-/* 内容 */
-
-#bber .bber-content .datacont {
-  order: 0;
-  font-size: 0.8rem;
-  font-weight: bold;
-  color: var(--Jay-fontcolor);
-  width: 100%;
-  line-height: 1.38;
+  background: #fae4df;
   border-radius: 12px;
-  margin-bottom: 0.5rem;
-  display: flex;
-  flex-direction: column;
-  text-align: justify;
-  letter-spacing: 0.5px;
+  padding: 10px 1rem 1.2rem;
+  border: 2px dashed #f7a796;
+  margin-bottom: 1rem;
 }
-
-
-/* 设备 */
-
-#bber>section>ul>li>div .datafrom {
-  order: 2;
-  color: var(--Jay-secondtext);
-  font-size: 0.7rem;
-  margin-left: 8px;
+[data-theme=dark]
+.todolist-item{
+  background: #242424;
+  border: 2px dashed #51908b;
 }
-
-#bber>section>ul>li>div .datafrom small {
-  font-size: 0.7rem;
+li.todolist-li i{
+  margin-left: 10px;
 }
-
-
-/* 视频 */
-
-#bber .bber-container-video {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
+h3.todolist-title{
+  margin: 0!important;
+  border-bottom: var(--todo-border);
 }
-
-#bber .bber-container-video .bber-video {
-  width: 100%;
+li.todolist-li{
+  border-bottom: var(--todo-border);
+  font-weight: normal;
 }
-
-.swiper-button-next:after, .swiper-button-prev:after{
-  color:#00c4b6!important; /*自己改*/
+.todolist-li span{
+  margin-left: 5px;
+}
+@media screen and (max-width:700px){
+  #todolist-left,#todolist-right{
+      width: 100%;
+      padding: 0;
+  }
+}
+.page-top-card{
+background-size: cover;
+background-position: center;
+height: 20.5rem;
+padding: 10px 2.7rem;
+border-radius: 20px;
+color: white;
+position: relative;
+}
+.page-top-card span.content-item-title{
+font-size: 2.3em;
+font-weight: bold;
+line-height: 1.2;
+}
+.page-top-card .content-bottom{
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: absolute;
+width: calc(100% - 5.4rem);
+bottom: 1rem;
+}
+[data-theme='dark'] .page-top-card{
+opacity: .92;
 }

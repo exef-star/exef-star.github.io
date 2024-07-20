@@ -1,0 +1,100 @@
+/* 颜色 */
+:root {
+    --june: #E68282;
+    --june-theme-op: #4259ef23;
+    --june-gray-op: #9999992b;
+    --june-white: #fff;
+    --june-black: #000;
+    --june-none: rgba(0, 0, 0, 0);
+    --june-purple: #E764FF;
+    --june-gray: #999999;
+    --june-light-grey: #F2F2F2;
+    --june-yellow: #ffc93e;
+    --june-orange: #ff9900;
+    --june-border-radius: 8px;
+    --june-main: var(--june-theme);
+    --june-main-op: var(--june-theme-op);
+    --june-shadow-theme: 0 8px 12px -3px var(--june-theme-op);
+    --june-shadow-main: 0 8px 12px -3px var(--june-main-op);
+    --june-shadow-blue: 0 8px 12px -3px rgba(40, 109, 234, 0.2);
+    --june-shadow-white: 0 8px 12px -3px rgba(255, 255, 255, 0.2);
+    --june-shadow-black: 0 0 12px 4px rgba(0, 0, 0, 0.05);
+    --june-shadow-yellow: 0px 38px 77px -26px rgba(255, 201, 62, 0.12);
+    --june-shadow-red: 0 8px 12px -3px #ee7d7936;
+    --june-shadow-green: 0 8px 12px -3px #87ee7936;
+    --june-shadow-border: 0 8px 16px -4px #2c2d300c;
+    --june-logo-color: linear-gradient(215deg, #4584ff 30%, #ff7676 70%);
+    --style-border: 1px solid var(--june-card-border);
+    --june-blue-main: #3b70fc;
+    --style-border-hover: 1px solid var(--june-main);
+    --style-border-dashed: 1px dashed var(--june-theme-op);
+    --style-border-avatar: 4px solid var(--june-background);
+    --style-border-always: 1px solid var(--june-card-border);
+    --june-white-acrylic1: #fefeff !important;
+    --june-white-acrylic2: #fcfdff !important;
+    --june-black-acrylic2: #08080a !important;
+    --june-black-acrylic1: #0b0b0e !important;
+    --middle-y-multiplier: 1.5; /* 假设元素在 Y 轴上的平移为原始位置的 1.5 倍 */
+    --middle-scale-multiplier: 1.2; /* 假设元素的纵向缩放为原始大小的 1.2 倍 */
+    --heo-theme: var(--june-border) !important;
+}
+
+[data-theme="light"] {
+    --june-theme: #E68282;
+    --june-theme-op: #4259ef23;
+    --june-blue: #3b70fc;
+    --june-red: #d8213c;
+    --june-pink: #ff7c7c;
+    --june-green: #57bd6a;
+    --june-fontcolor: #4c4948;
+    --june-background: #f7f9fe;
+    --june-reverse: #000;
+    --june-maskbg: rgba(255, 255, 255, 0.6);
+    --june-maskbgdeep: rgba(255, 255, 255, 0.85);
+    --june-hovertext: var(--june);
+    --june-ahoverbg: #f7f7fa;
+    --june-lighttext: var(--june-main);
+    --june-secondtext: rgba(60, 60, 67, 0.6);
+    --june-scrollbar: rgba(60, 60, 67, 0.4);
+    --june-card-btn-bg: #edf0f7;
+    --june-post-blockquote-bg: #fafcff;
+    --june-post-tabs-bg: #f2f5f8;
+    --june-secondbg: #f7f7f9;
+    --june-shadow-nav: 0 5px 12px -5px rgba(102, 68, 68, 0.05);
+    --june-card-bg: #fff;
+    --june-shadow-lightblack: 0 5px 12px -5px rgba(102, 68, 68, 0);
+    --june-shadow-light2black: 0 5px 12px -5px rgba(102, 68, 68, 0);
+    --june-card-border: #c0c6d8;
+    --june-copyright-bg: #eff1f3;
+    --june-border: #E68282
+}
+
+[data-theme="dark"] {
+    --june-theme: #333333;
+    --june-theme-op: #0084ff23;
+    --june-blue: #0084ff;
+    --june-red: #ff3842;
+    --june-pink: #ff7c7c;
+    --june-green: #57bd6a;
+    --june-fontcolor: #f7f7fa;
+    --june-background: #18171d;
+    --june-reverse: #fff;
+    --june-maskbg: rgba(0, 0, 0, 0.6);
+    --june-maskbgdeep: rgba(0, 0, 0, 0.85);
+    --june-hovertext: #0a84ff;
+    --june-ahoverbg: #fff;
+    --june-lighttext: #f2b94b;
+    --june-secondtext: #a1a2b8;
+    --june-scrollbar: rgba(200, 200, 223, 0.4);
+    --june-card-btn-bg: #30343f;
+    --june-post-blockquote-bg: #000;
+    --june-post-tabs-bg: #121212;
+    --june-secondbg: #30343f;
+    --june-shadow-nav: 0 5px 20px 0px rgba(28, 28, 28, 0.4);
+    --june-card-bg: #1b1c20;
+    --june-shadow-lightblack: 0 5px 12px -5px rgba(102, 68, 68, 0);
+    --june-shadow-light2black: 0 5px 12px -5px rgba(102, 68, 68, 0);
+    --june-card-border: #42444a;
+    --june-copyright-bg: #323335;
+    --june-border: #c8c8c8
+}

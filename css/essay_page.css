@@ -1,5 +1,5 @@
 #page:has(#essay_page) {
-    border: 1px solid #ccc;
+    border: 0;
     box-shadow: none !important;
     padding: 0 !important;
     background: transparent !important;
@@ -89,13 +89,6 @@
     box-shadow: var(--june-shadow-border);
     margin-right: 2%;
 }
-#bber .timeline #waterfall.show {
-    opacity: 1;
-}
-#bber .timeline #waterfall {
-    opacity: 0;
-    transition: all 0.3s ease 0s;
-}
 #bber ul.list {
     display: flex;
     flex-flow: row wrap;
@@ -166,7 +159,7 @@
 }
 
 #bber .timeline ul li.bber-item:hover {
-    border: var(--style-border-hover);
+    border: 1px solid #000;
 }
 
 #bber .bber-content-link {

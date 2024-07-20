@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>[二创]在你的Butterfly上部署哔哔吧！</title>
+      <link href="/2024/07/20/%E4%BA%8C%E5%88%9B-%E5%9C%A8%E4%BD%A0%E7%9A%84Butterfly%E4%B8%8A%E9%83%A8%E7%BD%B2%E5%93%94%E5%93%94%EF%BC%81/"/>
+      <url>/2024/07/20/%E4%BA%8C%E5%88%9B-%E5%9C%A8%E4%BD%A0%E7%9A%84Butterfly%E4%B8%8A%E9%83%A8%E7%BD%B2%E5%93%94%E5%93%94%EF%BC%81/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="序言"><a href="#序言" class="headerlink" title="序言"></a>序言</h1><h2 id="改前须知"><a href="#改前须知" class="headerlink" title="改前须知"></a>改前须知</h2><p>其实咱这都不叫二创了，<psw>June转载安知鱼的，我又转载June大佬的</psw>。<psw>都不用叫三创了，叫奥创得了(●'◡'●)</psw></p><blockquote><p>美化的时候需要修改网站的源文件、添加样式、js之类的，需要一点基础，可以参考</p></blockquote><div class="tag link"><a class="link-card" title="Hexo博客添加自定义css和js文件" href="https://b.leonus.cn/2022/custom.html"><div class="left"><img src="https://q1.qlogo.cn/g?b=qq&nk=990320751&s=5"/></div><div class="right"><p class="text">Hexo博客添加自定义css和js文件</p><p class="url">https://b.leonus.cn/2022/custom.html</p></div></a></div><p>本教程针对Butterfly4.13，<code>Anzhiyu</code>主题请自行查找Bing，<code>Ariasaka</code>主题可以看June大佬的</p><div class="tag link"><a class="link-card" title="Butterfly即刻短文" href="https://blog.june-pj.cn/posts/73e89de/"><div class="left"><img src="https://api.iowen.cn/favicon/blog.june-pj.cn/posts/cc83de85/.png"/></div><div class="right"><p class="text">Butterfly即刻短文</p><p class="url">https://blog.june-pj.cn/posts/73e89de/</p></div></a></div><h1 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h1><p><img src="https://pic.imgdb.cn/item/669b7b63d9c307b7e94eda6d.png" alt="669b7b63d9c307b7e94eda6d.png"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Butterfly </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hexo魔改教程2</title>
       <link href="/2024/06/29/Hexo%E9%AD%94%E6%94%B9%E6%95%99%E7%A8%8B2/"/>
       <url>/2024/06/29/Hexo%E9%AD%94%E6%94%B9%E6%95%99%E7%A8%8B2/</url>
@@ -13,14 +32,14 @@
       
       <categories>
           
-          <category> Hexo </category>
+          <category> Butterfly </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> Hexo </tag>
+            <tag> Butterfly </tag>
             
         </tags>
       
@@ -38,14 +57,14 @@
       
       <categories>
           
-          <category> Hexo </category>
+          <category> Butterfly </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> Hexo </tag>
+            <tag> Butterfly </tag>
             
         </tags>
       

@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>记一次B站进度条无法拖动进度条</title>
+      <link href="/2024/07/24/%E8%AE%B0%E4%B8%80%E6%AC%A1B%E7%AB%99%E8%BF%9B%E5%BA%A6%E6%9D%A1%E6%97%A0%E6%B3%95%E6%8B%96%E5%8A%A8%E8%BF%9B%E5%BA%A6%E6%9D%A1/"/>
+      <url>/2024/07/24/%E8%AE%B0%E4%B8%80%E6%AC%A1B%E7%AB%99%E8%BF%9B%E5%BA%A6%E6%9D%A1%E6%97%A0%E6%B3%95%E6%8B%96%E5%8A%A8%E8%BF%9B%E5%BA%A6%E6%9D%A1/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="序言"><a href="#序言" class="headerlink" title="序言"></a>序言</h1><p>家里的网又断了，好不容易重新连接上路由器，结果B站的进度条拉不了。我还以为是我鼠标坏了，换了另一个无线的旧鼠标，也是拉不了，我还以为家里的鼠标都坏了。直到我无意在Bing上搜了一下···<br><img src="https://s21.ax1x.com/2024/07/24/pkHzxG4.png" alt="下次带个脑子吧！"></p><p>PS：这里的视频会把鼠标指针吞掉，所以视频里指针不见了</p><h1 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h1><psw>换个脑子</psw><p>是安装了Allow Copy插件，也就是自由复制插件（作者插件的或许会和你们不一样）的问题，在Microsoft Edge网址输入框右边将Allow Copy关掉，禁用，需要用的时候再开启即可。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 杂谈 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 杂谈 </tag>
+            
+            <tag> Bilibili </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>[二创]在你的Butterfly上部署哔哔吧！</title>
       <link href="/2024/07/20/%E4%BA%8C%E5%88%9B-%E5%9C%A8%E4%BD%A0%E7%9A%84Butterfly%E4%B8%8A%E9%83%A8%E7%BD%B2%E5%93%94%E5%93%94%EF%BC%81/"/>
       <url>/2024/07/20/%E4%BA%8C%E5%88%9B-%E5%9C%A8%E4%BD%A0%E7%9A%84Butterfly%E4%B8%8A%E9%83%A8%E7%BD%B2%E5%93%94%E5%93%94%EF%BC%81/</url>

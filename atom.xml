@@ -6,7 +6,7 @@
   <link href="http://exef-star.github.io/atom.xml" rel="self"/>
   
   <link href="http://exef-star.github.io/"/>
-  <updated>2024-07-24T13:34:04.351Z</updated>
+  <updated>2024-08-03T05:33:10.136Z</updated>
   <id>http://exef-star.github.io/</id>
   
   <author>
@@ -17,11 +17,49 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>写了一个PCL的首页表情包，好像···</title>
+    <link href="http://exef-star.github.io/2024/08/01/%E5%86%99%E4%BA%86%E4%B8%80%E4%B8%AAPCL%E7%9A%84%E9%A6%96%E9%A1%B5%E8%A1%A8%E6%83%85%E5%8C%85%EF%BC%8C%E5%A5%BD%E5%83%8F%C2%B7%C2%B7%C2%B7/"/>
+    <id>http://exef-star.github.io/2024/08/01/%E5%86%99%E4%BA%86%E4%B8%80%E4%B8%AAPCL%E7%9A%84%E9%A6%96%E9%A1%B5%E8%A1%A8%E6%83%85%E5%8C%85%EF%BC%8C%E5%A5%BD%E5%83%8F%C2%B7%C2%B7%C2%B7/</id>
+    <published>2024-08-01T13:00:11.000Z</published>
+    <updated>2024-08-03T05:33:10.136Z</updated>
+    
+    
+    <summary type="html">PCL主页的表情包</summary>
+    
+    
+    
+    <category term="XAML" scheme="http://exef-star.github.io/categories/XAML/"/>
+    
+    
+    <category term="XAML" scheme="http://exef-star.github.io/tags/XAML/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>新时代电子文盲——当代人离电脑越来越远了</title>
+    <link href="http://exef-star.github.io/2024/07/28/%E6%96%B0%E6%97%B6%E4%BB%A3%E7%94%B5%E5%AD%90%E6%96%87%E7%9B%B2-%E5%BD%93%E4%BB%A3%E4%BA%BA%E7%A6%BB%E7%94%B5%E8%84%91%E8%B6%8A%E6%9D%A5%E8%B6%8A%E8%BF%9C%E4%BA%86/"/>
+    <id>http://exef-star.github.io/2024/07/28/%E6%96%B0%E6%97%B6%E4%BB%A3%E7%94%B5%E5%AD%90%E6%96%87%E7%9B%B2-%E5%BD%93%E4%BB%A3%E4%BA%BA%E7%A6%BB%E7%94%B5%E8%84%91%E8%B6%8A%E6%9D%A5%E8%B6%8A%E8%BF%9C%E4%BA%86/</id>
+    <published>2024-07-28T09:07:32.000Z</published>
+    <updated>2024-08-01T13:54:07.948Z</updated>
+    
+    
+    <summary type="html">说一下当代同龄人是如何在电脑和素质这个道路上越走越远的</summary>
+    
+    
+    
+    <category term="杂谈" scheme="http://exef-star.github.io/categories/%E6%9D%82%E8%B0%88/"/>
+    
+    
+    <category term="杂谈" scheme="http://exef-star.github.io/tags/%E6%9D%82%E8%B0%88/"/>
+    
+  </entry>
+  
+  <entry>
     <title>记一次B站进度条无法拖动进度条</title>
     <link href="http://exef-star.github.io/2024/07/24/%E8%AE%B0%E4%B8%80%E6%AC%A1B%E7%AB%99%E8%BF%9B%E5%BA%A6%E6%9D%A1%E6%97%A0%E6%B3%95%E6%8B%96%E5%8A%A8%E8%BF%9B%E5%BA%A6%E6%9D%A1/"/>
     <id>http://exef-star.github.io/2024/07/24/%E8%AE%B0%E4%B8%80%E6%AC%A1B%E7%AB%99%E8%BF%9B%E5%BA%A6%E6%9D%A1%E6%97%A0%E6%B3%95%E6%8B%96%E5%8A%A8%E8%BF%9B%E5%BA%A6%E6%9D%A1/</id>
     <published>2024-07-24T12:44:23.000Z</published>
-    <updated>2024-07-24T13:34:04.351Z</updated>
+    <updated>2024-07-24T14:50:56.230Z</updated>
     
     
     <summary type="html">因为一个插件引出B站的一个离谱Bug，强烈建议修复</summary>
@@ -48,25 +86,6 @@
     <summary type="html">为你的博客加上June大佬的即刻短文板块</summary>
     
     
-    
-    
-    <category term="Butterfly" scheme="http://exef-star.github.io/tags/Butterfly/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo魔改教程2</title>
-    <link href="http://exef-star.github.io/2024/06/29/Hexo%E9%AD%94%E6%94%B9%E6%95%99%E7%A8%8B2/"/>
-    <id>http://exef-star.github.io/2024/06/29/Hexo%E9%AD%94%E6%94%B9%E6%95%99%E7%A8%8B2/</id>
-    <published>2024-06-29T04:26:15.000Z</published>
-    <updated>2024-07-20T08:51:13.119Z</updated>
-    
-    
-    <summary type="html">包含了一大堆改pug和js、styl、css，以及安装插件的教程</summary>
-    
-    
-    
-    <category term="Butterfly" scheme="http://exef-star.github.io/categories/Butterfly/"/>
     
     
     <category term="Butterfly" scheme="http://exef-star.github.io/tags/Butterfly/"/>

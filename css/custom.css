@@ -266,7 +266,7 @@ svg.icon {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: var(--theme-color);
+  background-color: #00c4b6;
   background-image: -webkit-linear-gradient(
     45deg,
     rgba(255, 255, 255, 0.4) 25%,
@@ -286,7 +286,7 @@ svg.icon {
 
 ::-moz-selection {
   color: #fff;
-  background-color: var(--theme-color);
+  background-color: #00c4b6;
 }
 
 :root {
@@ -650,143 +650,51 @@ div#archive {
   --lyx-theme:#00c4b6 /*我的主题色*/
 }
 
-/* 侧边栏个人信息卡片动态渐变色 */
-#aside-content > .card-widget.card-info {
-  background: linear-gradient(
-    -45deg,
-    #e8d8b9,
-    #eccec5,
-    #a3e9eb,
-    #bdbdf0,
-    #eec1ea
-  );
-  box-shadow: 0 0 5px rgb(66, 68, 68);
-  position: relative;
-  background-size: 400% 400%;
-  -webkit-animation: Gradient 10s ease infinite;
-  -moz-animation: Gradient 10s ease infinite;
-  animation: Gradient 10s ease infinite !important;
+/* 个人信息卡片背景图 */
+[data-theme="light"] #aside-content > .card-widget.card-info {
+  background-image: url(https://pic.imgdb.cn/item/66b0860fd9c307b7e93bff9c.jpg);
+  background-repeat: no-repeat;
+  background-attachment: inherit;
+  background-size: 100%;
 }
-@-webkit-keyframes Gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-@-moz-keyframes Gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-@keyframes Gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-/* 黑夜模式适配 */
 [data-theme="dark"] #aside-content > .card-widget.card-info {
-  background: #191919ee;
+  background-image: url(https://pic.imgdb.cn/item/66b0860fd9c307b7e93bff9c.jpg);
+  background-repeat: no-repeat;
+  background-attachment: inherit;
+  background-size: 100%;
 }
 
-#todolist-box{
-  margin: 0 10px;
+/* 头像呼吸灯 */
+[data-theme="light"] .avatar-img {
+  animation: huxi_light 4s ease-in-out infinite;
 }
-#todolist-main{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 16px 0 10px;
+[data-theme="dark"] .avatar-img {
+  animation: huxi_dark 4s ease-in-out infinite;
 }
-#todolist-main li{
-  list-style:none;
-  font-size: 17px;
-}
-#todolist-main ul{
-  margin: 0;
-  padding: 0;
-}
-#todolist-left{
-  width: 50%;
-  padding: 0 8px 0 0;
-}
-#todolist-right{
-  width: 50%;
-  padding: 0 0 0 8px;
-}
-.todolist-item{
-  position: relative;
-  background: #fae4df;
-  border-radius: 12px;
-  padding: 10px 1rem 1.2rem;
-  border: 2px dashed #f7a796;
-  margin-bottom: 1rem;
-}
-[data-theme=dark]
-.todolist-item{
-  background: #242424;
-  border: 2px dashed #51908b;
-}
-li.todolist-li i{
-  margin-left: 10px;
-}
-h3.todolist-title{
-  margin: 0!important;
-  border-bottom: var(--todo-border);
-}
-li.todolist-li{
-  border-bottom: var(--todo-border);
-  font-weight: normal;
-}
-.todolist-li span{
-  margin-left: 5px;
-}
-@media screen and (max-width:700px){
-  #todolist-left,#todolist-right{
-      width: 100%;
-      padding: 0;
+@keyframes huxi_light {
+  0% {
+    box-shadow: 0px 0px 1px 1px #e9f5fa;
+  }
+  50% {
+    box-shadow: 0px 0px 5px 5px #e9f5fa;
+  }
+  100% {
+    box-shadow: 0px 0px 1px 1px #e9f5fa;
   }
 }
-.page-top-card{
-background-size: cover;
-background-position: center;
-height: 20.5rem;
-padding: 10px 2.7rem;
-border-radius: 20px;
-color: white;
-position: relative;
+@keyframes huxi_dark {
+  0% {
+    box-shadow: 0px 0px 1px 1px #39c5bb;
+  }
+  50% {
+    box-shadow: 0px 0px 5px 5px #39c5bb;
+  }
+  100% {
+    box-shadow: 0px 0px 1px 1px #39c5bb;
+  }
 }
-.page-top-card span.content-item-title{
-font-size: 2.3em;
-font-weight: bold;
-line-height: 1.2;
-}
-.page-top-card .content-bottom{
-display: flex;
-justify-content: space-between;
-align-items: center;
-position: absolute;
-width: calc(100% - 5.4rem);
-bottom: 1rem;
-}
-[data-theme='dark'] .page-top-card{
-opacity: .92;
+
+.loading-img {
+  background: url(https://pic.imgdb.cn/item/65fe67989f345e8d03923ea6.jpg) no-repeat center center;
+  background-size: cover;
 }

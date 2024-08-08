@@ -2,9 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://exef-star.github.io/lighthouse/index.html</loc>
+    
+    <lastmod>2024-08-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://exef-star.github.io/update/index.html</loc>
     
-    <lastmod>2024-08-04</lastmod>
+    <lastmod>2024-08-08</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -265,78 +274,78 @@
 
   <url>
     <loc>http://exef-star.github.io/</loc>
-    <lastmod>2024-08-05</lastmod>
+    <lastmod>2024-08-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>http://exef-star.github.io/tags/Minecraft/</loc>
-    <lastmod>2024-08-05</lastmod>
+    <loc>http://exef-star.github.io/tags/Butterfly/</loc>
+    <lastmod>2024-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://exef-star.github.io/tags/Butterfly/</loc>
-    <lastmod>2024-08-05</lastmod>
+    <loc>http://exef-star.github.io/tags/Minecraft/</loc>
+    <lastmod>2024-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://exef-star.github.io/tags/PCL/</loc>
-    <lastmod>2024-08-05</lastmod>
+    <lastmod>2024-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://exef-star.github.io/tags/Python/</loc>
-    <lastmod>2024-08-05</lastmod>
+    <lastmod>2024-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://exef-star.github.io/tags/Tkinter%E6%89%A9%E5%B1%95/</loc>
-    <lastmod>2024-08-05</lastmod>
+    <lastmod>2024-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://exef-star.github.io/tags/text/</loc>
-    <lastmod>2024-08-05</lastmod>
+    <lastmod>2024-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://exef-star.github.io/tags/XAML/</loc>
-    <lastmod>2024-08-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://exef-star.github.io/tags/%E6%9D%82%E8%B0%88/</loc>
-    <lastmod>2024-08-05</lastmod>
+    <lastmod>2024-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://exef-star.github.io/tags/Hexo/</loc>
-    <lastmod>2024-08-05</lastmod>
+    <lastmod>2024-08-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://exef-star.github.io/tags/%E6%9D%82%E8%B0%88/</loc>
+    <lastmod>2024-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://exef-star.github.io/tags/Bilibili/</loc>
-    <lastmod>2024-08-05</lastmod>
+    <lastmod>2024-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -344,64 +353,64 @@
 
   
   <url>
-    <loc>http://exef-star.github.io/categories/Minecraft/</loc>
-    <lastmod>2024-08-05</lastmod>
+    <loc>http://exef-star.github.io/categories/Butterfly/</loc>
+    <lastmod>2024-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://exef-star.github.io/categories/Butterfly/</loc>
-    <lastmod>2024-08-05</lastmod>
+    <loc>http://exef-star.github.io/categories/Minecraft/</loc>
+    <lastmod>2024-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://exef-star.github.io/categories/PCL/</loc>
-    <lastmod>2024-08-05</lastmod>
+    <lastmod>2024-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://exef-star.github.io/categories/Python/</loc>
-    <lastmod>2024-08-05</lastmod>
+    <lastmod>2024-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://exef-star.github.io/categories/Tkinter/</loc>
-    <lastmod>2024-08-05</lastmod>
+    <lastmod>2024-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://exef-star.github.io/categories/test/</loc>
-    <lastmod>2024-08-05</lastmod>
+    <lastmod>2024-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://exef-star.github.io/categories/XAML/</loc>
-    <lastmod>2024-08-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://exef-star.github.io/categories/%E6%9D%82%E8%B0%88/</loc>
-    <lastmod>2024-08-05</lastmod>
+    <lastmod>2024-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://exef-star.github.io/categories/Hexo/</loc>
-    <lastmod>2024-08-05</lastmod>
+    <lastmod>2024-08-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://exef-star.github.io/categories/%E6%9D%82%E8%B0%88/</loc>
+    <lastmod>2024-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

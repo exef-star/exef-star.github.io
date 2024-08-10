@@ -2064,7 +2064,7 @@ figure.highlight pre .javascript .function {
   }
 }
 .error404 #error-wrap .error-content .error-img img {
-  background-color: #49b1f5;
+  background-color: #fff;
 }
 .error404 #error-wrap .error-content .error-info {
   display: -webkit-inline-box;

@@ -770,3 +770,20 @@ div#archive {
 [data-theme="dark"] #page::before{
   background-color: #ffffff!important;
 }
+
+#web_bg {
+  /* 背景图像的地址（url括号里）  */
+  background: url(https://pic.imgdb.cn/item/66b87b42d9c307b7e945f78b.png);
+  /* 背景图像大小 */
+  background-size: cover;
+}
+
+/* 欢迎信息 */
+#welcome-info {
+  background: linear-gradient(45deg, #b9f4f3, #e3fbf9);
+  border-radius: 18px;
+  padding: 8px;
+}
+[data-theme="dark"] #welcome-info {
+  background: #212121;
+}

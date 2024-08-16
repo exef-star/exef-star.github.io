@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>[Python]使用Python生成属于你的网站二维码！</title>
+      <link href="/2024/08/15/Python-%E4%BD%BF%E7%94%A8Python%E7%94%9F%E6%88%90%E5%B1%9E%E4%BA%8E%E4%BD%A0%E7%9A%84%E7%BD%91%E7%AB%99%E4%BA%8C%E7%BB%B4%E7%A0%81%EF%BC%81/"/>
+      <url>/2024/08/15/Python-%E4%BD%BF%E7%94%A8Python%E7%94%9F%E6%88%90%E5%B1%9E%E4%BA%8E%E4%BD%A0%E7%9A%84%E7%BD%91%E7%AB%99%E4%BA%8C%E7%BB%B4%E7%A0%81%EF%BC%81/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="序言"><a href="#序言" class="headerlink" title="序言"></a>序言</h1><p>在网上想学习Python，学着学着想着生成个二维码玩一下，就在搜索引擎上面搜到了这个：<code>MyQR</code><br>这个二维码的目的就是让手机端的用户能够访问到我的博客，<psw>虽然我的博客大部分时间都访问不了</psw><br><div class="tag link"><a class="link-card" title="https://pypi.org/project/MyQR/" href="https://pypi.org/project/MyQR/"><div class="left"><img src="https://s1.imagehub.cc/images/2024/08/15/e1d11c730eed5ebecb2c7cdc0be8d47e.th.jpg"/></div><div class="right"><p class="text">https://pypi.org/project/MyQR/</p><p class="url">https://pypi.org/project/MyQR/</p></div></a></div><br>生成出来的二维码是这样的<br><img src="https://s1.imagehub.cc/images/2024/08/15/e3da6e7b0b5823d08b0a33e800be02a0.md.gif" alt="63e1a3465fdd9x5t qrcode"><br>当然如果你想骚一点点的话也可以吧动图给改一下<br><img src="https://s1.imagehub.cc/images/2024/08/15/d54530bbc2b984f73a0ba074d4f26c36.md.gif" alt="3976a1faa8631d060d58b6577c28e6d1"><br><img src="https://s1.imagehub.cc/images/2024/08/15/d50d3f64510239c68598b0a6897920ea.md.webp" alt="1372447457 5d783d903900a"></p><h1 id="教程"><a href="#教程" class="headerlink" title="教程"></a>教程</h1><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><h3 id="通过pip安装"><a href="#通过pip安装" class="headerlink" title="通过pip安装"></a>通过pip安装</h3><ol><li>如果你的<code>Python</code>安装了环境变量，那你就可以通过以下<code>pip</code>指令安装<code>MyQR</code><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install myqr</span><br></pre></td></tr></table></figure></li><li>如果你只想给另一个<code>Python</code>安装插件，那么可以找到<code>Python</code>的安装路径，然后选择<code>Script</code>文件夹，打开拖动<code>pip3.exe</code>拖进<code>cmd</code>，在后面补上<code>install myqr</code>。</li><li>之后就在cmd窗口输入指令吧<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><h3 id="单QR二维码（无任何装饰）"><a href="#单QR二维码（无任何装饰）" class="headerlink" title="单QR二维码（无任何装饰）"></a>单QR二维码（无任何装饰）</h3>格式为<code>myqr</code> + <code>你的网站域名（带https://）</code> + <code>-v</code> + <code>一个空格</code> + <code>1~50</code><br>示例：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">myqr https://exef-star.github.io -v 10</span><br></pre></td></tr></table></figure></li></ol><p>效果：<br><img src="https://s1.imagehub.cc/images/2024/08/15/c28c91699c0cbe8942793548d37512d7.png" alt="xqdbqydyewfbdawrfjwu"></p><h3 id="图片背景二维码"><a href="#图片背景二维码" class="headerlink" title="图片背景二维码"></a>图片背景二维码</h3><p>格式为<code>myqr</code> + <code>你的网站域名（带https://）</code> + <code>-p</code> + <code>同文件夹的图片文件</code> + <code>-c</code><br>示例：<br><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">myqr https://exef-star.github.io -v 10 -p example.gif -c</span><br></pre></td></tr></table></figure></p><p>这里如果你要可爱风的话可以像我一样搞个咖波猫猫虫一样的动图二维码<br>当然如果你想沿着搞怪风的话，<psw>你也可以弄来生瓜蛋子的图片或者鸽鸽打篮球的图片</psw>。<br>效果：<br><img src="https://s1.imagehub.cc/images/2024/08/15/e3da6e7b0b5823d08b0a33e800be02a0.gif" alt="jsgvtsfshgjvjhhbjvtrsdred"></p><h3 id="参数头示例"><a href="#参数头示例" class="headerlink" title="参数头示例"></a>参数头示例</h3><div class="table-container"><table><thead><tr><th>参数头</th><th>释义</th></tr></thead><tbody><tr><td>-v</td><td>代表Version，数值在1~40之间，数值越大则生成耗费时间更多，精细度也会更大。</td></tr><tr><td>-p</td><td>代表Picture，在该参数头空一格并填上当前目录文件夹图片名称（仅限jpg、png、gif）</td></tr><tr><td>-c</td><td>代表Color，加此参数头代表二维码背景将会呈现彩色，不加则二维码图片背景呈现灰白色，</td></tr><tr><td>-n</td><td>代表Name，在该参数头后空一格填上<code>名字</code>+<code>.后缀名（取决于背景图片文件的后缀名）</code></td></tr></tbody></table></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> Python </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Python </tag>
+            
+            <tag> 前端小玩意 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>[公开]Bilibili表情包图片</title>
       <link href="/2024/08/11/%E5%85%AC%E5%BC%80-Bilibili%E8%A1%A8%E6%83%85%E5%8C%85%E5%9B%BE%E7%89%87/"/>
       <url>/2024/08/11/%E5%85%AC%E5%BC%80-Bilibili%E8%A1%A8%E6%83%85%E5%8C%85%E5%9B%BE%E7%89%87/</url>

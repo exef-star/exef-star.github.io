@@ -353,14 +353,14 @@
 
   
   <url>
-    <loc>http://exef-star.github.io/tags/Minecraft/</loc>
+    <loc>http://exef-star.github.io/tags/Butterfly/</loc>
     <lastmod>2024-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://exef-star.github.io/tags/Butterfly/</loc>
+    <loc>http://exef-star.github.io/tags/Minecraft/</loc>
     <lastmod>2024-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -402,6 +402,13 @@
   </url>
   
   <url>
+    <loc>http://exef-star.github.io/tags/XAML/</loc>
+    <lastmod>2024-08-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://exef-star.github.io/tags/%E8%A1%A8%E6%83%85%E5%8C%85/</loc>
     <lastmod>2024-08-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -416,21 +423,7 @@
   </url>
   
   <url>
-    <loc>http://exef-star.github.io/tags/XAML/</loc>
-    <lastmod>2024-08-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://exef-star.github.io/tags/Hexo/</loc>
-    <lastmod>2024-08-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://exef-star.github.io/tags/Bilibili/</loc>
     <lastmod>2024-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -443,17 +436,24 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>http://exef-star.github.io/tags/Bilibili/</loc>
+    <lastmod>2024-08-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
-    <loc>http://exef-star.github.io/categories/Minecraft/</loc>
+    <loc>http://exef-star.github.io/categories/Butterfly/</loc>
     <lastmod>2024-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://exef-star.github.io/categories/Butterfly/</loc>
+    <loc>http://exef-star.github.io/categories/Minecraft/</loc>
     <lastmod>2024-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -488,14 +488,14 @@
   </url>
   
   <url>
-    <loc>http://exef-star.github.io/categories/%E8%A1%A8%E6%83%85%E5%8C%85/</loc>
+    <loc>http://exef-star.github.io/categories/XAML/</loc>
     <lastmod>2024-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://exef-star.github.io/categories/XAML/</loc>
+    <loc>http://exef-star.github.io/categories/%E8%A1%A8%E6%83%85%E5%8C%85/</loc>
     <lastmod>2024-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>[Python]折腾一下？自制文件夹加密程序</title>
+      <link href="/2024/08/31/Python-%E6%8A%98%E8%85%BE%E4%B8%80%E4%B8%8B-%E8%87%AA%E5%88%B6%E6%96%87%E4%BB%B6%E5%A4%B9%E5%8A%A0%E5%AF%86%E7%A8%8B%E5%BA%8F/"/>
+      <url>/2024/08/31/Python-%E6%8A%98%E8%85%BE%E4%B8%80%E4%B8%8B-%E8%87%AA%E5%88%B6%E6%96%87%E4%BB%B6%E5%A4%B9%E5%8A%A0%E5%AF%86%E7%A8%8B%E5%BA%8F/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="序言"><a href="#序言" class="headerlink" title="序言"></a>序言</h1><p>距离写这个项目已经好几天了，练手一下做了一个小小的文件夹加密程序，希望能帮到大家。</p><h1 id="项目"><a href="#项目" class="headerlink" title="项目"></a>项目</h1><ul><li>GitHub 地址：<a href="https://github.com/exef-star/Folder-Encryption-Program">https://github.com/exef-star/Folder-Encryption-Program</a></li><li>Gitee 地址：<a href="https://gitee.com/coors_123-toqqqqqqqq/Folder-Encryption-Program">https://gitee.com/coors_123-toqqqqqqqq/Folder-Encryption-Program</a></li></ul><p><img src="https://s1.imagehub.cc/images/2024/08/23/d6f5a97ef41832d9dc06e9b5865d9332.png" alt="d6f5a97ef41832d9dc06e9b5865d9332.png"></p><p>目前做到了以下功能</p><ul><li>最基本的加密解密功能</li><li>生成后缀为.key的密钥文件</li><li>将文件名转为乱码（后缀名不变）</li><li>该文件夹图标等</li></ul><p>具体效果可以看Bilibili视频：<a href="https://www.bilibili.com/video/BV19msLepEFo/">https://www.bilibili.com/video/BV19msLepEFo/</a><br>这个程序可以直接下载发行版，也可以自己编译。<br>如果有问题的话，欢迎提issue</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Python </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Python </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>使用FittenCode来提升你的工作效率</title>
       <link href="/2024/08/17/%E4%BD%BF%E7%94%A8FittenCode%E6%9D%A5%E6%8F%90%E5%8D%87%E4%BD%A0%E7%9A%84%E5%B7%A5%E4%BD%9C%E6%95%88%E7%8E%87/"/>
       <url>/2024/08/17/%E4%BD%BF%E7%94%A8FittenCode%E6%9D%A5%E6%8F%90%E5%8D%87%E4%BD%A0%E7%9A%84%E5%B7%A5%E4%BD%9C%E6%95%88%E7%8E%87/</url>

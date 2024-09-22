@@ -6,7 +6,7 @@
   <link href="http://exef-star.github.io/atom.xml" rel="self"/>
   
   <link href="http://exef-star.github.io/"/>
-  <updated>2024-08-31T06:11:19.377Z</updated>
+  <updated>2024-09-22T13:16:09.056Z</updated>
   <id>http://exef-star.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>[Python]配置Python+VSCode代码环境</title>
+    <link href="http://exef-star.github.io/2024/09/22/Python-%E9%85%8D%E7%BD%AEPython-VSCode%E4%BB%A3%E7%A0%81%E7%8E%AF%E5%A2%83/"/>
+    <id>http://exef-star.github.io/2024/09/22/Python-%E9%85%8D%E7%BD%AEPython-VSCode%E4%BB%A3%E7%A0%81%E7%8E%AF%E5%A2%83/</id>
+    <published>2024-09-22T12:34:51.000Z</published>
+    <updated>2024-09-22T13:16:09.056Z</updated>
+    
+    
+    <summary type="html">Python+VSCode代码环境配置</summary>
+    
+    
+    
+    <category term="Python" scheme="http://exef-star.github.io/categories/Python/"/>
+    
+    
+    <category term="Python" scheme="http://exef-star.github.io/tags/Python/"/>
+    
+    <category term="VSCode" scheme="http://exef-star.github.io/tags/VSCode/"/>
+    
+  </entry>
   
   <entry>
     <title>[Python]折腾一下？自制文件夹加密程序</title>

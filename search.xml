@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>[Python]配置Python+VSCode代码环境</title>
+      <link href="/2024/09/22/Python-%E9%85%8D%E7%BD%AEPython-VSCode%E4%BB%A3%E7%A0%81%E7%8E%AF%E5%A2%83/"/>
+      <url>/2024/09/22/Python-%E9%85%8D%E7%BD%AEPython-VSCode%E4%BB%A3%E7%A0%81%E7%8E%AF%E5%A2%83/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h1><h2 id="安装Python"><a href="#安装Python" class="headerlink" title="安装Python"></a>安装Python</h2><p>从<a href="https://www.python.org/downloads/">官方网站</a>下载安装包，根据你的操作系统选择安装。<br><img src="https://s1.imagehub.cc/images/2024/09/22/9cab13b68b19a7a0b85425fb600a29c3.png" alt="9cab13b68b19a7a0b85425fb600a29c3.png"><br>下载之后点击安装程序，记得吧<code>Add to PATH</code>勾选上，这样以后打开cmd或powershell就能直接输入<code>pip</code>命令了。点击<code>Install Now</code>开始安装。（这里需要管理员权限）<br>等进度条跑完了之后，会出现完成安装的提示，接下来就要<code>安装VSCode</code>了。</p><h2 id="安装VSCode"><a href="#安装VSCode" class="headerlink" title="安装VSCode"></a>安装VSCode</h2><p>从<a href="https://code.visualstudio.com/">官方网站</a>下载安装包，根据你的操作系统选择安装。<br><img src="https://s1.imagehub.cc/images/2024/09/22/aaf3a2fa126d814de30e01004f884a60.png" alt="https://s1.imagehub.cc/images/2024/09/22/aaf3a2fa126d814de30e01004f884a60.png"><br>点击<code>下载 Windows 版</code>，就会跳转到帮助文档页面，会自动下载安装包。下载完成后，双击安装程序，选择安装路径，再选择创建快捷方式，无脑下一步安装即可。</p><h2 id="配置VSCode"><a href="#配置VSCode" class="headerlink" title="配置VSCode"></a>配置VSCode</h2><p>打开VSCode，点击左下角的<code>扩展</code>图标，搜索<code>Python</code>关键字，安装<code>Python</code>插件。<br><img src="https://s1.imagehub.cc/images/2024/09/22/2fccb184ceb640089c5655a8933ebfd6.png" alt="https://s1.imagehub.cc/images/2024/09/22/2fccb184ceb640089c5655a8933ebfd6.png"><br>这里由于是安装好的，所以就显示了三个按钮，然后回到编辑器，新建一个<code>text.py</code>文件，写入以下测试代码<br><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;Hello, World!&quot;</span>)</span><br></pre></td></tr></table></figure><br>先别急着运行代码，先选好Python解释器，在右下角点击这个文字<br><img src="https://s1.imagehub.cc/images/2024/09/22/2243be6d3af79cd34529f8c0cacbbcb7.png" alt="https://s1.imagehub.cc/images/2024/09/22/2243be6d3af79cd34529f8c0cacbbcb7.png"><br>在编辑器上方会弹出选择编译器的对话框，直接点击你安装的Python解释器<br>接下来按下<kbd>F5</kbd>键运行代码，会在下方弹出一个Powershell的窗口，输出文本，完成运行</p><blockquote><p>下期预告：美化你的VSCode编辑器</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> Python </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Python </tag>
+            
+            <tag> VSCode </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>[Python]折腾一下？自制文件夹加密程序</title>
       <link href="/2024/08/31/Python-%E6%8A%98%E8%85%BE%E4%B8%80%E4%B8%8B-%E8%87%AA%E5%88%B6%E6%96%87%E4%BB%B6%E5%A4%B9%E5%8A%A0%E5%AF%86%E7%A8%8B%E5%BA%8F/"/>
       <url>/2024/08/31/Python-%E6%8A%98%E8%85%BE%E4%B8%80%E4%B8%8B-%E8%87%AA%E5%88%B6%E6%96%87%E4%BB%B6%E5%A4%B9%E5%8A%A0%E5%AF%86%E7%A8%8B%E5%BA%8F/</url>

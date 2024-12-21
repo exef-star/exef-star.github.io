@@ -419,13 +419,6 @@
   </url>
   
   <url>
-    <loc>http://exef-star.github.io/tags/PCL/</loc>
-    <lastmod>2024-12-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://exef-star.github.io/tags/Python/</loc>
     <lastmod>2024-12-21</lastmod>
     <changefreq>weekly</changefreq>
@@ -434,6 +427,13 @@
   
   <url>
     <loc>http://exef-star.github.io/tags/%E5%89%8D%E7%AB%AF%E5%B0%8F%E7%8E%A9%E6%84%8F/</loc>
+    <lastmod>2024-12-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://exef-star.github.io/tags/PCL/</loc>
     <lastmod>2024-12-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -561,14 +561,14 @@
   </url>
   
   <url>
-    <loc>http://exef-star.github.io/categories/PCL/</loc>
+    <loc>http://exef-star.github.io/categories/Python/</loc>
     <lastmod>2024-12-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://exef-star.github.io/categories/Python/</loc>
+    <loc>http://exef-star.github.io/categories/PCL/</loc>
     <lastmod>2024-12-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

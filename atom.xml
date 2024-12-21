@@ -6,7 +6,7 @@
   <link href="http://exef-star.github.io/atom.xml" rel="self"/>
   
   <link href="http://exef-star.github.io/"/>
-  <updated>2024-12-15T09:45:38.267Z</updated>
+  <updated>2024-12-21T02:57:28.091Z</updated>
   <id>http://exef-star.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我换了域名</title>
+    <link href="http://exef-star.github.io/2024/12/21/%E6%88%91%E6%8D%A2%E4%BA%86%E5%9F%9F%E5%90%8D/"/>
+    <id>http://exef-star.github.io/2024/12/21/%E6%88%91%E6%8D%A2%E4%BA%86%E5%9F%9F%E5%90%8D/</id>
+    <published>2024-12-21T00:05:39.000Z</published>
+    <updated>2024-12-21T02:57:28.091Z</updated>
+    
+    
+    <summary type="html">关于我域名从 https://exef-star.github.io/ 换成 https://hanta.us.kg/ 这件事</summary>
+    
+    
+    
+    <category term="通知" scheme="http://exef-star.github.io/categories/%E9%80%9A%E7%9F%A5/"/>
+    
+    
+    <category term="通知" scheme="http://exef-star.github.io/tags/%E9%80%9A%E7%9F%A5/"/>
+    
+    <category term="教程" scheme="http://exef-star.github.io/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>局域网共享文件！chfsgui.exe使用教程</title>
@@ -390,25 +411,6 @@
     
     
     <category term="Minecraft" scheme="http://exef-star.github.io/tags/Minecraft/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>总结一下Hexo的小教程</title>
-    <link href="http://exef-star.github.io/2024/05/17/%E6%80%BB%E7%BB%93%E4%B8%80%E4%B8%8BHexo%E7%9A%84%E5%B0%8F%E6%95%99%E7%A8%8B/"/>
-    <id>http://exef-star.github.io/2024/05/17/%E6%80%BB%E7%BB%93%E4%B8%80%E4%B8%8BHexo%E7%9A%84%E5%B0%8F%E6%95%99%E7%A8%8B/</id>
-    <published>2024-05-17T12:18:12.000Z</published>
-    <updated>2024-06-16T06:55:59.567Z</updated>
-    
-    
-    <summary type="html">Hexo的小笔记</summary>
-    
-    
-    
-    <category term="Hexo" scheme="http://exef-star.github.io/categories/Hexo/"/>
-    
-    
-    <category term="Hexo" scheme="http://exef-star.github.io/tags/Hexo/"/>
     
   </entry>
   

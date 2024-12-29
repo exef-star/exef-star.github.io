@@ -6,7 +6,7 @@
   <link href="http://exef-star.github.io/atom.xml" rel="self"/>
   
   <link href="http://exef-star.github.io/"/>
-  <updated>2024-12-21T02:57:28.091Z</updated>
+  <updated>2024-12-29T14:05:09.506Z</updated>
   <id>http://exef-star.github.io/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2024，再见-2024总结</title>
+    <link href="http://exef-star.github.io/2024/12/29/2024%EF%BC%8C%E5%86%8D%E8%A7%81-2024%E6%80%BB%E7%BB%93/"/>
+    <id>http://exef-star.github.io/2024/12/29/2024%EF%BC%8C%E5%86%8D%E8%A7%81-2024%E6%80%BB%E7%BB%93/</id>
+    <published>2024-12-29T12:00:15.000Z</published>
+    <updated>2024-12-29T14:05:09.506Z</updated>
+    
+    
+    <summary type="html">对于2024年的年终总结</summary>
+    
+    
+    
+    <category term="生活" scheme="http://exef-star.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+    <category term="2024总结" scheme="http://exef-star.github.io/tags/2024%E6%80%BB%E7%BB%93/"/>
+    
+  </entry>
   
   <entry>
     <title>我换了域名</title>
@@ -385,25 +404,6 @@
     
     
     <summary type="html">在Minecraft中option的参数列表</summary>
-    
-    
-    
-    <category term="Minecraft" scheme="http://exef-star.github.io/categories/Minecraft/"/>
-    
-    
-    <category term="Minecraft" scheme="http://exef-star.github.io/tags/Minecraft/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>🧀怀旧1.12.2—我的世界1.12.2模组（附赠光影）🥙</title>
-    <link href="http://exef-star.github.io/2024/05/26/%E6%80%80%E6%97%A71-12-2%E2%80%94%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C1-12%E6%A8%A1%E7%BB%84%EF%BC%88%E9%99%84%E8%B5%A0%E5%85%89%E5%BD%B1%EF%BC%89/"/>
-    <id>http://exef-star.github.io/2024/05/26/%E6%80%80%E6%97%A71-12-2%E2%80%94%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C1-12%E6%A8%A1%E7%BB%84%EF%BC%88%E9%99%84%E8%B5%A0%E5%85%89%E5%BD%B1%EF%BC%89/</id>
-    <published>2024-05-26T07:42:03.000Z</published>
-    <updated>2024-06-16T06:55:44.163Z</updated>
-    
-    
-    <summary type="html">MinecraftMod</summary>
     
     
     

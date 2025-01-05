@@ -3,11 +3,11 @@
   <title>可执行程序の天境小屋🥝</title>
   
   <subtitle>向着阳光生长</subtitle>
-  <link href="http://exef-star.github.io/atom.xml" rel="self"/>
+  <link href="http://hanta.us.kg/atom.xml" rel="self"/>
   
-  <link href="http://exef-star.github.io/"/>
-  <updated>2024-12-29T14:05:09.506Z</updated>
-  <id>http://exef-star.github.io/</id>
+  <link href="http://hanta.us.kg/"/>
+  <updated>2025-01-05T10:00:47.390Z</updated>
+  <id>http://hanta.us.kg/</id>
   
   <author>
     <name>可执行程序</name>
@@ -17,9 +17,30 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>记一次修改Butterfly4.13.0公告栏</title>
+    <link href="http://hanta.us.kg/2025/01/05/%E8%AE%B0%E4%B8%80%E6%AC%A1%E4%BF%AE%E6%94%B9Butterfly4-13-0%E5%85%AC%E5%91%8A%E6%A0%8F/"/>
+    <id>http://hanta.us.kg/2025/01/05/%E8%AE%B0%E4%B8%80%E6%AC%A1%E4%BF%AE%E6%94%B9Butterfly4-13-0%E5%85%AC%E5%91%8A%E6%A0%8F/</id>
+    <published>2025-01-05T03:10:45.000Z</published>
+    <updated>2025-01-05T10:00:47.390Z</updated>
+    
+    
+    <summary type="html">对于Butterfly4.13.0无法像Fomal大佬直接修改配置文件添加文字的教程</summary>
+    
+    
+    
+    <category term="Butterfly魔改" scheme="http://hanta.us.kg/categories/Butterfly%E9%AD%94%E6%94%B9/"/>
+    
+    
+    <category term="Butterfly魔改" scheme="http://hanta.us.kg/tags/Butterfly%E9%AD%94%E6%94%B9/"/>
+    
+    <category term="pug修改" scheme="http://hanta.us.kg/tags/pug%E4%BF%AE%E6%94%B9/"/>
+    
+  </entry>
+  
+  <entry>
     <title>2024，再见-2024总结</title>
-    <link href="http://exef-star.github.io/2024/12/29/2024%EF%BC%8C%E5%86%8D%E8%A7%81-2024%E6%80%BB%E7%BB%93/"/>
-    <id>http://exef-star.github.io/2024/12/29/2024%EF%BC%8C%E5%86%8D%E8%A7%81-2024%E6%80%BB%E7%BB%93/</id>
+    <link href="http://hanta.us.kg/2024/12/29/2024%EF%BC%8C%E5%86%8D%E8%A7%81-2024%E6%80%BB%E7%BB%93/"/>
+    <id>http://hanta.us.kg/2024/12/29/2024%EF%BC%8C%E5%86%8D%E8%A7%81-2024%E6%80%BB%E7%BB%93/</id>
     <published>2024-12-29T12:00:15.000Z</published>
     <updated>2024-12-29T14:05:09.506Z</updated>
     
@@ -28,17 +49,17 @@
     
     
     
-    <category term="生活" scheme="http://exef-star.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
+    <category term="生活" scheme="http://hanta.us.kg/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-    <category term="2024总结" scheme="http://exef-star.github.io/tags/2024%E6%80%BB%E7%BB%93/"/>
+    <category term="2024总结" scheme="http://hanta.us.kg/tags/2024%E6%80%BB%E7%BB%93/"/>
     
   </entry>
   
   <entry>
     <title>我换了域名</title>
-    <link href="http://exef-star.github.io/2024/12/21/%E6%88%91%E6%8D%A2%E4%BA%86%E5%9F%9F%E5%90%8D/"/>
-    <id>http://exef-star.github.io/2024/12/21/%E6%88%91%E6%8D%A2%E4%BA%86%E5%9F%9F%E5%90%8D/</id>
+    <link href="http://hanta.us.kg/2024/12/21/%E6%88%91%E6%8D%A2%E4%BA%86%E5%9F%9F%E5%90%8D/"/>
+    <id>http://hanta.us.kg/2024/12/21/%E6%88%91%E6%8D%A2%E4%BA%86%E5%9F%9F%E5%90%8D/</id>
     <published>2024-12-21T00:05:39.000Z</published>
     <updated>2024-12-21T02:57:28.091Z</updated>
     
@@ -47,19 +68,19 @@
     
     
     
-    <category term="通知" scheme="http://exef-star.github.io/categories/%E9%80%9A%E7%9F%A5/"/>
+    <category term="通知" scheme="http://hanta.us.kg/categories/%E9%80%9A%E7%9F%A5/"/>
     
     
-    <category term="通知" scheme="http://exef-star.github.io/tags/%E9%80%9A%E7%9F%A5/"/>
+    <category term="通知" scheme="http://hanta.us.kg/tags/%E9%80%9A%E7%9F%A5/"/>
     
-    <category term="教程" scheme="http://exef-star.github.io/tags/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="http://hanta.us.kg/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
   <entry>
     <title>局域网共享文件！chfsgui.exe使用教程</title>
-    <link href="http://exef-star.github.io/2024/12/06/%E5%B1%80%E5%9F%9F%E7%BD%91%E5%85%B1%E4%BA%AB%E6%96%87%E4%BB%B6%EF%BC%81chfsgui-exe%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/"/>
-    <id>http://exef-star.github.io/2024/12/06/%E5%B1%80%E5%9F%9F%E7%BD%91%E5%85%B1%E4%BA%AB%E6%96%87%E4%BB%B6%EF%BC%81chfsgui-exe%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</id>
+    <link href="http://hanta.us.kg/2024/12/06/%E5%B1%80%E5%9F%9F%E7%BD%91%E5%85%B1%E4%BA%AB%E6%96%87%E4%BB%B6%EF%BC%81chfsgui-exe%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/"/>
+    <id>http://hanta.us.kg/2024/12/06/%E5%B1%80%E5%9F%9F%E7%BD%91%E5%85%B1%E4%BA%AB%E6%96%87%E4%BB%B6%EF%BC%81chfsgui-exe%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</id>
     <published>2024-12-06T13:43:14.000Z</published>
     <updated>2024-12-15T09:45:38.267Z</updated>
     
@@ -68,19 +89,19 @@
     
     
     
-    <category term="文件共享程序" scheme="http://exef-star.github.io/categories/%E6%96%87%E4%BB%B6%E5%85%B1%E4%BA%AB%E7%A8%8B%E5%BA%8F/"/>
+    <category term="文件共享程序" scheme="http://hanta.us.kg/categories/%E6%96%87%E4%BB%B6%E5%85%B1%E4%BA%AB%E7%A8%8B%E5%BA%8F/"/>
     
     
-    <category term="文件共享" scheme="http://exef-star.github.io/tags/%E6%96%87%E4%BB%B6%E5%85%B1%E4%BA%AB/"/>
+    <category term="文件共享" scheme="http://hanta.us.kg/tags/%E6%96%87%E4%BB%B6%E5%85%B1%E4%BA%AB/"/>
     
-    <category term="跨平台" scheme="http://exef-star.github.io/tags/%E8%B7%A8%E5%B9%B3%E5%8F%B0/"/>
+    <category term="跨平台" scheme="http://hanta.us.kg/tags/%E8%B7%A8%E5%B9%B3%E5%8F%B0/"/>
     
   </entry>
   
   <entry>
     <title>Minecraft资源包推荐，在视觉上变成《别人的世界》</title>
-    <link href="http://exef-star.github.io/2024/11/17/Minecraft%E8%B5%84%E6%BA%90%E5%8C%85%E6%8E%A8%E8%8D%90/"/>
-    <id>http://exef-star.github.io/2024/11/17/Minecraft%E8%B5%84%E6%BA%90%E5%8C%85%E6%8E%A8%E8%8D%90/</id>
+    <link href="http://hanta.us.kg/2024/11/17/Minecraft%E8%B5%84%E6%BA%90%E5%8C%85%E6%8E%A8%E8%8D%90/"/>
+    <id>http://hanta.us.kg/2024/11/17/Minecraft%E8%B5%84%E6%BA%90%E5%8C%85%E6%8E%A8%E8%8D%90/</id>
     <published>2024-11-17T08:22:47.000Z</published>
     <updated>2024-12-15T09:10:37.261Z</updated>
     
@@ -89,19 +110,19 @@
     
     
     
-    <category term="Minecraft资源包" scheme="http://exef-star.github.io/categories/Minecraft%E8%B5%84%E6%BA%90%E5%8C%85/"/>
+    <category term="Minecraft资源包" scheme="http://hanta.us.kg/categories/Minecraft%E8%B5%84%E6%BA%90%E5%8C%85/"/>
     
     
-    <category term="Minecraft" scheme="http://exef-star.github.io/tags/Minecraft/"/>
+    <category term="Minecraft" scheme="http://hanta.us.kg/tags/Minecraft/"/>
     
-    <category term="资源包" scheme="http://exef-star.github.io/tags/%E8%B5%84%E6%BA%90%E5%8C%85/"/>
+    <category term="资源包" scheme="http://hanta.us.kg/tags/%E8%B5%84%E6%BA%90%E5%8C%85/"/>
     
   </entry>
   
   <entry>
     <title>[Python]配置Python+VSCode代码环境</title>
-    <link href="http://exef-star.github.io/2024/09/22/Python-%E9%85%8D%E7%BD%AEPython-VSCode%E4%BB%A3%E7%A0%81%E7%8E%AF%E5%A2%83/"/>
-    <id>http://exef-star.github.io/2024/09/22/Python-%E9%85%8D%E7%BD%AEPython-VSCode%E4%BB%A3%E7%A0%81%E7%8E%AF%E5%A2%83/</id>
+    <link href="http://hanta.us.kg/2024/09/22/Python-%E9%85%8D%E7%BD%AEPython-VSCode%E4%BB%A3%E7%A0%81%E7%8E%AF%E5%A2%83/"/>
+    <id>http://hanta.us.kg/2024/09/22/Python-%E9%85%8D%E7%BD%AEPython-VSCode%E4%BB%A3%E7%A0%81%E7%8E%AF%E5%A2%83/</id>
     <published>2024-09-22T12:34:51.000Z</published>
     <updated>2024-12-15T09:40:49.608Z</updated>
     
@@ -110,19 +131,19 @@
     
     
     
-    <category term="Python" scheme="http://exef-star.github.io/categories/Python/"/>
+    <category term="Python" scheme="http://hanta.us.kg/categories/Python/"/>
     
     
-    <category term="Python" scheme="http://exef-star.github.io/tags/Python/"/>
+    <category term="Python" scheme="http://hanta.us.kg/tags/Python/"/>
     
-    <category term="VSCode" scheme="http://exef-star.github.io/tags/VSCode/"/>
+    <category term="VSCode" scheme="http://hanta.us.kg/tags/VSCode/"/>
     
   </entry>
   
   <entry>
     <title>[Python]折腾一下？自制文件夹加密程序</title>
-    <link href="http://exef-star.github.io/2024/08/31/Python-%E6%8A%98%E8%85%BE%E4%B8%80%E4%B8%8B-%E8%87%AA%E5%88%B6%E6%96%87%E4%BB%B6%E5%A4%B9%E5%8A%A0%E5%AF%86%E7%A8%8B%E5%BA%8F/"/>
-    <id>http://exef-star.github.io/2024/08/31/Python-%E6%8A%98%E8%85%BE%E4%B8%80%E4%B8%8B-%E8%87%AA%E5%88%B6%E6%96%87%E4%BB%B6%E5%A4%B9%E5%8A%A0%E5%AF%86%E7%A8%8B%E5%BA%8F/</id>
+    <link href="http://hanta.us.kg/2024/08/31/Python-%E6%8A%98%E8%85%BE%E4%B8%80%E4%B8%8B-%E8%87%AA%E5%88%B6%E6%96%87%E4%BB%B6%E5%A4%B9%E5%8A%A0%E5%AF%86%E7%A8%8B%E5%BA%8F/"/>
+    <id>http://hanta.us.kg/2024/08/31/Python-%E6%8A%98%E8%85%BE%E4%B8%80%E4%B8%8B-%E8%87%AA%E5%88%B6%E6%96%87%E4%BB%B6%E5%A4%B9%E5%8A%A0%E5%AF%86%E7%A8%8B%E5%BA%8F/</id>
     <published>2024-08-31T05:45:31.000Z</published>
     <updated>2024-12-15T09:31:02.077Z</updated>
     
@@ -131,17 +152,17 @@
     
     
     
-    <category term="Python" scheme="http://exef-star.github.io/categories/Python/"/>
+    <category term="Python" scheme="http://hanta.us.kg/categories/Python/"/>
     
     
-    <category term="Python" scheme="http://exef-star.github.io/tags/Python/"/>
+    <category term="Python" scheme="http://hanta.us.kg/tags/Python/"/>
     
   </entry>
   
   <entry>
     <title>使用FittenCode来提升你的工作效率</title>
-    <link href="http://exef-star.github.io/2024/08/17/%E4%BD%BF%E7%94%A8FittenCode%E6%9D%A5%E6%8F%90%E5%8D%87%E4%BD%A0%E7%9A%84%E5%B7%A5%E4%BD%9C%E6%95%88%E7%8E%87/"/>
-    <id>http://exef-star.github.io/2024/08/17/%E4%BD%BF%E7%94%A8FittenCode%E6%9D%A5%E6%8F%90%E5%8D%87%E4%BD%A0%E7%9A%84%E5%B7%A5%E4%BD%9C%E6%95%88%E7%8E%87/</id>
+    <link href="http://hanta.us.kg/2024/08/17/%E4%BD%BF%E7%94%A8FittenCode%E6%9D%A5%E6%8F%90%E5%8D%87%E4%BD%A0%E7%9A%84%E5%B7%A5%E4%BD%9C%E6%95%88%E7%8E%87/"/>
+    <id>http://hanta.us.kg/2024/08/17/%E4%BD%BF%E7%94%A8FittenCode%E6%9D%A5%E6%8F%90%E5%8D%87%E4%BD%A0%E7%9A%84%E5%B7%A5%E4%BD%9C%E6%95%88%E7%8E%87/</id>
     <published>2024-08-17T11:58:55.000Z</published>
     <updated>2024-12-15T09:22:08.048Z</updated>
     
@@ -150,17 +171,17 @@
     
     
     
-    <category term="AI" scheme="http://exef-star.github.io/categories/AI/"/>
+    <category term="AI" scheme="http://hanta.us.kg/categories/AI/"/>
     
     
-    <category term="AI" scheme="http://exef-star.github.io/tags/AI/"/>
+    <category term="AI" scheme="http://hanta.us.kg/tags/AI/"/>
     
   </entry>
   
   <entry>
     <title>[Python]使用Python生成属于你的网站二维码！</title>
-    <link href="http://exef-star.github.io/2024/08/15/Python-%E4%BD%BF%E7%94%A8Python%E7%94%9F%E6%88%90%E5%B1%9E%E4%BA%8E%E4%BD%A0%E7%9A%84%E7%BD%91%E7%AB%99%E4%BA%8C%E7%BB%B4%E7%A0%81%EF%BC%81/"/>
-    <id>http://exef-star.github.io/2024/08/15/Python-%E4%BD%BF%E7%94%A8Python%E7%94%9F%E6%88%90%E5%B1%9E%E4%BA%8E%E4%BD%A0%E7%9A%84%E7%BD%91%E7%AB%99%E4%BA%8C%E7%BB%B4%E7%A0%81%EF%BC%81/</id>
+    <link href="http://hanta.us.kg/2024/08/15/Python-%E4%BD%BF%E7%94%A8Python%E7%94%9F%E6%88%90%E5%B1%9E%E4%BA%8E%E4%BD%A0%E7%9A%84%E7%BD%91%E7%AB%99%E4%BA%8C%E7%BB%B4%E7%A0%81%EF%BC%81/"/>
+    <id>http://hanta.us.kg/2024/08/15/Python-%E4%BD%BF%E7%94%A8Python%E7%94%9F%E6%88%90%E5%B1%9E%E4%BA%8E%E4%BD%A0%E7%9A%84%E7%BD%91%E7%AB%99%E4%BA%8C%E7%BB%B4%E7%A0%81%EF%BC%81/</id>
     <published>2024-08-15T12:33:48.000Z</published>
     <updated>2024-12-15T09:19:16.022Z</updated>
     
@@ -169,19 +190,19 @@
     
     
     
-    <category term="Python" scheme="http://exef-star.github.io/categories/Python/"/>
+    <category term="Python" scheme="http://hanta.us.kg/categories/Python/"/>
     
     
-    <category term="Python" scheme="http://exef-star.github.io/tags/Python/"/>
+    <category term="Python" scheme="http://hanta.us.kg/tags/Python/"/>
     
-    <category term="前端小玩意" scheme="http://exef-star.github.io/tags/%E5%89%8D%E7%AB%AF%E5%B0%8F%E7%8E%A9%E6%84%8F/"/>
+    <category term="前端小玩意" scheme="http://hanta.us.kg/tags/%E5%89%8D%E7%AB%AF%E5%B0%8F%E7%8E%A9%E6%84%8F/"/>
     
   </entry>
   
   <entry>
     <title>[公开]Bilibili表情包图片</title>
-    <link href="http://exef-star.github.io/2024/08/11/%E5%85%AC%E5%BC%80-Bilibili%E8%A1%A8%E6%83%85%E5%8C%85%E5%9B%BE%E7%89%87/"/>
-    <id>http://exef-star.github.io/2024/08/11/%E5%85%AC%E5%BC%80-Bilibili%E8%A1%A8%E6%83%85%E5%8C%85%E5%9B%BE%E7%89%87/</id>
+    <link href="http://hanta.us.kg/2024/08/11/%E5%85%AC%E5%BC%80-Bilibili%E8%A1%A8%E6%83%85%E5%8C%85%E5%9B%BE%E7%89%87/"/>
+    <id>http://hanta.us.kg/2024/08/11/%E5%85%AC%E5%BC%80-Bilibili%E8%A1%A8%E6%83%85%E5%8C%85%E5%9B%BE%E7%89%87/</id>
     <published>2024-08-11T07:33:49.000Z</published>
     <updated>2024-12-15T09:13:37.424Z</updated>
     
@@ -190,19 +211,19 @@
     
     
     
-    <category term="表情包" scheme="http://exef-star.github.io/categories/%E8%A1%A8%E6%83%85%E5%8C%85/"/>
+    <category term="表情包" scheme="http://hanta.us.kg/categories/%E8%A1%A8%E6%83%85%E5%8C%85/"/>
     
     
-    <category term="表情包" scheme="http://exef-star.github.io/tags/%E8%A1%A8%E6%83%85%E5%8C%85/"/>
+    <category term="表情包" scheme="http://hanta.us.kg/tags/%E8%A1%A8%E6%83%85%E5%8C%85/"/>
     
-    <category term="杂谈" scheme="http://exef-star.github.io/tags/%E6%9D%82%E8%B0%88/"/>
+    <category term="杂谈" scheme="http://hanta.us.kg/tags/%E6%9D%82%E8%B0%88/"/>
     
   </entry>
   
   <entry>
     <title>推荐一下网易云音乐上的歌（无毒）</title>
-    <link href="http://exef-star.github.io/2024/08/09/%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%8B%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%E4%B8%8A%E7%9A%84%E6%AD%8C%EF%BC%88%E6%97%A0%E6%AF%92%EF%BC%89/"/>
-    <id>http://exef-star.github.io/2024/08/09/%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%8B%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%E4%B8%8A%E7%9A%84%E6%AD%8C%EF%BC%88%E6%97%A0%E6%AF%92%EF%BC%89/</id>
+    <link href="http://hanta.us.kg/2024/08/09/%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%8B%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%E4%B8%8A%E7%9A%84%E6%AD%8C%EF%BC%88%E6%97%A0%E6%AF%92%EF%BC%89/"/>
+    <id>http://hanta.us.kg/2024/08/09/%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%8B%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%E4%B8%8A%E7%9A%84%E6%AD%8C%EF%BC%88%E6%97%A0%E6%AF%92%EF%BC%89/</id>
     <published>2024-08-09T10:53:33.000Z</published>
     <updated>2024-08-10T04:38:16.731Z</updated>
     
@@ -211,19 +232,19 @@
     
     
     
-    <category term="杂谈" scheme="http://exef-star.github.io/categories/%E6%9D%82%E8%B0%88/"/>
+    <category term="杂谈" scheme="http://hanta.us.kg/categories/%E6%9D%82%E8%B0%88/"/>
     
     
-    <category term="杂谈" scheme="http://exef-star.github.io/tags/%E6%9D%82%E8%B0%88/"/>
+    <category term="杂谈" scheme="http://hanta.us.kg/tags/%E6%9D%82%E8%B0%88/"/>
     
-    <category term="音乐推荐" scheme="http://exef-star.github.io/tags/%E9%9F%B3%E4%B9%90%E6%8E%A8%E8%8D%90/"/>
+    <category term="音乐推荐" scheme="http://hanta.us.kg/tags/%E9%9F%B3%E4%B9%90%E6%8E%A8%E8%8D%90/"/>
     
   </entry>
   
   <entry>
     <title>写了一个PCL的首页表情包，好像···</title>
-    <link href="http://exef-star.github.io/2024/08/01/%E5%86%99%E4%BA%86%E4%B8%80%E4%B8%AAPCL%E7%9A%84%E9%A6%96%E9%A1%B5%E8%A1%A8%E6%83%85%E5%8C%85%EF%BC%8C%E5%A5%BD%E5%83%8F%C2%B7%C2%B7%C2%B7/"/>
-    <id>http://exef-star.github.io/2024/08/01/%E5%86%99%E4%BA%86%E4%B8%80%E4%B8%AAPCL%E7%9A%84%E9%A6%96%E9%A1%B5%E8%A1%A8%E6%83%85%E5%8C%85%EF%BC%8C%E5%A5%BD%E5%83%8F%C2%B7%C2%B7%C2%B7/</id>
+    <link href="http://hanta.us.kg/2024/08/01/%E5%86%99%E4%BA%86%E4%B8%80%E4%B8%AAPCL%E7%9A%84%E9%A6%96%E9%A1%B5%E8%A1%A8%E6%83%85%E5%8C%85%EF%BC%8C%E5%A5%BD%E5%83%8F%C2%B7%C2%B7%C2%B7/"/>
+    <id>http://hanta.us.kg/2024/08/01/%E5%86%99%E4%BA%86%E4%B8%80%E4%B8%AAPCL%E7%9A%84%E9%A6%96%E9%A1%B5%E8%A1%A8%E6%83%85%E5%8C%85%EF%BC%8C%E5%A5%BD%E5%83%8F%C2%B7%C2%B7%C2%B7/</id>
     <published>2024-08-01T13:00:11.000Z</published>
     <updated>2024-08-03T05:33:10.136Z</updated>
     
@@ -232,17 +253,17 @@
     
     
     
-    <category term="XAML" scheme="http://exef-star.github.io/categories/XAML/"/>
+    <category term="XAML" scheme="http://hanta.us.kg/categories/XAML/"/>
     
     
-    <category term="XAML" scheme="http://exef-star.github.io/tags/XAML/"/>
+    <category term="XAML" scheme="http://hanta.us.kg/tags/XAML/"/>
     
   </entry>
   
   <entry>
     <title>新时代电子文盲——当代人离电脑越来越远了</title>
-    <link href="http://exef-star.github.io/2024/07/28/%E6%96%B0%E6%97%B6%E4%BB%A3%E7%94%B5%E5%AD%90%E6%96%87%E7%9B%B2-%E5%BD%93%E4%BB%A3%E4%BA%BA%E7%A6%BB%E7%94%B5%E8%84%91%E8%B6%8A%E6%9D%A5%E8%B6%8A%E8%BF%9C%E4%BA%86/"/>
-    <id>http://exef-star.github.io/2024/07/28/%E6%96%B0%E6%97%B6%E4%BB%A3%E7%94%B5%E5%AD%90%E6%96%87%E7%9B%B2-%E5%BD%93%E4%BB%A3%E4%BA%BA%E7%A6%BB%E7%94%B5%E8%84%91%E8%B6%8A%E6%9D%A5%E8%B6%8A%E8%BF%9C%E4%BA%86/</id>
+    <link href="http://hanta.us.kg/2024/07/28/%E6%96%B0%E6%97%B6%E4%BB%A3%E7%94%B5%E5%AD%90%E6%96%87%E7%9B%B2-%E5%BD%93%E4%BB%A3%E4%BA%BA%E7%A6%BB%E7%94%B5%E8%84%91%E8%B6%8A%E6%9D%A5%E8%B6%8A%E8%BF%9C%E4%BA%86/"/>
+    <id>http://hanta.us.kg/2024/07/28/%E6%96%B0%E6%97%B6%E4%BB%A3%E7%94%B5%E5%AD%90%E6%96%87%E7%9B%B2-%E5%BD%93%E4%BB%A3%E4%BA%BA%E7%A6%BB%E7%94%B5%E8%84%91%E8%B6%8A%E6%9D%A5%E8%B6%8A%E8%BF%9C%E4%BA%86/</id>
     <published>2024-07-28T09:07:32.000Z</published>
     <updated>2024-08-01T13:54:07.948Z</updated>
     
@@ -251,17 +272,17 @@
     
     
     
-    <category term="杂谈" scheme="http://exef-star.github.io/categories/%E6%9D%82%E8%B0%88/"/>
+    <category term="杂谈" scheme="http://hanta.us.kg/categories/%E6%9D%82%E8%B0%88/"/>
     
     
-    <category term="杂谈" scheme="http://exef-star.github.io/tags/%E6%9D%82%E8%B0%88/"/>
+    <category term="杂谈" scheme="http://hanta.us.kg/tags/%E6%9D%82%E8%B0%88/"/>
     
   </entry>
   
   <entry>
     <title>记一次B站进度条无法拖动进度条</title>
-    <link href="http://exef-star.github.io/2024/07/24/%E8%AE%B0%E4%B8%80%E6%AC%A1B%E7%AB%99%E8%BF%9B%E5%BA%A6%E6%9D%A1%E6%97%A0%E6%B3%95%E6%8B%96%E5%8A%A8%E8%BF%9B%E5%BA%A6%E6%9D%A1/"/>
-    <id>http://exef-star.github.io/2024/07/24/%E8%AE%B0%E4%B8%80%E6%AC%A1B%E7%AB%99%E8%BF%9B%E5%BA%A6%E6%9D%A1%E6%97%A0%E6%B3%95%E6%8B%96%E5%8A%A8%E8%BF%9B%E5%BA%A6%E6%9D%A1/</id>
+    <link href="http://hanta.us.kg/2024/07/24/%E8%AE%B0%E4%B8%80%E6%AC%A1B%E7%AB%99%E8%BF%9B%E5%BA%A6%E6%9D%A1%E6%97%A0%E6%B3%95%E6%8B%96%E5%8A%A8%E8%BF%9B%E5%BA%A6%E6%9D%A1/"/>
+    <id>http://hanta.us.kg/2024/07/24/%E8%AE%B0%E4%B8%80%E6%AC%A1B%E7%AB%99%E8%BF%9B%E5%BA%A6%E6%9D%A1%E6%97%A0%E6%B3%95%E6%8B%96%E5%8A%A8%E8%BF%9B%E5%BA%A6%E6%9D%A1/</id>
     <published>2024-07-24T12:44:23.000Z</published>
     <updated>2024-07-24T14:50:56.230Z</updated>
     
@@ -270,19 +291,19 @@
     
     
     
-    <category term="杂谈" scheme="http://exef-star.github.io/categories/%E6%9D%82%E8%B0%88/"/>
+    <category term="杂谈" scheme="http://hanta.us.kg/categories/%E6%9D%82%E8%B0%88/"/>
     
     
-    <category term="杂谈" scheme="http://exef-star.github.io/tags/%E6%9D%82%E8%B0%88/"/>
+    <category term="杂谈" scheme="http://hanta.us.kg/tags/%E6%9D%82%E8%B0%88/"/>
     
-    <category term="Bilibili" scheme="http://exef-star.github.io/tags/Bilibili/"/>
+    <category term="Bilibili" scheme="http://hanta.us.kg/tags/Bilibili/"/>
     
   </entry>
   
   <entry>
     <title>[二创]在你的Butterfly上部署哔哔吧！</title>
-    <link href="http://exef-star.github.io/2024/07/20/%E4%BA%8C%E5%88%9B-%E5%9C%A8%E4%BD%A0%E7%9A%84Butterfly%E4%B8%8A%E9%83%A8%E7%BD%B2%E5%93%94%E5%93%94%EF%BC%81/"/>
-    <id>http://exef-star.github.io/2024/07/20/%E4%BA%8C%E5%88%9B-%E5%9C%A8%E4%BD%A0%E7%9A%84Butterfly%E4%B8%8A%E9%83%A8%E7%BD%B2%E5%93%94%E5%93%94%EF%BC%81/</id>
+    <link href="http://hanta.us.kg/2024/07/20/%E4%BA%8C%E5%88%9B-%E5%9C%A8%E4%BD%A0%E7%9A%84Butterfly%E4%B8%8A%E9%83%A8%E7%BD%B2%E5%93%94%E5%93%94%EF%BC%81/"/>
+    <id>http://hanta.us.kg/2024/07/20/%E4%BA%8C%E5%88%9B-%E5%9C%A8%E4%BD%A0%E7%9A%84Butterfly%E4%B8%8A%E9%83%A8%E7%BD%B2%E5%93%94%E5%93%94%EF%BC%81/</id>
     <published>2024-07-20T08:47:15.000Z</published>
     <updated>2024-07-21T09:37:35.472Z</updated>
     
@@ -292,14 +313,14 @@
     
     
     
-    <category term="Butterfly" scheme="http://exef-star.github.io/tags/Butterfly/"/>
+    <category term="Butterfly" scheme="http://hanta.us.kg/tags/Butterfly/"/>
     
   </entry>
   
   <entry>
     <title>Hexo魔改教程1</title>
-    <link href="http://exef-star.github.io/2024/06/29/Hexo%E9%AD%94%E6%94%B9%E6%95%99%E7%A8%8B1/"/>
-    <id>http://exef-star.github.io/2024/06/29/Hexo%E9%AD%94%E6%94%B9%E6%95%99%E7%A8%8B1/</id>
+    <link href="http://hanta.us.kg/2024/06/29/Hexo%E9%AD%94%E6%94%B9%E6%95%99%E7%A8%8B1/"/>
+    <id>http://hanta.us.kg/2024/06/29/Hexo%E9%AD%94%E6%94%B9%E6%95%99%E7%A8%8B1/</id>
     <published>2024-06-29T03:55:18.000Z</published>
     <updated>2024-07-20T08:51:32.378Z</updated>
     
@@ -308,17 +329,17 @@
     
     
     
-    <category term="Butterfly" scheme="http://exef-star.github.io/categories/Butterfly/"/>
+    <category term="Butterfly" scheme="http://hanta.us.kg/categories/Butterfly/"/>
     
     
-    <category term="Butterfly" scheme="http://exef-star.github.io/tags/Butterfly/"/>
+    <category term="Butterfly" scheme="http://hanta.us.kg/tags/Butterfly/"/>
     
   </entry>
   
   <entry>
     <title>Tkinter扩展Tix和PMW</title>
-    <link href="http://exef-star.github.io/2024/06/23/Tkinter%E6%89%A9%E5%B1%95Tix%E5%92%8CPMW/"/>
-    <id>http://exef-star.github.io/2024/06/23/Tkinter%E6%89%A9%E5%B1%95Tix%E5%92%8CPMW/</id>
+    <link href="http://hanta.us.kg/2024/06/23/Tkinter%E6%89%A9%E5%B1%95Tix%E5%92%8CPMW/"/>
+    <id>http://hanta.us.kg/2024/06/23/Tkinter%E6%89%A9%E5%B1%95Tix%E5%92%8CPMW/</id>
     <published>2024-06-23T04:24:31.000Z</published>
     <updated>2024-06-23T06:11:01.135Z</updated>
     
@@ -327,19 +348,19 @@
     
     
     
-    <category term="Tkinter" scheme="http://exef-star.github.io/categories/Tkinter/"/>
+    <category term="Tkinter" scheme="http://hanta.us.kg/categories/Tkinter/"/>
     
     
-    <category term="Python" scheme="http://exef-star.github.io/tags/Python/"/>
+    <category term="Python" scheme="http://hanta.us.kg/tags/Python/"/>
     
-    <category term="Tkinter扩展" scheme="http://exef-star.github.io/tags/Tkinter%E6%89%A9%E5%B1%95/"/>
+    <category term="Tkinter扩展" scheme="http://hanta.us.kg/tags/Tkinter%E6%89%A9%E5%B1%95/"/>
     
   </entry>
   
   <entry>
     <title>[Python]检测Minecraft服务器的延迟和在线玩家</title>
-    <link href="http://exef-star.github.io/2024/06/16/Python-%E6%A3%80%E6%B5%8BMinecraft%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84%E5%BB%B6%E8%BF%9F%E5%92%8C%E5%9C%A8%E7%BA%BF%E7%8E%A9%E5%AE%B6/"/>
-    <id>http://exef-star.github.io/2024/06/16/Python-%E6%A3%80%E6%B5%8BMinecraft%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84%E5%BB%B6%E8%BF%9F%E5%92%8C%E5%9C%A8%E7%BA%BF%E7%8E%A9%E5%AE%B6/</id>
+    <link href="http://hanta.us.kg/2024/06/16/Python-%E6%A3%80%E6%B5%8BMinecraft%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84%E5%BB%B6%E8%BF%9F%E5%92%8C%E5%9C%A8%E7%BA%BF%E7%8E%A9%E5%AE%B6/"/>
+    <id>http://hanta.us.kg/2024/06/16/Python-%E6%A3%80%E6%B5%8BMinecraft%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84%E5%BB%B6%E8%BF%9F%E5%92%8C%E5%9C%A8%E7%BA%BF%E7%8E%A9%E5%AE%B6/</id>
     <published>2024-06-16T08:45:17.000Z</published>
     <updated>2024-06-16T09:22:15.323Z</updated>
     
@@ -348,19 +369,19 @@
     
     
     
-    <category term="Minecraft" scheme="http://exef-star.github.io/categories/Minecraft/"/>
+    <category term="Minecraft" scheme="http://hanta.us.kg/categories/Minecraft/"/>
     
     
-    <category term="Minecraft" scheme="http://exef-star.github.io/tags/Minecraft/"/>
+    <category term="Minecraft" scheme="http://hanta.us.kg/tags/Minecraft/"/>
     
-    <category term="Python" scheme="http://exef-star.github.io/tags/Python/"/>
+    <category term="Python" scheme="http://hanta.us.kg/tags/Python/"/>
     
   </entry>
   
   <entry>
     <title>PCL粗略使用</title>
-    <link href="http://exef-star.github.io/2024/06/10/PCL%E7%B2%97%E7%95%A5%E4%BD%BF%E7%94%A8/"/>
-    <id>http://exef-star.github.io/2024/06/10/PCL%E7%B2%97%E7%95%A5%E4%BD%BF%E7%94%A8/</id>
+    <link href="http://hanta.us.kg/2024/06/10/PCL%E7%B2%97%E7%95%A5%E4%BD%BF%E7%94%A8/"/>
+    <id>http://hanta.us.kg/2024/06/10/PCL%E7%B2%97%E7%95%A5%E4%BD%BF%E7%94%A8/</id>
     <published>2024-06-10T09:08:42.000Z</published>
     <updated>2024-06-16T06:55:23.452Z</updated>
     
@@ -369,17 +390,17 @@
     
     
     
-    <category term="PCL" scheme="http://exef-star.github.io/categories/PCL/"/>
+    <category term="PCL" scheme="http://hanta.us.kg/categories/PCL/"/>
     
     
-    <category term="PCL" scheme="http://exef-star.github.io/tags/PCL/"/>
+    <category term="PCL" scheme="http://hanta.us.kg/tags/PCL/"/>
     
   </entry>
   
   <entry>
     <title>Python简易计算器</title>
-    <link href="http://exef-star.github.io/2024/06/02/Python%E7%AE%80%E6%98%93%E8%AE%A1%E7%AE%97%E5%99%A8/"/>
-    <id>http://exef-star.github.io/2024/06/02/Python%E7%AE%80%E6%98%93%E8%AE%A1%E7%AE%97%E5%99%A8/</id>
+    <link href="http://hanta.us.kg/2024/06/02/Python%E7%AE%80%E6%98%93%E8%AE%A1%E7%AE%97%E5%99%A8/"/>
+    <id>http://hanta.us.kg/2024/06/02/Python%E7%AE%80%E6%98%93%E8%AE%A1%E7%AE%97%E5%99%A8/</id>
     <published>2024-06-02T09:45:59.000Z</published>
     <updated>2024-06-02T09:57:58.199Z</updated>
     
@@ -388,29 +409,10 @@
     
     
     
-    <category term="Python" scheme="http://exef-star.github.io/categories/Python/"/>
+    <category term="Python" scheme="http://hanta.us.kg/categories/Python/"/>
     
     
-    <category term="Python" scheme="http://exef-star.github.io/tags/Python/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Minecraft中的Options.txt</title>
-    <link href="http://exef-star.github.io/2024/06/02/Minecraft%E4%B8%AD%E7%9A%84Option-txt/"/>
-    <id>http://exef-star.github.io/2024/06/02/Minecraft%E4%B8%AD%E7%9A%84Option-txt/</id>
-    <published>2024-06-02T03:41:36.000Z</published>
-    <updated>2024-06-16T06:55:03.966Z</updated>
-    
-    
-    <summary type="html">在Minecraft中option的参数列表</summary>
-    
-    
-    
-    <category term="Minecraft" scheme="http://exef-star.github.io/categories/Minecraft/"/>
-    
-    
-    <category term="Minecraft" scheme="http://exef-star.github.io/tags/Minecraft/"/>
+    <category term="Python" scheme="http://hanta.us.kg/tags/Python/"/>
     
   </entry>
   

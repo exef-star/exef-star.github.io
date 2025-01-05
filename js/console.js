@@ -81,10 +81,6 @@ function createtime2() {
     setTimeout(
         console.warn.bind(console, "%c S013-782 %c 你现在正处于监控中", "color:white; background-color:#d9534f", "")
     );
-    setTimeout(console.log.bind(console, "%c Player：HantaFrog %c 请时刻注意Creeper", "color:white; background-color:#4C1", ""))
-    setTimeout(console.log.bind(console, "%c 正在准备JavaScript %c Please Wait···", "color:white; background-color:#007EC6", ""))
-    setTimeout(console.log.bind(console, "%c 正在准备CSS %c Please Wait···", "color:white; background-color:#97CA00", ""))
-    setTimeout(console.log.bind(console, "%c 正在准备渲染字体 %c Please Wait···", "color:white; background-color:#DFB317", ""))
 
 }
 createtime2();

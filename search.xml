@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>记一次修改Butterfly4.13.0公告栏</title>
+      <link href="/2025/01/05/%E8%AE%B0%E4%B8%80%E6%AC%A1%E4%BF%AE%E6%94%B9Butterfly4-13-0%E5%85%AC%E5%91%8A%E6%A0%8F/"/>
+      <url>/2025/01/05/%E8%AE%B0%E4%B8%80%E6%AC%A1%E4%BF%AE%E6%94%B9Butterfly4-13-0%E5%85%AC%E5%91%8A%E6%A0%8F/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h1><blockquote><ol><li>你已经安装了Butterfly4.13.0</li><li>你已经知道如何修改pug文件（记得备份文件）</li><li>在这之前需要用到pug的语法，可以参考<a href="https://www.pugjs.cn/api/getting-started">pug官方文档</a></li><li>教程中会使用diff代码块，<code>+</code>代表你需要添加的内容，复制的时候只要把<code>+</code>给删除掉就是正常缩进的代码块。</li><li>在这之前先去网上找一个你最喜欢的表情包</li></ol></blockquote><h1 id="修改公告栏"><a href="#修改公告栏" class="headerlink" title="修改公告栏"></a>修改公告栏</h1><p>打开<code>[BlogRoot]\themes\butterfly\layout\includes\widget\card_announcement.pug</code>这个文件，这就是负责显示公告栏的pug文件。</p><p>打开就会像这样子，我的和你们的可能有些许不同，因为我把原来的fontawesom的图标换成了iconfont的图标：</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">if theme.aside.card_announcement.enable</span><br><span class="line">  .card-widget.card-announcement</span><br><span class="line">    .item-headline</span><br><span class="line">      i.iconfont.icon-gonggaolanmu</span><br><span class="line">      span= _p(&#x27;aside.card_announcement&#x27;)</span><br><span class="line">    .announcement_content!= theme.aside.card_announcement.content</span><br></pre></td></tr></table></figure><blockquote><p>这个<code>i.iconfont.icon-gonggaolanmu</code>不是原来Butterfly自带的，是我后面加上的，看到了没关系，可以接着往下看。</p></blockquote><p>接下来往这里面添加以下内容：</p><figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">if theme.aside.card_announcement.enable</span><br><span class="line">  .card-widget.card-announcement</span><br><span class="line">    .item-headline</span><br><span class="line">      i.iconfont.icon-gonggaolanmu</span><br><span class="line">      span= _p(&#x27;aside.card_announcement&#x27;)</span><br><span class="line">    .announcement_content!= theme.aside.card_announcement.content</span><br><span class="line"><span class="addition">+    p= &#x27;🍀全站使用XXX🍀&#x27;</span></span><br><span class="line"><span class="addition">+    p= &#x27;🍁请勿滥用资源🍁&#x27;</span></span><br><span class="line"><span class="addition">+    img(src=&#x27;换上你自己的表情包地址&#x27; width=&#x27;200&#x27; height=&#x27;195&#x27;)</span></span><br></pre></td></tr></table></figure><p>这样就改好了，记得要清一下缓存，就像这样：</p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo cl&amp;&amp;hexo s</span><br></pre></td></tr></table></figure><p>这样就能看到你添加的文字和表情包了，效果如下：</p><p><img src="https://i.p-i.vip/68/20250105-677a58445fb55.webp" alt="公告栏"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Butterfly魔改 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Butterfly魔改 </tag>
+            
+            <tag> pug修改 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>2024，再见-2024总结</title>
       <link href="/2024/12/29/2024%EF%BC%8C%E5%86%8D%E8%A7%81-2024%E6%80%BB%E7%BB%93/"/>
       <url>/2024/12/29/2024%EF%BC%8C%E5%86%8D%E8%A7%81-2024%E6%80%BB%E7%BB%93/</url>

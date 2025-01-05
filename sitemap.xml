@@ -486,6 +486,13 @@
   </url>
   
   <url>
+    <loc>http://hanta.us.kg/tags/AI/</loc>
+    <lastmod>2025-01-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://hanta.us.kg/tags/%E8%A1%A8%E6%83%85%E5%8C%85/</loc>
     <lastmod>2025-01-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -494,13 +501,6 @@
   
   <url>
     <loc>http://hanta.us.kg/tags/%E6%9D%82%E8%B0%88/</loc>
-    <lastmod>2025-01-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://hanta.us.kg/tags/AI/</loc>
     <lastmod>2025-01-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -635,14 +635,14 @@
   </url>
   
   <url>
-    <loc>http://hanta.us.kg/categories/%E8%A1%A8%E6%83%85%E5%8C%85/</loc>
+    <loc>http://hanta.us.kg/categories/AI/</loc>
     <lastmod>2025-01-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://hanta.us.kg/categories/AI/</loc>
+    <loc>http://hanta.us.kg/categories/%E8%A1%A8%E6%83%85%E5%8C%85/</loc>
     <lastmod>2025-01-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

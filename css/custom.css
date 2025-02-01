@@ -1,9 +1,4 @@
 /* ========================twikoo美化====================== */
-/* 隐藏评论者头像 */
-#twikoo .tk-comments .tk-submit .tk-avatar.tk-has-avatar {
-    display: none;
-}
-
 /* 下面表情和按钮那一栏的设置 */
 #twikoo .tk-comments .tk-submit .tk-row.actions{
     margin-bottom: 0;
@@ -15,12 +10,6 @@
 #twikoo .tk-comments .tk-submit .tk-col .tk-meta-input{
     margin-bottom: 16px;
 }
-
-/* 直接固定高度，解决提交按钮有时高度不起作用的问题 */
-.tk-row.actions button.el-button {
-    height: 32px;
-}
-
 /* 解决图片大小超出范围问题 */
 .tk-main .tk-content img {
   max-width: 100%;
@@ -41,7 +30,7 @@
 /* 输入框样式 */
 .tk-input.el-textarea textarea {
     border-radius: 12px;
-    min-height: 150px !important;
+    min-height: 200px !important;
     height: auto;
 }
 
@@ -206,5 +195,4 @@
 #popup #twikoo .tk-comments .tk-comments-container .tk-comments-title > span:nth-child(2) > span:nth-child(1) {
 	display: none;
 } */
-
 /* ========================twikoo美化====================== */

@@ -6,7 +6,7 @@
   <link href="http://hanta.us.kg/atom.xml" rel="self"/>
   
   <link href="http://hanta.us.kg/"/>
-  <updated>2025-01-30T14:15:11.804Z</updated>
+  <updated>2025-02-15T09:45:51.350Z</updated>
   <id>http://hanta.us.kg/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用Python+英伟达DeepSeek镜像创建控制台AI</title>
+    <link href="http://hanta.us.kg/2025/02/15/%E4%BD%BF%E7%94%A8DeepSeek%E9%95%9C%E5%83%8F%E5%88%9B%E5%BB%BA%E6%8E%A7%E5%88%B6%E5%8F%B0AI/"/>
+    <id>http://hanta.us.kg/2025/02/15/%E4%BD%BF%E7%94%A8DeepSeek%E9%95%9C%E5%83%8F%E5%88%9B%E5%BB%BA%E6%8E%A7%E5%88%B6%E5%8F%B0AI/</id>
+    <published>2025-02-15T04:03:48.000Z</published>
+    <updated>2025-02-15T09:45:51.350Z</updated>
+    
+    
+    <summary type="html">使用Python调用DeepSeek镜像并调用！</summary>
+    
+    
+    
+    <category term="Python" scheme="http://hanta.us.kg/categories/Python/"/>
+    
+    
+    <category term="Python" scheme="http://hanta.us.kg/tags/Python/"/>
+    
+    <category term="AI" scheme="http://hanta.us.kg/tags/AI/"/>
+    
+  </entry>
   
   <entry>
     <title>记一次让Python重复做一个工作-重复打印文本</title>

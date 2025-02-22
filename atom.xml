@@ -6,7 +6,7 @@
   <link href="http://hanta.us.kg/atom.xml" rel="self"/>
   
   <link href="http://hanta.us.kg/"/>
-  <updated>2025-02-15T09:45:51.350Z</updated>
+  <updated>2025-02-16T03:31:37.413Z</updated>
   <id>http://hanta.us.kg/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://hanta.us.kg/2025/02/15/%E4%BD%BF%E7%94%A8DeepSeek%E9%95%9C%E5%83%8F%E5%88%9B%E5%BB%BA%E6%8E%A7%E5%88%B6%E5%8F%B0AI/"/>
     <id>http://hanta.us.kg/2025/02/15/%E4%BD%BF%E7%94%A8DeepSeek%E9%95%9C%E5%83%8F%E5%88%9B%E5%BB%BA%E6%8E%A7%E5%88%B6%E5%8F%B0AI/</id>
     <published>2025-02-15T04:03:48.000Z</published>
-    <updated>2025-02-15T09:45:51.350Z</updated>
+    <updated>2025-02-16T03:31:37.413Z</updated>
     
     
     <summary type="html">使用Python调用DeepSeek镜像并调用！</summary>
@@ -392,9 +392,9 @@
     <category term="Minecraft" scheme="http://hanta.us.kg/categories/Minecraft/"/>
     
     
-    <category term="Python" scheme="http://hanta.us.kg/tags/Python/"/>
-    
     <category term="Minecraft" scheme="http://hanta.us.kg/tags/Minecraft/"/>
+    
+    <category term="Python" scheme="http://hanta.us.kg/tags/Python/"/>
     
   </entry>
   

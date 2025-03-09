@@ -196,3 +196,18 @@
 	display: none;
 } */
 /* ========================twikoo美化====================== */
+
+/* ========================背景图====================== */
+/* 白天网站背景 */
+#web_bg {
+    background-size: 20rem;
+    background-image: url(https://i.p-i.vip/68/20250309-67cd540a55a2b.png) !important;
+    background-repeat: initial
+}
+
+/* 夜间网站背景 */
+[data-theme=dark] #web_bg {
+  background-size: 100rem;
+    background-image: url(https://i.p-i.vip/68/20250309-67cd540a55a2b.png) !important;
+}
+/* ========================背景图====================== */

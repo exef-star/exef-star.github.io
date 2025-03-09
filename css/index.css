@@ -14297,6 +14297,13 @@ blockquote {
   -ms-transform: translateY(0px);
   transform: translateY(0px);
 }
+#post .post-copyright__author_box .post-copyright__author_img:hover img.post-copyright__author_img_front {
+  -webkit-transform: translateY(3px);
+  -moz-transform: translateY(3px);
+  -o-transform: translateY(3px);
+  -ms-transform: translateY(3px);
+  transform: translateY(3px);
+}
 #post .post-copyright__author_box .post-copyright__author_img img.post-copyright__author_img_front {
   z-index: 20;
   -webkit-transition: 0.3s;
@@ -14944,6 +14951,15 @@ blockquote {
 }
 .post-tools .post-tools-left {
   width: auto;
+}
+#post .tag_share {
+  margin-bottom: 2rem;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -o-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 .relatedPosts {
   margin-top: 1.25rem;

@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>我又换了域名</title>
+      <link href="/2025/03/15/%E6%88%91%E5%8F%88%E6%8D%A2%E4%BA%86%E5%9F%9F%E5%90%8D/"/>
+      <url>/2025/03/15/%E6%88%91%E5%8F%88%E6%8D%A2%E4%BA%86%E5%9F%9F%E5%90%8D/</url>
+      
+        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>先从一个平常的夜晚说起。</p><p>我在晚上八九点钟的时候访问了一下我的网站，结果发现又像上一次一样域名解析失败，又偷偷用电脑访问了一下，和安卓端一样的问题。<br>之前，<code>us.kg</code>因为被滥用而停止了解析。这次，<code>us.kg</code>服务商几天前就停止了<code>服务</code>，账号也登不上去，一登就显示了有关404的报错，初步推测了一下，应该是因为和上次一样所以直接停止了us.kg的服务，所以导致域名解析失败。<br>这下还能怎么样，只能趁热打铁换个顶级域名了。</p><h1 id="域名选择"><a href="#域名选择" class="headerlink" title="域名选择"></a>域名选择</h1><p>域名的话，必应上搜索的<code>最便宜的.top域名注册商</code>，得到的是<code>Spaceship</code>，但之前有个博客写出<code>Spaceship</code>要查验你家的居住痕迹，这个直接pass了。</p><p>最后兜来兜去还是选择了<code>dynadot</code>，比较简单，而且还算便宜，没有国内域名商那么多套路。所以就在上面买了六年的域名，花了200多<psw>好贵QwQ</psw>。</p><p>那么下面就是详细的换域名经过了。</p><h2 id="域名迁移到CF"><a href="#域名迁移到CF" class="headerlink" title="域名迁移到CF"></a>域名迁移到CF</h2><p>所谓迁移到CF，就是将<code>dynadot</code>的NameServer更换为<code>Cloudflare</code>的NameServer，目的很简单，<psw>蹭CF的CDN和DDOS防护</psw>。</p><p>下面就是迁移过程：</p><ol><li>登录你的<code>dynadot</code>，来到控制台，点击右侧<code>我的域名</code>，解锁你的账户。<strong>要使用PIN码</strong>，忘了可以点击<code>忘记密码</code>来申请重新设置。</li><li>登录你的<code>Cloudflare</code>，点击<code>添加域</code>，扫一下DNS，将<code>dynadot</code>给的默认<code>DNS记录</code>全部删掉，选个免费服务，来到名称服务器这里，复制CF给的两个名称服务器</li><li>回到<code>dynadot控制台</code>，点击<code>我的域名</code>-&gt;<code>管理域名</code>-&gt;点<code>DNS设置</code>下面的蓝字，如下图：<br><img src="https://i.p-i.vip/68/20250315-67d5819742a45.webp" alt="PixPin_2025-03-15_10-53-33.webp"></li><li>点击出现选项卡，先在<code>域名</code>一栏将下拉框切换为<code>名称服务器</code>，填入<code>Cloudflare</code>给你的两个名称服务器，然后点击<code>保存名称服务器</code>，如下图：<br><img src="https://i.p-i.vip/68/20250315-67d58291bfc0f.webp" alt="PixPin_2025-03-15_12-06-02.webp"></li><li>回到<code>Cloudflare</code>，一路点击来到网站概述，刷新一下网页，你就会发现此时域名处于活动状态了。</li><li>点击<code>DNS</code>-&gt;<code>记录</code>-&gt;往下拉找到<code>添加记录</code>-&gt;如果你和我一样是基于<code>GithubPage</code>托管的网站，那么你就在<code>类型</code>一栏选择<code>CNAME</code>，名称一栏如果你想要创建一个如<code>blog.example.com</code>这样的域名，就要在名称一栏填上<code>blog</code>，内容一栏填上<code>Github分配给你的子域名</code>，代理不要动，点击保存，如下图。这时候就可以用<code>你刚刚填上去的名称+你的顶级域名</code>访问一下，出现和图二一样的Github404，恭喜你，成功了一半。<br><img src="https://i.p-i.vip/68/20250316-67d635d037c3c.webp" alt="PixPin_2025-03-16_10-14-18.webp"><br><img src="https://i.p-i.vip/68/20250316-67d638781c80a.webp" alt="PixPin_2025-03-15_11-05-53.webp"></li></ol><h2 id="添加CNAME"><a href="#添加CNAME" class="headerlink" title="添加CNAME"></a>添加CNAME</h2><p>这里就很简单了</p><p>如果你和我一样是<code>Hexo</code>博客，那么请打开<code>[你的博客根目录]\source</code>，创建一个<code>CNAME</code>文件（如图一，<strong>不要加后缀！！！</strong>），用记事本打开，输入你刚才的名称+顶级域名，比如<code>blog.example.com</code>（如图二），<kbd>Ctrl</kbd> + <kbd>S</kbd>保存一下，退出。如果<code>不是Hexo</code>博客，就需要保证你的博客上传到GithubPage的时候<strong>确定<code>CNAME</code>文件能够在Github仓库根目录</strong>。</p><p><img src="https://i.p-i.vip/68/20250316-67d6414e059e0.webp" alt="PixPin_2025-03-15_11-06-56.webp"><br><img src="https://i.p-i.vip/68/20250316-67d64150d1cc7.webp" alt="PixPin_2025-03-15_11-07-55.webp"></p><p>然后正常执行<code>hexo cl&amp;&amp;hexo g&amp;&amp;hexo de</code>将网站刷新缓存、生成静态文件并上传到Github仓库（如图一）。然后访问仓库，创建个<code>Action</code>，点击<code>Code</code>回到仓库，点击最后一个的<code>设置</code>选项，在右侧找到页面，修改和<code>CNAME</code>上一样的域名，点击<code>Save</code>，等待一分钟后再访问，<strong>完成！！！</strong></p><p><img src="https://i.p-i.vip/68/20250316-67d64254eb0e6.webp" alt="PixPin_2025-03-15_11-32-10.webp"><br><img src="https://i.p-i.vip/68/20250316-67d64257cb2f3.webp" alt="PixPin_2025-03-15_11-33-39.webp"></p><h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>至此，域名已经迁移到<code>Cloudflare</code>，文章到这里也差不多结束了，那么在这里再讲一些与这篇文章无关的东西<psw>主要还是水一下字数</psw></p><h3 id="QwQ-32B模型"><a href="#QwQ-32B模型" class="headerlink" title="QwQ-32B模型"></a>QwQ-32B模型</h3><p>体验链接：<a href="https://chat.qwen.ai/">https://chat.qwen.ai/</a></p><p>千问发布的AI<code>QwQ-32B</code>模型整体使用下来其实和<code>DeepSeek-R1</code>已经很接近了，使用效果还挺不错，有最基础的思考功能，整体还算流畅的输出速度，这里就非常的<code>Nice</code>。</p><p>不过在使用过程中要开一下联网，不然就会像<code>DeepSeek</code>在那瞎编。</p><p><img src="https://i.p-i.vip/68/20250316-67d6454233ea6.png" alt="1742095669203.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 总结 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 总结 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>2025，新的旅程-网站一周年小记</title>
       <link href="/2025/03/09/%E7%BD%91%E7%AB%99%E4%B8%80%E5%91%A8%E5%B9%B4%E5%B0%8F%E8%AE%B0/"/>
       <url>/2025/03/09/%E7%BD%91%E7%AB%99%E4%B8%80%E5%91%A8%E5%B9%B4%E5%B0%8F%E8%AE%B0/</url>
@@ -97,9 +122,9 @@
       
         <tags>
             
-            <tag> 期末考试 </tag>
-            
             <tag> 总结 </tag>
+            
+            <tag> 期末考试 </tag>
             
         </tags>
       
@@ -347,9 +372,9 @@
       
         <tags>
             
-            <tag> 表情包 </tag>
-            
             <tag> 杂谈 </tag>
+            
+            <tag> 表情包 </tag>
             
         </tags>
       

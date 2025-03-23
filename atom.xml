@@ -6,7 +6,7 @@
   <link href="http://blog.hanta2011.top/atom.xml" rel="self"/>
   
   <link href="http://blog.hanta2011.top/"/>
-  <updated>2025-03-16T04:12:56.703Z</updated>
+  <updated>2025-03-23T10:42:04.831Z</updated>
   <id>http://blog.hanta2011.top/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Minecraft及模组安装下载误区说明</title>
+    <link href="http://blog.hanta2011.top/2025/03/22/MC%E6%A8%A1%E7%BB%84%E8%AF%AF%E5%8C%BA%E8%AF%B4%E6%98%8E/"/>
+    <id>http://blog.hanta2011.top/2025/03/22/MC%E6%A8%A1%E7%BB%84%E8%AF%AF%E5%8C%BA%E8%AF%B4%E6%98%8E/</id>
+    <published>2025-03-22T12:36:11.000Z</published>
+    <updated>2025-03-23T10:42:04.831Z</updated>
+    
+    
+    <summary type="html">对于Minecraft5这款游戏模组误区的讲解（以Fabric为例）</summary>
+    
+    
+    
+    <category term="MC" scheme="http://blog.hanta2011.top/categories/MC/"/>
+    
+    
+    <category term="MC" scheme="http://blog.hanta2011.top/tags/MC/"/>
+    
+  </entry>
   
   <entry>
     <title>我又换了域名</title>

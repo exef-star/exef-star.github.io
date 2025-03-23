@@ -211,3 +211,17 @@
     background-image: url(https://i.p-i.vip/68/20250316-67d63cb8eb2e0.webp) !important;
 }
 /* ========================背景图====================== */
+
+/*白天主题下的配置*/
+#aside-content>.card-widget.card-info {
+  /*换成自己图片的地址*/
+  background-image: url('https://i.p-i.vip/68/20250323-67df7c39c5b0b.png');
+  background-repeat: no-repeat;
+  background-attachment: inherit;
+  background-size: 100%
+}
+/*黑暗主题下的配置*/
+[data-theme=dark] #aside-content>.card-widget.card-info {
+  /*换成自己图片的地址*/
+  background-image: url('https://i.p-i.vip/68/20250323-67df7ccece155.jpg') !important
+}

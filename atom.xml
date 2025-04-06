@@ -6,7 +6,7 @@
   <link href="http://blog.hanta2011.top/atom.xml" rel="self"/>
   
   <link href="http://blog.hanta2011.top/"/>
-  <updated>2025-03-23T10:42:04.831Z</updated>
+  <updated>2025-04-06T09:18:46.287Z</updated>
   <id>http://blog.hanta2011.top/</id>
   
   <author>
@@ -15,6 +15,46 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>记一次电脑蓝屏</title>
+    <link href="http://blog.hanta2011.top/2025/04/06/%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%94%B5%E8%84%91%E8%93%9D%E5%B1%8F/"/>
+    <id>http://blog.hanta2011.top/2025/04/06/%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%94%B5%E8%84%91%E8%93%9D%E5%B1%8F/</id>
+    <published>2025-04-06T05:40:22.000Z</published>
+    <updated>2025-04-06T09:18:46.287Z</updated>
+    
+    
+    <summary type="html">记录一下由于金山毒霸引发的快速存储sys文件故障导致蓝屏的事情</summary>
+    
+    
+    
+    <category term="杂谈" scheme="http://blog.hanta2011.top/categories/%E6%9D%82%E8%B0%88/"/>
+    
+    
+    <category term="杂谈" scheme="http://blog.hanta2011.top/tags/%E6%9D%82%E8%B0%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>推荐一下网易云音乐上的歌（无毒）2.0</title>
+    <link href="http://blog.hanta2011.top/2025/03/30/%E6%8E%A8%E4%B8%80%E4%B8%8B%E7%BD%91%E6%98%93%E4%BA%91%E6%AD%8C2/"/>
+    <id>http://blog.hanta2011.top/2025/03/30/%E6%8E%A8%E4%B8%80%E4%B8%8B%E7%BD%91%E6%98%93%E4%BA%91%E6%AD%8C2/</id>
+    <published>2025-03-30T10:08:56.000Z</published>
+    <updated>2025-04-05T13:35:56.630Z</updated>
+    
+    
+    <summary type="html">推一下冈易上的良心歌曲2.0</summary>
+    
+    
+    
+    <category term="杂谈" scheme="http://blog.hanta2011.top/categories/%E6%9D%82%E8%B0%88/"/>
+    
+    
+    <category term="杂谈" scheme="http://blog.hanta2011.top/tags/%E6%9D%82%E8%B0%88/"/>
+    
+    <category term="音乐推荐" scheme="http://blog.hanta2011.top/tags/%E9%9F%B3%E4%B9%90%E6%8E%A8%E8%8D%90/"/>
+    
+  </entry>
   
   <entry>
     <title>Minecraft及模组安装下载误区说明</title>

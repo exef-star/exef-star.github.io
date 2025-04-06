@@ -4,6 +4,58 @@
   
     
     <entry>
+      <title>记一次电脑蓝屏</title>
+      <link href="/2025/04/06/%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%94%B5%E8%84%91%E8%93%9D%E5%B1%8F/"/>
+      <url>/2025/04/06/%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%94%B5%E8%84%91%E8%93%9D%E5%B1%8F/</url>
+      
+        <content type="html"><![CDATA[<h1 id="小小的碎碎念"><a href="#小小的碎碎念" class="headerlink" title="小小的碎碎念"></a>小小的碎碎念</h1><p>这一次已经不是第一次蓝屏了，上一次蓝屏是因为运行Minecraft的1.16.5的时候由于电脑此时太卡了所以直接给我活生生的卡到蓝屏界面了。</p><p>之后幸运的进了系统和桌面，之后的事情就不用多说了，能够正常游玩Minecraft，没有出现卡到蓝屏的程度了。</p><p>但是事情真的结束了吗· · ·</p><h1 id="金山毒霸得了M-V-P"><a href="#金山毒霸得了M-V-P" class="headerlink" title="金山毒霸得了M ! V ! P !"></a>金山毒霸得了M ! V ! P !</h1><p>大约是在写这篇文章前的两个小时前，由于C盘当时只有七个G了，所以就用了金山毒霸扫了一下垃圾，然后点进了百宝箱，看到了一个工具-<strong>顽固木马专杀</strong></p><p><img src="https://i.p-i.vip/68/20250406-67f24662ee66f.webp"></p><p>然后好奇的点击了一下，一点进去，闪了个页面，然后· · ·蓝屏了？</p><p><img src="https://i.p-i.vip/68/20250406-67f2464de0844.webp"></p><p>这里提供一下终止代码：</p><ul><li><code>终止代码</code>: <strong>SYSTEM_SERVICE_EXCEPTION</strong></li><li><code>失败的操作</code>: <strong>ahcache.sys</strong>（英特尔快速存储技术驱动相关的系统文件。）</li></ul><p>上必应上面搜了一下，发现有一位用户在官方论坛上面报了个同样的<strong>ahcache.sys</strong>错误，但是他的终止代码是<strong>DRIVER_VERIFIER_DETECTED_VIOLATION</strong>，并且他的电脑一直在重启蓝屏，不过他的失败的操作和我这边的一样，都是<strong>ahcache.sys</strong>，我这边还算幸运，能够直接启动并且正常使用。</p><p><img src="https://i.p-i.vip/68/20250406-67f2468a3b2da.webp"></p><p>这是一个很头疼的问题，收集错误几秒钟的时间就收集完了，但是死活不自动重启，还是我一直按着电源键差不多几十秒才能强制关机。<br>和上次蓝屏一样，我还是能够正常进入系统和桌面，保险万一，还是运行一下修复命令先，以防万一~</p><h1 id="小小的修复"><a href="#小小的修复" class="headerlink" title="小小的修复"></a>小小的修复</h1><p>我们需要用到这条命令：</p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sfc /scannow</span><br></pre></td></tr></table></figure><p>这条命令本质上就是检查并修复Windows系统文件，包括可能受损的<code>ahcache.sys</code>。<br>这次就不能直接用网上单纯的<kbd>Win</kbd> <strong>+</strong> <kbd>R</kbd> 输入<code>cmd</code>了，因为这样你只能得到一个没有管理员权限的命令提示符，这里有个最简单的办法：<br>右键单击你的Windows徽标（不是键盘上的那个！），直接选择<code>Windows PowerShell (管理员)（A）</code>，如下面Gif所示：</p><p><img src="https://i.p-i.vip/68/20250406-67f23fab3229c.gif" alt="win10-powershell-admin"></p><p>打开之后等他加载完毕，输入<code>sfc /scannow</code>回车，等待命令执行完毕，完成！<br>如果你想看一下他的修复日志，可以直接上<code>C:\Windows\Logs\CBS</code>这个文件夹里找，大概率会有：</p><p><img src="https://i.p-i.vip/68/20250406-67f2469fa840b.webp"></p><h1 id="吐槽（后记）"><a href="#吐槽（后记）" class="headerlink" title="吐槽（后记）"></a>吐槽（后记）</h1><p>耽误我玩Minecraft了，我才刚盖完一个屋顶啊<psw>金山你到底要干什么啊qwq</psw></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 杂谈 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 杂谈 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>推荐一下网易云音乐上的歌（无毒）2.0</title>
+      <link href="/2025/03/30/%E6%8E%A8%E4%B8%80%E4%B8%8B%E7%BD%91%E6%98%93%E4%BA%91%E6%AD%8C2/"/>
+      <url>/2025/03/30/%E6%8E%A8%E4%B8%80%E4%B8%8B%E7%BD%91%E6%98%93%E4%BA%91%E6%AD%8C2/</url>
+      
+        <content type="html"><![CDATA[<div class="note info flat"><p>歌单比较杂，属于前面Phonk后面纯音乐的一种，在此感谢instupendo的Six Forty Seven歌曲封面图片</p></div><ol><li><code>I Wish My Mind Would Shut Up-Ivoris</code>像精灵一样的人声，整体比较好听。</li><li><code>The truth that you leave-Pianoboy高至豪</code> 一曲钢琴曲，听着很有秋天叶落的感觉。</li><li><code>SOS-Avicii / Aloe Blacc</code>A神出品，必属精品，适合放在Vlog里，但是前面要剪掉一些，不然会招来梗小鬼。</li><li><code>Bohemian (Slowed)</code>威龙の小曲.jpg</li><li><code>Dramamine-flawed mangoes</code>有点像在夕阳的海滩上静静地看着路过的船只的感觉</li><li><code>Dancin&#39; (KronouJ Remix)-Aaron Smith</code></li><li><code>Untitled - Slowed + Reverb-Jutidy / Connor</code>普通の小曲🙃</li><li><code>MONEY IN MY POCKET-808Monster</code></li><li><code>但-草东没有派对</code>都说没有前奏的歌像是强吻，这个像是被歌手打了一巴掌-Mari-玛里</li><li><code>杀死那个石家庄人-万能青年旅店</code>这首歌最近挺火的，值得推荐👍</li><li><code>Cornfield Chase-Hans Zimmer</code>寄蜉蝣于天地，渺沧海之一粟。哀吾生之须臾，羡长江之无穷。-方墩儿Founder</li><li><code>Morning Peppermint-Oneul</code>整体为小清新的风格，适合下午的时候听</li><li><code>ひやむぎ、そーめん、时々うどん-ハム / Foxtail-Grass Studio</code>这看着歌真好吃…啊…不…这面真好听……？-笛子酱w</li><li><code>Comfort Chain-instupendo</code>最厉害的梦核笔法 从来都不是恐怖与黑暗的夜晚 而是在温馨的氛围 典雅的色调里 染上一丝绝望 像在纷乱中 坠入不醒的梦.</li><li><code>Starry Sky-Pam_dinosaur / Krzto</code></li><li><code>Aloha Heja He-Achim Reichel</code></li><li><code>The des Alizes</code>要黑胶了(。﹏。*)</li><li><code>The Good Night-instupendo</code>适合睡觉的时候听？</li><li><code>On The Run-Timecop1983</code>有种太空电梯的幻听感？</li><li><code>2:23 AM-しゃろう</code>适合玩休闲游戏的时候听？</li><li><code>Six Forty Seven-instupendo</code>有一种千禧年的梦核感</li></ol><div class="note info flat"><p>更多的可以看我的歌单，非常杂乱，并且这一期<psw>纯属水个博文</psw><a href="https://music.163.com/#/playlist?id=8674117203">https://music.163.com/#/playlist?id=8674117203</a></p></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 杂谈 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 杂谈 </tag>
+            
+            <tag> 音乐推荐 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Minecraft及模组安装下载误区说明</title>
       <link href="/2025/03/22/MC%E6%A8%A1%E7%BB%84%E8%AF%AF%E5%8C%BA%E8%AF%B4%E6%98%8E/"/>
       <url>/2025/03/22/MC%E6%A8%A1%E7%BB%84%E8%AF%AF%E5%8C%BA%E8%AF%B4%E6%98%8E/</url>

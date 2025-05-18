@@ -6,7 +6,7 @@
   <link href="http://blog.hanta2011.top/atom.xml" rel="self"/>
   
   <link href="http://blog.hanta2011.top/"/>
-  <updated>2025-05-04T09:06:08.284Z</updated>
+  <updated>2025-05-18T09:25:37.100Z</updated>
   <id>http://blog.hanta2011.top/</id>
   
   <author>
@@ -17,11 +17,30 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>安卓Alist Flutter + Turmux 🍰cpolar实现内网穿透</title>
+    <link href="http://blog.hanta2011.top/2025/05/18/Alist%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/"/>
+    <id>http://blog.hanta2011.top/2025/05/18/Alist%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/</id>
+    <published>2025-05-17T23:38:14.000Z</published>
+    <updated>2025-05-18T09:25:37.100Z</updated>
+    
+    
+    <summary type="html">Alist Flutter + Turmux 🍰cpolar自部署网盘教程</summary>
+    
+    
+    
+    <category term="Alist" scheme="http://blog.hanta2011.top/categories/Alist/"/>
+    
+    
+    <category term="Alist" scheme="http://blog.hanta2011.top/tags/Alist/"/>
+    
+  </entry>
+  
+  <entry>
     <title>两个月半的综合小计</title>
     <link href="http://blog.hanta2011.top/2025/05/02/%E4%B8%A4%E4%B8%AA%E6%9C%88%E5%8D%8A%E7%9A%84%E7%BB%BC%E5%90%88%E5%B0%8F%E8%AE%A1/"/>
     <id>http://blog.hanta2011.top/2025/05/02/%E4%B8%A4%E4%B8%AA%E6%9C%88%E5%8D%8A%E7%9A%84%E7%BB%BC%E5%90%88%E5%B0%8F%E8%AE%A1/</id>
     <published>2025-05-02T04:09:54.000Z</published>
-    <updated>2025-05-04T09:06:08.284Z</updated>
+    <updated>2025-05-18T09:26:06.753Z</updated>
     
     
     <summary type="html">一个从二月半、三月到四月的小记</summary>
@@ -40,7 +59,7 @@
     <link href="http://blog.hanta2011.top/2025/04/19/CFCDN%E8%BF%81%E7%A7%BB/"/>
     <id>http://blog.hanta2011.top/2025/04/19/CFCDN%E8%BF%81%E7%A7%BB/</id>
     <published>2025-04-19T13:24:09.000Z</published>
-    <updated>2025-05-02T04:16:27.389Z</updated>
+    <updated>2025-05-18T09:25:41.673Z</updated>
     
     
     <summary type="html">从CloudflareCDN迁移至丘盾公益CDN的记录</summary>
@@ -59,7 +78,7 @@
     <link href="http://blog.hanta2011.top/2025/04/12/Python%E5%8E%BB%E9%99%A4pclce%E5%85%8D%E8%B4%A3/"/>
     <id>http://blog.hanta2011.top/2025/04/12/Python%E5%8E%BB%E9%99%A4pclce%E5%85%8D%E8%B4%A3/</id>
     <published>2025-04-12T07:28:26.000Z</published>
-    <updated>2025-04-13T03:17:07.856Z</updated>
+    <updated>2025-05-18T09:25:57.294Z</updated>
     
     
     <summary type="html">用Python往注册表里添加注册表项去除PCL2社区版免责声明</summary>
@@ -78,7 +97,7 @@
     <link href="http://blog.hanta2011.top/2025/04/06/%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%94%B5%E8%84%91%E8%93%9D%E5%B1%8F/"/>
     <id>http://blog.hanta2011.top/2025/04/06/%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%94%B5%E8%84%91%E8%93%9D%E5%B1%8F/</id>
     <published>2025-04-06T05:40:22.000Z</published>
-    <updated>2025-04-06T09:18:46.287Z</updated>
+    <updated>2025-05-18T09:26:39.068Z</updated>
     
     
     <summary type="html">记录一下由于金山毒霸引发的快速存储sys文件故障导致蓝屏的事情</summary>
@@ -97,7 +116,7 @@
     <link href="http://blog.hanta2011.top/2025/03/30/%E6%8E%A8%E4%B8%80%E4%B8%8B%E7%BD%91%E6%98%93%E4%BA%91%E6%AD%8C2/"/>
     <id>http://blog.hanta2011.top/2025/03/30/%E6%8E%A8%E4%B8%80%E4%B8%8B%E7%BD%91%E6%98%93%E4%BA%91%E6%AD%8C2/</id>
     <published>2025-03-30T10:08:56.000Z</published>
-    <updated>2025-04-05T13:35:56.630Z</updated>
+    <updated>2025-05-18T09:26:24.467Z</updated>
     
     
     <summary type="html">推一下冈易上的良心歌曲2.0</summary>
@@ -118,7 +137,7 @@
     <link href="http://blog.hanta2011.top/2025/03/22/MC%E6%A8%A1%E7%BB%84%E8%AF%AF%E5%8C%BA%E8%AF%B4%E6%98%8E/"/>
     <id>http://blog.hanta2011.top/2025/03/22/MC%E6%A8%A1%E7%BB%84%E8%AF%AF%E5%8C%BA%E8%AF%B4%E6%98%8E/</id>
     <published>2025-03-22T12:36:11.000Z</published>
-    <updated>2025-03-23T10:42:04.831Z</updated>
+    <updated>2025-05-18T09:25:45.620Z</updated>
     
     
     <summary type="html">对于Minecraft5这款游戏模组误区的讲解（以Fabric为例）</summary>
@@ -137,7 +156,7 @@
     <link href="http://blog.hanta2011.top/2025/03/15/%E6%88%91%E5%8F%88%E6%8D%A2%E4%BA%86%E5%9F%9F%E5%90%8D/"/>
     <id>http://blog.hanta2011.top/2025/03/15/%E6%88%91%E5%8F%88%E6%8D%A2%E4%BA%86%E5%9F%9F%E5%90%8D/</id>
     <published>2025-03-15T07:56:56.000Z</published>
-    <updated>2025-03-16T04:12:56.703Z</updated>
+    <updated>2025-05-18T09:26:16.325Z</updated>
     
     
     <summary type="html">免费域名服务商倒下了，只能换一个了</summary>
@@ -156,7 +175,7 @@
     <link href="http://blog.hanta2011.top/2025/03/09/%E7%BD%91%E7%AB%99%E4%B8%80%E5%91%A8%E5%B9%B4%E5%B0%8F%E8%AE%B0/"/>
     <id>http://blog.hanta2011.top/2025/03/09/%E7%BD%91%E7%AB%99%E4%B8%80%E5%91%A8%E5%B9%B4%E5%B0%8F%E8%AE%B0/</id>
     <published>2025-03-09T03:29:33.000Z</published>
-    <updated>2025-03-09T09:45:21.270Z</updated>
+    <updated>2025-05-18T09:26:30.435Z</updated>
     
     
     <summary type="html">对网站一周年的总结，纪念一下</summary>
@@ -175,7 +194,7 @@
     <link href="http://blog.hanta2011.top/2025/02/15/%E4%BD%BF%E7%94%A8DeepSeek%E9%95%9C%E5%83%8F%E5%88%9B%E5%BB%BA%E6%8E%A7%E5%88%B6%E5%8F%B0AI/"/>
     <id>http://blog.hanta2011.top/2025/02/15/%E4%BD%BF%E7%94%A8DeepSeek%E9%95%9C%E5%83%8F%E5%88%9B%E5%BB%BA%E6%8E%A7%E5%88%B6%E5%8F%B0AI/</id>
     <published>2025-02-15T04:03:48.000Z</published>
-    <updated>2025-03-08T08:45:34.028Z</updated>
+    <updated>2025-05-18T09:26:10.823Z</updated>
     
     
     <summary type="html">使用Python调用DeepSeek镜像并调用！</summary>
@@ -196,7 +215,7 @@
     <link href="http://blog.hanta2011.top/2025/01/29/%E8%AE%B0%E4%B8%80%E6%AC%A1%E8%AE%A9Python%E9%87%8D%E5%A4%8D%E5%81%9A%E4%B8%80%E4%B8%AA%E5%B7%A5%E4%BD%9C-%E9%87%8D%E5%A4%8D%E6%89%93%E5%8D%B0%E6%96%87%E6%9C%AC/"/>
     <id>http://blog.hanta2011.top/2025/01/29/%E8%AE%B0%E4%B8%80%E6%AC%A1%E8%AE%A9Python%E9%87%8D%E5%A4%8D%E5%81%9A%E4%B8%80%E4%B8%AA%E5%B7%A5%E4%BD%9C-%E9%87%8D%E5%A4%8D%E6%89%93%E5%8D%B0%E6%96%87%E6%9C%AC/</id>
     <published>2025-01-29T11:04:04.000Z</published>
-    <updated>2025-01-30T14:15:11.804Z</updated>
+    <updated>2025-05-18T09:26:39.983Z</updated>
     
     
     <summary type="html">讲述如何用Python拼接字符串</summary>
@@ -215,7 +234,7 @@
     <link href="http://blog.hanta2011.top/2025/01/24/%E7%BA%AF%E9%9D%A0%E7%9F%B3%E7%B2%92%E5%92%8C%E5%90%8C%E5%AD%A6-%E6%9C%9F%E6%9C%AB%E6%80%BB%E7%BB%93%E6%9C%AD%E8%AE%B0/"/>
     <id>http://blog.hanta2011.top/2025/01/24/%E7%BA%AF%E9%9D%A0%E7%9F%B3%E7%B2%92%E5%92%8C%E5%90%8C%E5%AD%A6-%E6%9C%9F%E6%9C%AB%E6%80%BB%E7%BB%93%E6%9C%AD%E8%AE%B0/</id>
     <published>2025-01-24T14:13:26.000Z</published>
-    <updated>2025-01-24T15:08:52.412Z</updated>
+    <updated>2025-05-18T09:49:35.126Z</updated>
     
     
     <summary type="html">对于期末考试的总结</summary>
@@ -236,7 +255,7 @@
     <link href="http://blog.hanta2011.top/2025/01/23/hello-world/"/>
     <id>http://blog.hanta2011.top/2025/01/23/hello-world/</id>
     <published>2025-01-23T06:31:26.844Z</published>
-    <updated>2025-01-18T05:40:29.115Z</updated>
+    <updated>2025-05-18T09:26:01.830Z</updated>
     
     
       
@@ -254,7 +273,7 @@
     <link href="http://blog.hanta2011.top/2025/01/05/%E8%AE%B0%E4%B8%80%E6%AC%A1%E4%BF%AE%E6%94%B9Butterfly4-13-0%E5%85%AC%E5%91%8A%E6%A0%8F/"/>
     <id>http://blog.hanta2011.top/2025/01/05/%E8%AE%B0%E4%B8%80%E6%AC%A1%E4%BF%AE%E6%94%B9Butterfly4-13-0%E5%85%AC%E5%91%8A%E6%A0%8F/</id>
     <published>2025-01-05T03:10:45.000Z</published>
-    <updated>2025-01-23T14:06:41.508Z</updated>
+    <updated>2025-05-18T09:26:35.815Z</updated>
     
     
     <summary type="html">对于Butterfly4.13.0无法像Fomal大佬直接修改配置文件添加文字的教程</summary>
@@ -275,7 +294,7 @@
     <link href="http://blog.hanta2011.top/2024/12/29/2024%EF%BC%8C%E5%86%8D%E8%A7%81-2024%E6%80%BB%E7%BB%93/"/>
     <id>http://blog.hanta2011.top/2024/12/29/2024%EF%BC%8C%E5%86%8D%E8%A7%81-2024%E6%80%BB%E7%BB%93/</id>
     <published>2024-12-29T12:00:15.000Z</published>
-    <updated>2025-01-23T10:30:17.868Z</updated>
+    <updated>2025-05-18T09:25:37.707Z</updated>
     
     
     <summary type="html">对于2024年的年终总结</summary>
@@ -294,7 +313,7 @@
     <link href="http://blog.hanta2011.top/2024/12/21/%E6%88%91%E6%8D%A2%E4%BA%86%E5%9F%9F%E5%90%8D/"/>
     <id>http://blog.hanta2011.top/2024/12/21/%E6%88%91%E6%8D%A2%E4%BA%86%E5%9F%9F%E5%90%8D/</id>
     <published>2024-12-21T00:05:39.000Z</published>
-    <updated>2025-01-23T10:29:58.115Z</updated>
+    <updated>2025-05-18T09:26:16.551Z</updated>
     
     
     <summary type="html">关于我域名从 https://exef-star.github.io/ 换成 https://hanta.us.kg/ 这件事</summary>
@@ -315,7 +334,7 @@
     <link href="http://blog.hanta2011.top/2024/12/06/%E5%B1%80%E5%9F%9F%E7%BD%91%E5%85%B1%E4%BA%AB%E6%96%87%E4%BB%B6%EF%BC%81chfsgui-exe%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/"/>
     <id>http://blog.hanta2011.top/2024/12/06/%E5%B1%80%E5%9F%9F%E7%BD%91%E5%85%B1%E4%BA%AB%E6%96%87%E4%BB%B6%EF%BC%81chfsgui-exe%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</id>
     <published>2024-12-06T13:43:14.000Z</published>
-    <updated>2025-01-23T10:21:37.463Z</updated>
+    <updated>2025-05-18T09:26:13.274Z</updated>
     
     
     <summary type="html">介绍一下在网页端和PC端使用CuteHttpFileServer的chfsgui</summary>
@@ -336,7 +355,7 @@
     <link href="http://blog.hanta2011.top/2024/09/22/Python-%E9%85%8D%E7%BD%AEPython-VSCode%E4%BB%A3%E7%A0%81%E7%8E%AF%E5%A2%83/"/>
     <id>http://blog.hanta2011.top/2024/09/22/Python-%E9%85%8D%E7%BD%AEPython-VSCode%E4%BB%A3%E7%A0%81%E7%8E%AF%E5%A2%83/</id>
     <published>2024-09-22T12:34:51.000Z</published>
-    <updated>2025-01-26T10:27:20.079Z</updated>
+    <updated>2025-05-18T09:25:55.146Z</updated>
     
     
     <summary type="html">Python+VSCode代码环境配置</summary>
@@ -357,7 +376,7 @@
     <link href="http://blog.hanta2011.top/2024/08/31/Python-%E6%8A%98%E8%85%BE%E4%B8%80%E4%B8%8B%EF%BC%9F%E8%87%AA%E5%88%B6%E6%96%87%E4%BB%B6%E5%A4%B9%E5%8A%A0%E5%AF%86%E7%A8%8B%E5%BA%8F/"/>
     <id>http://blog.hanta2011.top/2024/08/31/Python-%E6%8A%98%E8%85%BE%E4%B8%80%E4%B8%8B%EF%BC%9F%E8%87%AA%E5%88%B6%E6%96%87%E4%BB%B6%E5%A4%B9%E5%8A%A0%E5%AF%86%E7%A8%8B%E5%BA%8F/</id>
     <published>2024-08-31T05:45:31.000Z</published>
-    <updated>2025-01-26T10:30:41.190Z</updated>
+    <updated>2025-05-18T09:25:51.350Z</updated>
     
     
     <summary type="html">自己写了一个小小的文件夹加密程序，希望能帮到大家。</summary>
@@ -376,7 +395,7 @@
     <link href="http://blog.hanta2011.top/2024/08/17/%E4%BD%BF%E7%94%A8FittenCode%E6%9D%A5%E6%8F%90%E5%8D%87%E4%BD%A0%E7%9A%84%E5%B7%A5%E4%BD%9C%E6%95%88%E7%8E%87/"/>
     <id>http://blog.hanta2011.top/2024/08/17/%E4%BD%BF%E7%94%A8FittenCode%E6%9D%A5%E6%8F%90%E5%8D%87%E4%BD%A0%E7%9A%84%E5%B7%A5%E4%BD%9C%E6%95%88%E7%8E%87/</id>
     <published>2024-08-17T11:58:55.000Z</published>
-    <updated>2025-01-26T11:25:57.295Z</updated>
+    <updated>2025-05-18T09:26:09.853Z</updated>
     
     
     <summary type="html">使用FittenCode写代码来提升你的工作效率</summary>
@@ -395,7 +414,7 @@
     <link href="http://blog.hanta2011.top/2024/08/15/Python-%E4%BD%BF%E7%94%A8Python%E7%94%9F%E6%88%90%E5%B1%9E%E4%BA%8E%E4%BD%A0%E7%9A%84%E7%BD%91%E7%AB%99%E4%BA%8C%E7%BB%B4%E7%A0%81%EF%BC%81/"/>
     <id>http://blog.hanta2011.top/2024/08/15/Python-%E4%BD%BF%E7%94%A8Python%E7%94%9F%E6%88%90%E5%B1%9E%E4%BA%8E%E4%BD%A0%E7%9A%84%E7%BD%91%E7%AB%99%E4%BA%8C%E7%BB%B4%E7%A0%81%EF%BC%81/</id>
     <published>2024-08-15T12:33:48.000Z</published>
-    <updated>2025-01-26T10:28:05.088Z</updated>
+    <updated>2025-05-18T09:25:49.824Z</updated>
     
     
     <summary type="html">运用Python中的MyQR库来生成属于你的网站二维码！</summary>
@@ -416,7 +435,7 @@
     <link href="http://blog.hanta2011.top/2024/08/11/%E5%85%AC%E5%BC%80-Bilibili%E8%A1%A8%E6%83%85%E5%8C%85%E5%9B%BE%E7%89%87/"/>
     <id>http://blog.hanta2011.top/2024/08/11/%E5%85%AC%E5%BC%80-Bilibili%E8%A1%A8%E6%83%85%E5%8C%85%E5%9B%BE%E7%89%87/</id>
     <published>2024-08-11T07:33:49.000Z</published>
-    <updated>2025-01-26T11:24:17.346Z</updated>
+    <updated>2025-05-18T09:26:12.358Z</updated>
     
     
     <summary type="html">公开Bilibili表情包</summary>
@@ -437,7 +456,7 @@
     <link href="http://blog.hanta2011.top/2024/08/09/%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%8B%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%E4%B8%8A%E7%9A%84%E6%AD%8C%EF%BC%88%E6%97%A0%E6%AF%92%EF%BC%89/"/>
     <id>http://blog.hanta2011.top/2024/08/09/%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%8B%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%E4%B8%8A%E7%9A%84%E6%AD%8C%EF%BC%88%E6%97%A0%E6%AF%92%EF%BC%89/</id>
     <published>2024-08-09T10:53:33.000Z</published>
-    <updated>2025-01-26T12:12:09.540Z</updated>
+    <updated>2025-05-18T09:26:23.795Z</updated>
     
     
     <summary type="html">推一下冈易上的良心歌曲</summary>
@@ -458,7 +477,7 @@
     <link href="http://blog.hanta2011.top/2024/07/28/%E6%96%B0%E6%97%B6%E4%BB%A3%E7%94%B5%E5%AD%90%E6%96%87%E7%9B%B2%E2%80%94%E2%80%94%E5%BD%93%E4%BB%A3%E4%BA%BA%E7%A6%BB%E7%94%B5%E8%84%91%E8%B6%8A%E6%9D%A5%E8%B6%8A%E8%BF%9C%E4%BA%86/"/>
     <id>http://blog.hanta2011.top/2024/07/28/%E6%96%B0%E6%97%B6%E4%BB%A3%E7%94%B5%E5%AD%90%E6%96%87%E7%9B%B2%E2%80%94%E2%80%94%E5%BD%93%E4%BB%A3%E4%BA%BA%E7%A6%BB%E7%94%B5%E8%84%91%E8%B6%8A%E6%9D%A5%E8%B6%8A%E8%BF%9C%E4%BA%86/</id>
     <published>2024-07-28T09:07:32.000Z</published>
-    <updated>2025-01-28T09:08:39.319Z</updated>
+    <updated>2025-05-18T09:26:26.103Z</updated>
     
     
     <summary type="html">说一下当代同龄人是如何在电脑和素质这个道路上越走越远的</summary>
@@ -475,7 +494,7 @@
     <link href="http://blog.hanta2011.top/2024/07/24/%E8%AE%B0%E4%B8%80%E6%AC%A1B%E7%AB%99%E8%BF%9B%E5%BA%A6%E6%9D%A1%E6%97%A0%E6%B3%95%E6%8B%96%E5%8A%A8%E8%BF%9B%E5%BA%A6%E6%9D%A1/"/>
     <id>http://blog.hanta2011.top/2024/07/24/%E8%AE%B0%E4%B8%80%E6%AC%A1B%E7%AB%99%E8%BF%9B%E5%BA%A6%E6%9D%A1%E6%97%A0%E6%B3%95%E6%8B%96%E5%8A%A8%E8%BF%9B%E5%BA%A6%E6%9D%A1/</id>
     <published>2024-07-24T12:44:23.000Z</published>
-    <updated>2025-01-26T11:25:06.154Z</updated>
+    <updated>2025-05-18T09:26:33.208Z</updated>
     
     
     <summary type="html">因为一个插件引出B站的一个离谱Bug，强烈建议修复</summary>
@@ -515,7 +534,7 @@
     <link href="http://blog.hanta2011.top/2024/06/23/Tkinter%E6%89%A9%E5%B1%95Tix%E5%92%8CPMW/"/>
     <id>http://blog.hanta2011.top/2024/06/23/Tkinter%E6%89%A9%E5%B1%95Tix%E5%92%8CPMW/</id>
     <published>2024-06-23T04:24:31.000Z</published>
-    <updated>2025-01-23T09:53:10.815Z</updated>
+    <updated>2025-05-18T09:55:38.663Z</updated>
     
     
     <summary type="html">Tkinter中不为人知的冷门扩展</summary>
@@ -536,7 +555,7 @@
     <link href="http://blog.hanta2011.top/2024/06/16/Python-%E6%A3%80%E6%B5%8BMinecraft%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84%E5%BB%B6%E8%BF%9F%E5%92%8C%E5%9C%A8%E7%BA%BF%E7%8E%A9%E5%AE%B6/"/>
     <id>http://blog.hanta2011.top/2024/06/16/Python-%E6%A3%80%E6%B5%8BMinecraft%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84%E5%BB%B6%E8%BF%9F%E5%92%8C%E5%9C%A8%E7%BA%BF%E7%8E%A9%E5%AE%B6/</id>
     <published>2024-06-16T08:45:17.000Z</published>
-    <updated>2025-01-26T10:26:05.953Z</updated>
+    <updated>2025-05-18T09:25:53.383Z</updated>
     
     
     <summary type="html">利用Python的mcstatus库检测Minecraft服务器在线玩家以及延迟</summary>
@@ -557,7 +576,7 @@
     <link href="http://blog.hanta2011.top/2024/06/10/PCL%E7%B2%97%E7%95%A5%E4%BD%BF%E7%94%A8/"/>
     <id>http://blog.hanta2011.top/2024/06/10/PCL%E7%B2%97%E7%95%A5%E4%BD%BF%E7%94%A8/</id>
     <published>2024-06-10T09:08:42.000Z</published>
-    <updated>2025-01-24T14:17:09.399Z</updated>
+    <updated>2025-05-18T09:25:48.665Z</updated>
     
     
     <summary type="html">讲述如何使用PCL2</summary>
@@ -576,7 +595,7 @@
     <link href="http://blog.hanta2011.top/2024/06/02/Python%E7%AE%80%E6%98%93%E8%AE%A1%E7%AE%97%E5%99%A8/"/>
     <id>http://blog.hanta2011.top/2024/06/02/Python%E7%AE%80%E6%98%93%E8%AE%A1%E7%AE%97%E5%99%A8/</id>
     <published>2024-06-02T09:45:59.000Z</published>
-    <updated>2024-06-02T09:57:58.199Z</updated>
+    <updated>2025-05-18T09:25:59.274Z</updated>
     
     
     <summary type="html">Python简易计算器</summary>

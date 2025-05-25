@@ -6,7 +6,7 @@
   <link href="http://blog.hanta2011.top/atom.xml" rel="self"/>
   
   <link href="http://blog.hanta2011.top/"/>
-  <updated>2025-05-18T09:25:37.100Z</updated>
+  <updated>2025-05-25T07:33:02.825Z</updated>
   <id>http://blog.hanta2011.top/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>整活向-Python使用QQSMTP服务器发送电子邮件</title>
+    <link href="http://blog.hanta2011.top/2025/05/25/Python%E5%8F%91%E9%80%81%E9%82%AE%E4%BB%B6/"/>
+    <id>http://blog.hanta2011.top/2025/05/25/Python%E5%8F%91%E9%80%81%E9%82%AE%E4%BB%B6/</id>
+    <published>2025-05-25T02:38:46.000Z</published>
+    <updated>2025-05-25T07:33:02.825Z</updated>
+    
+    
+    <summary type="html">闲着没事给老师用Python发个邮件</summary>
+    
+    
+    
+    <category term="Python" scheme="http://blog.hanta2011.top/categories/Python/"/>
+    
+    
+    <category term="Python" scheme="http://blog.hanta2011.top/tags/Python/"/>
+    
+  </entry>
   
   <entry>
     <title>安卓Alist Flutter + Turmux 🍰cpolar实现内网穿透</title>
@@ -515,7 +534,7 @@
     <link href="http://blog.hanta2011.top/2024/06/29/Hexo%E9%AD%94%E6%94%B9%E6%95%99%E7%A8%8B1/"/>
     <id>http://blog.hanta2011.top/2024/06/29/Hexo%E9%AD%94%E6%94%B9%E6%95%99%E7%A8%8B1/</id>
     <published>2024-06-29T03:55:18.000Z</published>
-    <updated>2025-01-23T09:57:30.414Z</updated>
+    <updated>2025-05-25T07:33:03.257Z</updated>
     
     
     <summary type="html">包含了一大堆改pug和js、styl、css，以及安装插件的教程</summary>

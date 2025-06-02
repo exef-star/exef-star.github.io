@@ -6,7 +6,7 @@
   <link href="http://blog.hanta2011.top/atom.xml" rel="self"/>
   
   <link href="http://blog.hanta2011.top/"/>
-  <updated>2025-05-25T07:33:02.825Z</updated>
+  <updated>2025-06-02T10:18:37.081Z</updated>
   <id>http://blog.hanta2011.top/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>目前我个人在用的一些软件介绍</title>
+    <link href="http://blog.hanta2011.top/2025/06/02/Software-Introduction/"/>
+    <id>http://blog.hanta2011.top/2025/06/02/Software-Introduction/</id>
+    <published>2025-06-02T03:30:49.000Z</published>
+    <updated>2025-06-02T10:18:37.081Z</updated>
+    
+    
+    <summary type="html">没灵感了，随便水一篇文章吧。</summary>
+    
+    
+    
+    <category term="软件" scheme="http://blog.hanta2011.top/categories/%E8%BD%AF%E4%BB%B6/"/>
+    
+    
+    <category term="软件" scheme="http://blog.hanta2011.top/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
+  </entry>
   
   <entry>
     <title>整活向-Python使用QQSMTP服务器发送电子邮件</title>

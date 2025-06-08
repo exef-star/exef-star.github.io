@@ -6,7 +6,7 @@
   <link href="http://blog.hanta2011.top/atom.xml" rel="self"/>
   
   <link href="http://blog.hanta2011.top/"/>
-  <updated>2025-06-02T10:18:37.081Z</updated>
+  <updated>2025-06-08T09:01:53.327Z</updated>
   <id>http://blog.hanta2011.top/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>解决Vercel平台的Twikoo测试邮件正常但没有评论邮件发送的问题</title>
+    <link href="http://blog.hanta2011.top/2025/06/08/twikoo-emailerror/"/>
+    <id>http://blog.hanta2011.top/2025/06/08/twikoo-emailerror/</id>
+    <published>2025-06-08T08:18:41.000Z</published>
+    <updated>2025-06-08T09:01:53.327Z</updated>
+    
+    
+    <summary type="html">解决Vercel部署的Twikoo评论系统面板测试邮件发送正常但是评论邮件无法正常发送的问题</summary>
+    
+    
+    
+    <category term="Twikoo" scheme="http://blog.hanta2011.top/categories/Twikoo/"/>
+    
+    
+    <category term="Twikoo" scheme="http://blog.hanta2011.top/tags/Twikoo/"/>
+    
+  </entry>
   
   <entry>
     <title>目前我个人在用的一些软件介绍</title>

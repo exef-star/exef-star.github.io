@@ -6,7 +6,7 @@
   <link href="http://blog.hanta2011.top/atom.xml" rel="self"/>
   
   <link href="http://blog.hanta2011.top/"/>
-  <updated>2025-06-08T09:01:53.327Z</updated>
+  <updated>2025-06-15T08:58:42.154Z</updated>
   <id>http://blog.hanta2011.top/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>C++の学习笔记</title>
+    <link href="http://blog.hanta2011.top/2025/06/15/cpp-note/"/>
+    <id>http://blog.hanta2011.top/2025/06/15/cpp-note/</id>
+    <published>2025-06-15T07:00:03.000Z</published>
+    <updated>2025-06-15T08:58:42.154Z</updated>
+    
+    
+    <summary type="html">一个略显潦草的C++学习笔记。</summary>
+    
+    
+    
+    <category term="C++" scheme="http://blog.hanta2011.top/categories/C/"/>
+    
+    
+    <category term="C++" scheme="http://blog.hanta2011.top/tags/C/"/>
+    
+  </entry>
   
   <entry>
     <title>解决Vercel平台的Twikoo测试邮件正常但没有评论邮件发送的问题</title>

@@ -6,7 +6,7 @@
   <link href="http://blog.hanta2011.top/atom.xml" rel="self"/>
   
   <link href="http://blog.hanta2011.top/"/>
-  <updated>2025-06-22T06:47:00.065Z</updated>
+  <updated>2025-06-22T07:27:45.517Z</updated>
   <id>http://blog.hanta2011.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://blog.hanta2011.top/2025/06/21/HeoMusic-UptimeRobot/"/>
     <id>http://blog.hanta2011.top/2025/06/21/HeoMusic-UptimeRobot/</id>
     <published>2025-06-21T09:04:58.000Z</published>
-    <updated>2025-06-22T06:47:00.065Z</updated>
+    <updated>2025-06-22T07:27:45.517Z</updated>
     
     
     <summary type="html">记录一下HeoMusic和UptimeRobot的搭建</summary>
@@ -660,9 +660,9 @@
     <category term="Minecraft" scheme="http://blog.hanta2011.top/categories/Minecraft/"/>
     
     
-    <category term="Python" scheme="http://blog.hanta2011.top/tags/Python/"/>
-    
     <category term="Minecraft" scheme="http://blog.hanta2011.top/tags/Minecraft/"/>
+    
+    <category term="Python" scheme="http://blog.hanta2011.top/tags/Python/"/>
     
   </entry>
   

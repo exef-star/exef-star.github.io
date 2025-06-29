@@ -29,7 +29,7 @@
 
 /* 输入框样式 */
 .tk-input.el-textarea textarea {
-    border-radius: 12px;
+    border-radius: 10px;
     min-height: 200px !important;
     height: auto;
 }
@@ -42,7 +42,7 @@
 }
 
 :root {
-  --liushen-radius: 12px;
+  --liushen-radius: 10px;
   --liushen-card-border-width: 1px;
 }
 
@@ -52,7 +52,7 @@
   --liushen-card-bg: #fff;
   --liushen-card-border: #e3e8f7;
   --style-border-always: 1px solid var(--liushen-card-border);
-  --liushen-blue: #425AEF;
+  --liushen-blue: #83c5be;
 }
 
 /* 深色模式颜色 */
@@ -61,7 +61,7 @@
   --liushen-card-bg: #2c2c2c;
   --liushen-card-border: #42444a;
   --style-border-always: 1px solid var(--liushen-card-border);
-  --liushen-blue: #0084FF;
+  --liushen-blue: #bad0db;
 }
 
 /* 评论区评论大框 */
@@ -188,7 +188,7 @@
 
 /* 评论区按钮样式 */
 .tk-row.actions button.el-button {
-    border-radius: 12px !important;
+    border-radius: 10px !important;
 }
 /* twikoo美化 */
 

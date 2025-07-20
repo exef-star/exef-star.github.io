@@ -2826,7 +2826,7 @@ body {
   background: var(--global-bg);
   color: var(--font-color);
   font-size: var(--global-font-size);
-  font-family: Yozai, Yozai, "Yozai", "Yozai", Lato, Roboto, "Yozai", "Yozai", "Yozai", sans-serif;
+  font-family: LXGW WenKai Light, LXGW WenKai Light, "LXGW WenKai Light", "LXGW WenKai Light", Lato, Roboto, "LXGW WenKai Light", "LXGW WenKai Light", "LXGW WenKai Light", sans-serif;
   line-height: 2;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
@@ -3336,7 +3336,7 @@ figure.highlight pre .javascript .function {
 #article-container pre,
 #article-container code {
   font-size: 16px;
-  font-family: consolas, Menlo, "Yozai", "Yozai", "Yozai", sans-serif !important;
+  font-family: consolas, Menlo, "LXGW WenKai Light", "LXGW WenKai Light", "LXGW WenKai Light", sans-serif !important;
 }
 #article-container code {
   padding: 2px 4px;
@@ -8586,7 +8586,7 @@ body[data-type="music"] .s-sticker div {
   color: var(--anzhiyu-lighttext);
 }
 #tag #tag-page-tags a {
-  font-family: Yozai, Yozai, "Yozai", "Yozai", Lato, Roboto, "Yozai", "Yozai", "Yozai", sans-serif;
+  font-family: LXGW WenKai Light, LXGW WenKai Light, "LXGW WenKai Light", "LXGW WenKai Light", Lato, Roboto, "LXGW WenKai Light", "LXGW WenKai Light", "LXGW WenKai Light", sans-serif;
   font-size: 0.9em;
 }
 #tag #tag-page-tags a:hover {
@@ -8605,7 +8605,7 @@ span.categoryes-punctuation .icon-biaoqian {
   font-size: 13px;
 }
 .tagsPageCount {
-  font-family: Yozai, Yozai, "Yozai", "Yozai", Lato, Roboto, "Yozai", "Yozai", "Yozai", sans-serif;
+  font-family: LXGW WenKai Light, LXGW WenKai Light, "LXGW WenKai Light", "LXGW WenKai Light", Lato, Roboto, "LXGW WenKai Light", "LXGW WenKai Light", "LXGW WenKai Light", sans-serif;
 }
 [data-theme="light"] #post .tag_share .post-meta__box__tags span.tagsPageCount {
   background-color: transparent;
@@ -8890,7 +8890,7 @@ h1.page-title + .tag-cloud-list {
   padding: 0.5rem;
   text-align: center;
   font-size: 14px;
-  font-family: Yozai, Yozai, "Yozai", "Yozai", Lato, Roboto, "Yozai", "Yozai", "Yozai", sans-serif;
+  font-family: LXGW WenKai Light, LXGW WenKai Light, "LXGW WenKai Light", "LXGW WenKai Light", Lato, Roboto, "LXGW WenKai Light", "LXGW WenKai Light", "LXGW WenKai Light", sans-serif;
 }
 @media screen and (max-width: 768px) {
   #error-wrap .error-content .error-info {

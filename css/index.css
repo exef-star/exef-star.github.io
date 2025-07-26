@@ -2974,7 +2974,7 @@ a:hover {
 #site-name,
 #aside-content .author-info__name,
 #aside-content .author-info__description {
-  font-family: Yozai, 'Yozai', 'Yozai', 'Yozai', sans-serif;
+  font-family: LXGW WenKai Light, 'LXGW WenKai Light', 'LXGW WenKai Light', 'LXGW WenKai Light', sans-serif;
 }
 .is-center {
   text-align: center;
@@ -3731,7 +3731,7 @@ figure.highlight pre .javascript .function {
   height: 100%;
   vertical-align: top;
   text-align: center;
-  font-family: Yozai, 'Yozai', 'Yozai', 'Yozai', sans-serif;
+  font-family: LXGW WenKai Light, 'LXGW WenKai Light', 'LXGW WenKai Light', 'LXGW WenKai Light', sans-serif;
 }
 @media screen and (max-width: 768px) {
   .error404 #error-wrap .error-content .error-info {

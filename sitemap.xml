@@ -501,13 +501,6 @@
   </url>
   
   <url>
-    <loc>https://blog.hanta2011.top/tags/PCL/</loc>
-    <lastmod>2025-08-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.hanta2011.top/tags/Python/</loc>
     <lastmod>2025-08-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -516,6 +509,13 @@
   
   <url>
     <loc>https://blog.hanta2011.top/tags/%E5%89%8D%E7%AB%AF%E5%B0%8F%E7%8E%A9%E6%84%8F/</loc>
+    <lastmod>2025-08-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hanta2011.top/tags/PCL/</loc>
     <lastmod>2025-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -620,14 +620,14 @@
   </url>
   
   <url>
-    <loc>https://blog.hanta2011.top/tags/Twikoo/</loc>
+    <loc>https://blog.hanta2011.top/tags/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95/</loc>
     <lastmod>2025-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.hanta2011.top/tags/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95/</loc>
+    <loc>https://blog.hanta2011.top/tags/Twikoo/</loc>
     <lastmod>2025-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -713,14 +713,14 @@
   </url>
   
   <url>
-    <loc>https://blog.hanta2011.top/categories/PCL/</loc>
+    <loc>https://blog.hanta2011.top/categories/Python/</loc>
     <lastmod>2025-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.hanta2011.top/categories/Python/</loc>
+    <loc>https://blog.hanta2011.top/categories/PCL/</loc>
     <lastmod>2025-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

@@ -225,3 +225,38 @@ svg.social_icon {
 } */
 
 /* ========================twikoo美化====================== */
+
+/* 版权样式调整 */
+#post .post-copyright {
+    background: var(--hanta-card-bg);
+    padding: 1rem 1.3rem;
+    overflow: hidden;
+    border: var(--style-border);
+    border-width: 1px;
+    transition: 0.3s;
+    position: relative;
+    margin: 1.5rem 0px 0.5rem;
+    border-radius: 8px;
+}
+
+#post .post-copyright:before {
+    position: absolute;
+    right: 22px;
+    top: -77px;
+    content: "\e039";
+    font-size: 180px;
+    font-family: "iconfont";
+    color: var(--icat-fontcolor);
+    opacity: 0.1;
+    filter: blur(7px);
+}
+
+/* 版权样式调整end */
+
+:root {
+    --hanta-card-bg: #fff;
+}
+
+[data-theme='dark'] {
+    --hanta-card-bg: #1b1c20;
+}

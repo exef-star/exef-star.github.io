@@ -1,0 +1,254 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: Hantaの天境小屋🥝
+subtitle: '向着阳光生长'
+description: 'The boy who lived'
+keywords: blog, hanta, developer, programming, technology, life
+author: Hanta
+language: zh-CN
+timezone: 'Asia/Shanghai'
+email: 2667174454@qq.com
+
+# URL
+## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
+url: https://blog.hanta2011.top
+permalink: posts/:abbrlink.html
+permalink_defaults:
+pretty_urls:
+  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link:
+  enable: true # Open external links in new tab
+  field: site # Apply to the whole site
+  exclude: ''
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+syntax_highlighter: highlight.js
+highlight:
+  line_number: true
+  auto_detect: false
+  tab_replace: ''
+  wrap: true
+  hljs: false
+prismjs:
+  preprocess: true
+  line_number: true
+  tab_replace: ''
+
+# Home page setting
+# path: Root path for your blogs index page. (default = '')
+# per_page: Posts displayed per page. (0 = disable pagination)
+# order_by: Posts order. (Order by date descending by default)
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -date
+
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Metadata elements
+## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
+meta_generator: true
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+## updated_option supports 'mtime', 'date', 'empty'
+updated_option: 'mtime'
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 10
+pagination_dir: page
+
+# Include / Exclude file(s)
+## include:/exclude: options only apply to the 'source/' folder
+include:
+exclude:
+ignore:
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: butterfly
+
+# Deployment
+## Docs: https://hexo.io/docs/one-command-deployment
+deploy:
+  type: 'git'
+  repo: https://github.com/exef-star/exef-star.github.io.git
+  branch: main
+
+# RSS订阅：https://github.com/hexojs/hexo-generator-feed
+feed:
+  enable: true  # 启用或禁用Feed插件，true为启用，false为禁用
+  type: # 设置Feed的类型，可以是atom或rss2，或者两者都输出
+    - atom
+    - rss2
+  path: # 设置Feed文件的路径，当输出两种类型时，需要按照类型顺序设置路径
+    - atom.xml
+    - rss2.xml
+  limit: 0  # 设置Feed中显示的文章数量上限，0或false表示显示所有文章
+  hub:  # PubSubHubbub中心URL，如果不使用可以留空
+  content:  # 是否在Feed中包含文章全文内容，true为包含，false为不包含
+  content_limit: 140  # 设置Feed中文章内容的长度限制，仅当content为false时有效
+  content_limit_delim: ' '  # 设置内容长度限制的分割符，默认为空格
+  order_by: -date  # 设置Feed中文章的排序方式，默认按日期倒序
+  icon: icon.png  # 设置Feed的图标，默认使用_config.yml中指定的电子邮件的gravatar
+  autodiscovery: true  # 是否启用Feed的自动发现功能，true为启用，false为禁用
+  template:  # 设置自定义Feed模板的路径，可以指定一个或多个模板
+
+nofollow:
+  enable: true
+  field: site
+  exclude:
+
+sitemap:
+  path: sitemap.xml
+
+magnet:
+  enable: true
+  priority: 1
+  enable_page: /
+  type: tags
+  devide: 2
+  display:
+    - name: Python
+      display_name: Python小玩意
+      icon: 📚
+    - name: 总结
+      display_name: 一些总结文章
+      icon: 📝
+    - name: 杂谈
+      display_name: 芜湖~杂谈！
+      icon: 🐱‍👓
+    - name: 前端
+      display_name: 前端的一些东西
+      icon: 👩‍💻
+  color_setting:
+    text_color: black
+    text_hover_color: white
+    background_color: "#f2f2f2"
+    background_hover_color: "#A8D6D2"
+  layout:
+    type: id
+    name: recent-posts
+    index: 0
+  temple_html: '<div class="recent-post-item" style="width:100%;height: auto"><div id="catalog_magnet">${temple_html_item}</div></div>'
+  plus_style: ""
+
+# _config.yml
+OhMyLive2d:
+  enable: true
+  CDN: https://registry.npmmirror.com/oh-my-live2d/latest/files
+  # CDN: https://registry.npmmirror.com/oh-my-live2d/0.13/files/dist/index.min.js
+  option:
+    # importType: 'cubism2' #  导入类型, 默认使用全量导入: complete , 可选值: complete, cubism2, cubism5
+    libraryUrls: # 自定义 Cubism SDK 外部资源地址
+      complete: https://registry.npmmirror.com/oh-my-live2d/latest/files/lib/complete.js
+      cubism2: https://registry.npmmirror.com/oh-my-live2d/latest/files/lib/cubism2.js
+      cubism5: https://registry.npmmirror.com/oh-my-live2d/latest/files/lib/cubism5.js
+    # menus:
+    # items: |
+    #   (defaultItems)=>{
+    #    return [
+    #      ...defaultItems,
+    #      {
+    #        id: 'github',
+    #        icon: 'github-fill',
+    #        title: '我的github',
+    #        onClick: ()=>window.open('https://github.com/hacxy')
+    #      }
+    #    ]
+    #   }
+
+    # items:
+    #   - id: 'github'
+    #     icon: 'github-fill'
+    #     title: '我的github'
+    #     onClick: ()=>window.open('https://github.com/hacxy')
+
+    mobileDisplay: false # 是否在移动端显示
+    models:
+      - path: /live2d-model-vertin/vertin.model3.json
+        mobilePosition: [-10, 23] # 移动端时模型在舞台中的位置。 默认值: [0,0] [横坐标, 纵坐标]
+        mobileScale: 0.5 # 移动端时模型的缩放比例 默认值: 0.1
+        mobileStageStyle: # 移动端时舞台的样式
+          width: 180
+          height: 166
+        motionPreloadStrategy: IDLE # 动作预加载策略 默认值: IDLE 可选值: ALL | IDLE | NONE
+        position: [-150, -30] # 模型在舞台中的位置。 默认值: [0,0] [横坐标, 纵坐标]
+        scale: 0.4 # 模型的缩放比例 默认值: 0.1
+        # showHitAreaFrames: false # 是否显示点击区域 默认值: false
+        stageStyle:
+          width: 250
+          height: 250
+    parentElement: document.body #为组件提供一个父元素，如果未指定则默认挂载到 body 中
+    primaryColor: 'var(--btn-bg)' # 主题色 支持变量
+    sayHello: false # 是否在初始化阶段打印项目信息
+    tips:
+      style:
+        width: 200
+        height: 60
+        left: calc(50% - 20px)
+        top: -100px
+      mobileStyle:
+        width: 180
+        height: 80
+        left: calc(50% - 30px)
+        top: -100px
+      idleTips:
+        interval: 1500
+        # message:
+        #   - 你好呀~
+        #   - 欢迎来到我的小站~
+        # 自定义提示语 需要 引入 axios 库 ,也可以使用其他方法
+        message: |
+          function(){
+            return axios.get('https://v1.hitokoto.cn?c=i')
+              .then(function (response) {
+                return response.data.hitokoto ;
+              })
+              .catch(function (error) {
+                console.error(error);
+              });
+          }
+        # wordTheDay: true
+        # 自定义  https://v1.hitokoto.cn  数据
+        # wordTheDay: |
+        #   function(wordTheDayData){
+        #     return `${wordTheDayData.hitokoto}    by.${wordTheDayData.from}`;
+        #   }
+  # then: |
+  #   (oml2d)=>{
+  #      setTimeout(() => {
+  #     oml2d.tipsMessage('hello world', 3000, 10);
+  #   }, 8000);
+  #   }

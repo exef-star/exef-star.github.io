@@ -1,0 +1,431 @@
+# --------------------------------------
+# Hexo Butterfly Theme Configuration
+# If you have any questions, please refer to the documentation
+# Chinese: https://butterfly.js.org/
+# English: https://butterfly.js.org/en/
+# --------------------------------------
+
+# --------------------------------------
+# Navigation Settings
+# --------------------------------------
+
+nav:
+  # Navigation bar logo image
+  logo:
+  display_title: true
+  display_post_title: true
+  # Whether to fix navigation bar
+  fixed: false
+
+menu:
+  归档: /archives/ || iconfont icon-dangandai
+  标签: /tags/ || iconfont icon-sekuaibiaoqian
+  分类: /categories/ || iconfont icon-fenlei
+  列表||iconfont icon-xiangzi:
+    音乐: https://music.hanta2011.top || iconfont icon-yinyue
+    留言板: /comment/ || iconfont icon-FAQ
+  友人帐||iconfont icon-xiangzi:
+    友链: /link/ || iconfont icon-wd-applet-people-analytics
+    申请友链: /addyoulian/ || iconfont icon-qianzi
+  关于||iconfont icon-hantafrog:
+    关于我: /about/ || iconfont icon-hantafrog
+    rss: /atom.xml || iconfont icon-rss
+
+code_blocks:
+  # 代码块主题: darker / pale night / light / ocean / false
+  theme: light
+  macStyle: true
+  # 代码块高度限制 (单位: px)
+  height_limit: 500
+  word_wrap: false
+
+  # 代码块状态栏设置
+  copy: true
+  language: true
+  # true: shrink the code blocks | false: expand the code blocks | none: expand code blocks and hide the button
+  shrink: false
+  fullpage: false
+
+social:
+  Github: https://github.com/exef-star || icon-github || faa-tada
+  QQ: https://res.abeim.cn/api/qq/?qq=2667174454 || icon-QQ || faa-tada
+  Bilibili: https://space.bilibili.com/3537111871392719 || icon-bilibili1 || faa-tada
+  QQMail: mailto:2667174454@qq.com || icon-youxianglianjie || faa-tada
+  163Email: mailto:wy2667174454@163.com || icon-wangyiyouxiang_24 || faa-tada
+
+favicon: https://i.p-i.vip/68/20250316-67d6818047734.jpg
+
+avatar:
+  img: https://i.p-i.vip/68/20250316-67d6818047734.jpg
+  effect: false
+
+disable_top_img: true
+
+background: https://i.p-i.vip/68/20250822-68a82c103e02f.webp
+
+cover:
+  # 是否显示文章封面
+  index_enable: true
+  aside_enable: true
+  archives_enable: true
+  default_cover: https://i.p-i.vip/68/20250817-68a137984d82c.webp
+
+post_meta:
+  # Home Page
+  page:
+    # Choose: created / updated / both
+    date_type: created
+    # Choose: date / relative
+    date_format: date
+    categories: true
+    tags: true
+    label: true
+  post:
+    # Choose: left / center
+    position: left
+    # Choose: created / updated / both
+    date_type: both
+    # Choose: date / relative
+    date_format: date
+    categories: true
+    tags: true
+    label: true
+
+index_post_content:
+  method: 2
+  # If you set method to 2 or 3, the length need to config
+  length: 500
+
+toc:
+  post: true
+  page: false
+  number: true
+  expand: false
+  # Only for post
+  style_simple: false
+  scroll_percent: true
+
+related_post:
+  enable: true
+  # Number of posts displayed
+  limit: 3
+  # Choose: created / updated
+  date_type: created
+
+noticeOutdate:
+  enable: true
+  # Style: simple / flat
+  style: flat
+  # When will it be shown
+  limit_day: 100
+  # Position: top / bottom
+  position: top
+  message_prev: 距离上次更新已超过
+  message_next: 天，文章内容可能已经过时了呜QwQ~
+
+footer:
+  nav:
+  owner:
+    enable: true
+    since: 2024
+  # Copyright of theme and framework
+  copyright:
+    enable: true
+    version: true
+  custom_text:
+
+# --------------------------------------
+# Aside Settings
+# --------------------------------------
+
+aside:
+  enable: true
+  hide: false
+  # Show the button to hide the aside in bottom right button
+  button: true
+  mobile: true
+  # Position: left / right
+  position: right
+  display:
+    archive: true
+    tag: true
+    category: true
+  card_author:
+    enable: true
+    description:
+    button:
+      enable: true
+      icon: iconfont icon-github
+      text: Github主页！！！
+      link: https://github.com/exef-star
+  card_announcement:
+    enable: true
+    content: 博客当前更新到了Butterfly主题的最新版本（5.4.3），太多Bug啦，从原来的安知鱼主题中迁移了出来，还有什么问题就在留言版上说吧~
+  card_recent_post:
+    enable: true
+    # If set 0 will show all
+    limit: 5
+    # Sort: date / updated
+    sort: date
+    sort_order:
+  card_newest_comments:
+    enable: true
+    sort_order:
+    limit: 3
+    # Unit: mins, save data to localStorage
+    storage: 10
+    avatar: true
+  card_categories:
+    enable: true
+    # If set 0 will show all
+    limit: 8
+    # Choose: none / true / false
+    expand: none
+    sort_order:
+  card_tags:
+    enable: true
+    # If set 0 will show all
+    limit: 40
+    color: true
+    # Order of tags, random/name/length
+    orderby: random
+    # Sort of order. 1, asc for ascending; -1, desc for descending
+    order: 1
+    sort_order:
+  card_archives:
+    enable: true
+    # Type: monthly / yearly
+    type: monthly
+    # Eg: YYYY年MM月
+    format: MMMM YYYY
+    # Sort of order. 1, asc for ascending; -1, desc for descending
+    order: -1
+    # If set 0 will show all
+    limit: 8
+    sort_order:
+  card_post_series:
+    enable: true
+    # The title shows the series name
+    series_title: false
+    # Order by title or date
+    orderBy: 'date'
+    # Sort of order. 1, asc for ascending; -1, desc for descending
+    order: -1
+  card_webinfo:
+    enable: true
+    post_count: true
+    last_push_date: true
+    sort_order:
+    # Time difference between publish date and now
+    # Formal: Month/Day/Year Time or Year/Month/Day Time
+    # Leave it empty if you don't enable this feature
+    runtime_date: 2/6/2024 00:00:00
+
+translate:
+  enable: true
+  # The text of a button
+  default: 繁
+  # the language of website (1 - Traditional Chinese/ 2 - Simplified Chinese）
+  defaultEncoding: 2
+  # Time delay
+  translateDelay: 0
+  # The text of the button when the language is Simplified Chinese
+  msgToTraditionalChinese: '繁'
+  # The text of the button when the language is Traditional Chinese
+  msgToSimplifiedChinese: '簡'
+
+darkmode:
+  enable: true
+  # Toggle Button to switch dark/light mode
+  button: true
+  # Switch dark/light mode automatically
+  # autoChangeMode: 1  Following System Settings, if the system doesn't support dark mode, it will switch dark mode between 6 pm to 6 am
+  # autoChangeMode: 2  Switch dark mode between 6 pm to 6 am
+  # autoChangeMode: false
+  autoChangeMode: true
+  # Set the light mode time. The value is between 0 and 24. If not set, the default value is 6 and 18
+  start: 6
+  end: 18
+
+rightside_scroll_percent: true
+
+photofigcaption: true
+
+wordcount:
+  enable: true
+  # Display the word count of the article in post meta
+  post_wordcount: true
+  # Display the time to read the article in post meta
+  min2read: true
+  # Display the total word count of the website in aside's webinfo
+  total_wordcount: true
+
+math:
+  # Choose: mathjax, katex
+  # Leave it empty if you don't need math
+  use: katex
+  per_page: true
+  hide_scrollbar: false
+
+  mathjax:
+    # Enable the contextual menu
+    enableMenu: true
+    # Choose: all / ams / none, This controls whether equations are numbered and how
+    tags: none
+
+  katex:
+    # Enable the copy KaTeX formula
+    copy_tex: true
+
+search:
+  # Choose: algolia_search / local_search / docsearch
+  # leave it empty if you don't need search
+  use: local_search
+  placeholder:
+
+  # Algolia Search
+  algolia_search:
+    # Number of search results per page
+    hitsPerPage: 6
+
+  # Local Search
+  local_search:
+    # Preload the search data when the page loads.
+    preload: true
+    # Show top n results per article, show all results by setting to -1
+    top_n_per_article: 1
+    # Unescape html strings to the readable one.
+    unescape: false
+    CDN:
+
+  # Docsearch
+  # https://docsearch.algolia.com/
+  docsearch:
+    appId:
+    apiKey:
+    indexName:
+    option:
+
+text_align_justify: true
+
+mask:
+  header: false
+  footer: false
+
+beautify:
+  enable: true
+  # Specify the field to beautify (site or post)
+  field: site
+  # Specify the icon to be used as a prefix for the title, such as '\f0c1'
+  title_prefix_icon: '\f105'
+  # Specify the color of the title prefix icon, such as '#F47466'
+  title_prefix_icon_color: '#A8D6D2'
+
+font:
+  global_font_size: 15px
+  code_font_size: 15px
+  font_family: LXGW WenKai, LXGW WenKai, "LXGW WenKai", "LXGW WenKai", Lato, Roboto, "LXGW WenKai", "LXGW WenKai", "LXGW WenKai", sans-serif
+  code_font_family: consolas, Menlo, "LXGW WenKai", "LXGW WenKai", "LXGW WenKai", sans-serif
+
+inject:
+  head:
+    - <link rel='stylesheet' href='https://fontsapi.zeoseven.com/292/main/result.css' />
+    - <link rel='stylesheet' type="text/css" href='/css/custom.css' />
+    - <link rel='stylesheet' type="text/css" href='/css/footer.css' />
+    - <link rel='stylesheet' href='//at.alicdn.com/t/c/font_4594895_d9j9v7ru0fe.css' /> # 导航栏图标
+    - <link rel='stylesheet' href='//at.alicdn.com/t/c/font_4815925_x7iusj8nis.css' /> # 侧边栏图标
+  bottom:
+    - <script src="/js/custom.js"></script>
+    - <script src="//at.alicdn.com/t/c/font_4594895_d9j9v7ru0fe.js"></script> # 导航栏图标
+    - <script src="//at.alicdn.com/t/c/font_4815925_x7iusj8nis.js"></script> # 侧边栏图标
+
+fireworks:
+  enable: true
+  zIndex: 9999
+  mobile: false
+
+lightbox: fancybox
+
+mermaid:
+  enable: true
+  # Write Mermaid diagrams using code blocks
+  code_write: false
+  # built-in themes: default / forest / dark / neutral
+  theme:
+    light: default
+    dark: dark
+
+snackbar:
+  enable: true
+  position: top-left
+  # The background color of Toast Notification in light mode and dark mode
+  bg_light: '#A8D6D2'
+  bg_dark: '#8FCBC5'
+
+instantpage: true
+
+# hexo-abbrlink
+abbrlink:
+  alg: crc32      #支持crc16和crc32算法（默认crc16）
+  rep: hex        #支持dec和hex值（默认dec）
+  drafts: false   #(true)Process draft,(false)Do not process draft. false(default) 
+  # Generate categories from directory-tree
+  # depth: the max_depth of directory-tree you want to generate, should > 0
+  auto_category:
+     enable: true  #true(default)
+     depth:        #3(default)
+     over_write: false 
+  auto_title: false #enable auto title, it can auto fill the title by path
+  auto_date: false #enable auto date, it can auto fill the date by time today
+  force: false #enable force mode,in this mode, the plugin will ignore the cache, and calc the abbrlink for every post even it already had abbrlink.
+
+# hexo-butterfly-swiper
+# see https://akilar.top/posts/8e1264d1/
+swiper:
+  enable: true # 开关
+  priority: 5 #过滤器优先权
+  enable_page: all # 应用页面
+  timemode: date #date/updated
+  layout: # 挂载容器类型
+    type: id
+    name: recent-posts
+    index: 0
+  default_descr: 再怎么看我也不知道怎么描述它的啦！
+  swiper_css: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.css #swiper css依赖
+  swiper_js: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.js #swiper js依赖
+  custom_css: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiperstyle.css # 适配主题样式补丁
+  custom_js: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper_init.js # swiper初始化方法
+
+# tag-plugins-plus
+# see https://akilar.top/posts/615e2dec/
+tag_plugins:
+  enable: true # 开关
+  priority: 5 #过滤器优先权
+  issues: false #issues标签依赖注入开关
+  link:
+    placeholder: /img/link.png #link_card标签默认的图标图片
+  CDN:
+    anima: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css #动画标签anima的依赖
+    jquery: https://npm.elemecdn.com/jquery@latest/dist/jquery.min.js #issues标签依赖
+    issues: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/issues.js #issues标签依赖
+    iconfont: //at.alicdn.com/t/font_2032782_8d5kxvn09md.js #参看https://akilar.top/posts/d2ebecef/
+    carousel: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js
+    tag_plugins_css: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css
+
+footer_img: transparent
+
+flink_style: volantis
+
+# https://umami.is/
+umami_analytics:
+  enable: true
+  # For self-hosted setups, configure the hostname of the Umami instance
+  serverURL: https://umami.hanta2011.top/
+  website_id: fdb70bf7-a289-43db-88c0-19acc008abfd
+  option:
+  UV_PV:
+    site_uv: true
+    site_pv: true
+    page_pv: true
+    # Umami Cloud (API key) / self-hosted Umami (token)
+    token: bg+5PSJuZ32kw1iluIZcgg1ZYYQYWboGCqG0ZYuNQkZyEBeM2qoIgzd6bBQYw6d73Qi6rwbL/uq8kRV4lvwP1sC1h1XrkZHMPB5V1XO446F/5PykUJJc4z9HbvakKQuBT7PZu50qo6X4g49pdDnF9mWZXc65pXa4u4DszS+vrjTNRgUZzlUOGRn7JxRrDBxIKjV/meJnLkdB077kuzam+w5YnqzX2IZoawsRBg/PjzFulxrVzYFMYPLxXScbOaSs7SnoMdv1yld859ex2xBTZLChD/70c88q2QmEAzLNhHMISIoCM92L9+1T5AMFTPsmsMbkIEQkXvkqQNhABy7fXw0t6Rj16BBrgz4M0GXc2bR+CGPBvYTZ1PAxpmaQ

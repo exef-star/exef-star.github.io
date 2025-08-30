@@ -260,3 +260,12 @@ svg.social_icon {
 [data-theme='dark'] {
     --hanta-card-bg: #1b1c20;
 }
+
+/*侧边卡片的透明度 */
+:root {
+    --card-bg: rgba(255, 255, 255, 0.8);
+}
+
+[data-theme="dark"] {
+    --card-bg: rgba(255, 255, 255, 0.2);
+}

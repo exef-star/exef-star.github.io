@@ -263,9 +263,9 @@ svg.social_icon {
 
 /*侧边卡片的透明度 */
 :root {
-    --card-bg: rgba(255, 255, 255, 0.8);
+  --card-bg: rgba(255, 255, 255, 0.85);
 }
 
 [data-theme="dark"] {
-    --card-bg: rgba(255, 255, 255, 0.2);
+  --card-bg: rgba(255, 255, 255, 0.2);
 }

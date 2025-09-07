@@ -72,11 +72,11 @@ const formatLocation = (country, prov, city) => {
 };
 
 const generateWelcomeMessage = (pos, dist, ipDisplay, country, prov, city) => `
-    欢迎来自 <b>${pos}</b> 的小友💖<br>
-    你当前距博主约 <b>${dist}</b> 公里！<br>
+    欢迎来自 <b color="#A8D6D2">${pos}</b> 的小友💖<br>
+    你当前距博主约 <b color="#A8D6D2">${dist}</b> 公里！<br>
     你的IP地址：<b class="ip-address">${ipDisplay}</b><br>
     ${getTimeGreeting()}<br>
-    Tip：<b>${getGreeting(country, prov, city)}🍂</b>
+    Tip：<b color="#A8D6D2">${getGreeting(country, prov, city)}🍂</b>
 `;
 
 const addStyles = () => {

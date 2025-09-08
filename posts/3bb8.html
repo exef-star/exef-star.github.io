@@ -72,7 +72,7 @@
         document.head.appendChild(link)
       }),
       addGlobalFn: (key, fn, name = false, parent = window) => {
-        if (!false && key.startsWith('pjax')) return
+        if (!true && key.startsWith('pjax')) return
         const globalFn = parent.globalFn || {}
         globalFn[key] = globalFn[key] || {}
         globalFn[key][name || Object.keys(globalFn[key]).length] = fn
@@ -396,7 +396,153 @@
   } else {
     window.loadOtherComment = loadWaline
   }
-})()</script></div><script src="/js/custom.js"></script><script src="/js/card-welcome.js"></script><script src="//at.alicdn.com/t/c/font_4594895_d9j9v7ru0fe.js"></script><script src="/js/sakura.js"></script><script src="//at.alicdn.com/t/c/font_4815925_x7iusj8nis.js"></script><canvas class="fireworks" mobile="false"></canvas><script src="https://cdnjs.onmicrosoft.cn/ajax/libs/butterfly-extsrc/1.1.4/fireworks.min.js"></script><script>(() => {
+})()</script></div><script>window.newestComments = {
+  changeContent: content => {
+    if (content === '') return content
+
+    content = content.replace(/<img.*?src="(.*?)"?[^\>]+>/ig, '[图片]') // replace image link
+    content = content.replace(/<a[^>]+?href=["']?([^"']+)["']?[^>]*>([^<]+)<\/a>/gi, '[链接]') // replace url
+    content = content.replace(/<pre><code>.*?<\/pre>/gi, '[代码]') // replace code
+    content = content.replace(/<code>.*?<\/code>/gi, '[代码]') // replace code
+    content = content.replace(/<[^>]+>/g, "") // remove html tag
+
+    if (content.length > 150) {
+      content = content.substring(0, 150) + '...'
+    }
+    return content
+  },
+
+  generateHtml: (array, ele) => {
+    let result = ''
+
+    if (array.length) {
+      for (let i = 0; i < array.length; i++) {
+        result += '<div class="aside-list-item">'
+
+        if (true && array[i].avatar) {
+          const imgAttr = 'src'
+          const lazyloadNative = ''
+          result += `<a href="${array[i].url}" class="thumbnail"><img ${imgAttr}="${array[i].avatar}" alt="${array[i].nick}" ${lazyloadNative}></a>`
+        }
+
+        result += `<div class="content">
+        <a class="comment" href="${array[i].url}" title="${array[i].content}">${array[i].content}</a>
+        <div class="name"><span>${array[i].nick} / </span><time datetime="${array[i].date}">${btf.diffDate(array[i].date, true)}</time></div>
+        </div></div>`
+      }
+    } else {
+      result += '暂无评论'
+    }
+
+    ele.innerHTML = result
+    window.lazyLoadInstance && window.lazyLoadInstance.update()
+    window.pjax && window.pjax.refresh(ele)
+  },
+
+  newestCommentInit: (name, getComment) => {
+    const $dom = document.querySelector('#card-newest-comments .aside-list')
+    if ($dom) {
+      const data = btf.saveToLocal.get(name)
+      if (data) {
+        newestComments.generateHtml(JSON.parse(data), $dom)
+      } else {
+        getComment($dom)
+      }
+    }
+  },
+
+  run: (name, getComment) => {
+    newestComments.newestCommentInit(name, getComment)
+    btf.addGlobalFn('pjaxComplete', () => newestComments.newestCommentInit(name, getComment), name)
+  }
+}</script><script>window.addEventListener('load', () => {
+  const keyName = 'twikoo-newest-comments'
+  const { changeContent, generateHtml, run } = window.newestComments
+
+  const getComment = ele => {
+    const runTwikoo = () => {
+      twikoo.getRecentComments({
+        envId: 'https://twikoo.hanta2011.top/',
+        region: '',
+        pageSize: 3,
+        includeReply: true
+      }).then(res => {
+        const twikooArray = res.map(e => {
+          return {
+            'content': changeContent(e.comment),
+            'avatar': e.avatar,
+            'nick': e.nick,
+            'url': e.url + '#' + e.id,
+            'date': new Date(e.created).toISOString()
+          }
+        })
+
+        btf.saveToLocal.set(keyName, JSON.stringify(twikooArray), 10/(60*24))
+        generateHtml(twikooArray, ele)
+      }).catch(err => {
+        console.error(err)
+        ele.textContent= "无法获取评论，请确认相关配置是否正确"
+      })
+    }
+
+    if (typeof twikoo === 'object') {
+      runTwikoo()
+    } else {
+      btf.getScript('https://cdnjs.onmicrosoft.cn/ajax/libs/twikoo/1.6.44/twikoo.all.min.js').then(runTwikoo)
+    }
+  }
+
+  run(keyName, getComment)
+})</script><script src="/js/custom.js"></script><script src="/js/card-welcome.js"></script><script src="//at.alicdn.com/t/c/font_4594895_d9j9v7ru0fe.js"></script><script src="/js/sakura.js"></script><script src="//at.alicdn.com/t/c/font_4815925_x7iusj8nis.js"></script><canvas class="fireworks" mobile="false"></canvas><script src="https://cdnjs.onmicrosoft.cn/ajax/libs/butterfly-extsrc/1.1.4/fireworks.min.js"></script><script src="https://cdnjs.onmicrosoft.cn/ajax/libs/pjax/0.2.8/pjax.min.js"></script><script>(() => {
+  const pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+
+  window.pjax = new Pjax({
+    elements: 'a:not([target="_blank"])',
+    selectors: pjaxSelectors,
+    cacheBust: false,
+    analytics: false,
+    scrollRestoration: false
+  })
+
+  const triggerPjaxFn = (val) => {
+    if (!val) return
+    Object.values(val).forEach(fn => fn())
+  }
+
+  document.addEventListener('pjax:send', () => {
+    // removeEventListener
+    btf.removeGlobalFnEvent('pjaxSendOnce')
+    btf.removeGlobalFnEvent('themeChange')
+
+    // reset readmode
+    const $bodyClassList = document.body.classList
+    if ($bodyClassList.contains('read-mode')) $bodyClassList.remove('read-mode')
+
+    triggerPjaxFn(window.globalFn.pjaxSend)
+  })
+
+  document.addEventListener('pjax:complete', () => {
+    btf.removeGlobalFnEvent('pjaxCompleteOnce')
+    document.querySelectorAll('script[data-pjax]').forEach(item => {
+      const newScript = document.createElement('script')
+      const content = item.text || item.textContent || item.innerHTML || ""
+      Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+      newScript.appendChild(document.createTextNode(content))
+      item.parentNode.replaceChild(newScript, item)
+    })
+
+    triggerPjaxFn(window.globalFn.pjaxComplete)
+  })
+
+  document.addEventListener('pjax:error', e => {
+    if (e.request.status === 404) {
+      const usePjax = true
+      true
+        ? (usePjax ? pjax.loadUrl('/404.html') : window.location.href = '/404.html')
+        : window.location.href = e.request.responseURL
+    }
+  })
+})()</script><script>(() => {
   const option = null
   const config = {"site_uv":true,"site_pv":true,"page_pv":true,"token":"bg+5PSJuZ32kw1iluIZcgg1ZYYQYWboGCqG0ZYuNQkZyEBeM2qoIgzd6bBQYw6d73Qi6rwbL/uq8kRV4lvwP1sC1h1XrkZHMPB5V1XO446F/5PykUJJc4z9HbvakKQuBT7PZu50qo6X4g49pdDnF9mWZXc65pXa4u4DszS+vrjTNRgUZzlUOGRn7JxRrDBxIKjV/meJnLkdB077kuzam+w5YnqzX2IZoawsRBg/PjzFulxrVzYFMYPLxXScbOaSs7SnoMdv1yld859ex2xBTZLChD/70c88q2QmEAzLNhHMISIoCM92L9+1T5AMFTPsmsMbkIEQkXvkqQNhABy7fXw0t6Rj16BBrgz4M0GXc2bR+CGPBvYTZ1PAxpmaQ"}
 
@@ -463,7 +609,7 @@
     <style></style><script data-pjax>
   function butterfly_swiper_injector_config(){
     var parent_div_git = document.getElementById('recent-posts');
-    var item_html = '<div class="recent-post-item" style="height: auto;width: 100%"><div class="blog-slider swiper-container-fade swiper-container-horizontal" id="swiper_container"><div class="blog-slider__wrp swiper-wrapper" style="transition-duration: 0ms;"><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" href="posts/13472.html" alt=""><img width="48" height="48" src="https://i.p-i.vip/68/20250828-68b020f5a08dc.webp" alt="" onerror="this.src=https://unpkg.zhimg.com/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2025-08-25</span><a class="blog-slider__title" href="posts/13472.html" alt="">从安知鱼迁回Butterflyの札记</a><div class="blog-slider__text">一周过去了，直接一个诈尸行为</div><a class="blog-slider__button" href="posts/13472.html" alt="">详情   </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" href="posts/5692.html" alt=""><img width="48" height="48" src="https://i.p-i.vip/68/20250803-688f4eac9ae3e.webp" alt="" onerror="this.src=https://unpkg.zhimg.com/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2025-08-03</span><a class="blog-slider__title" href="posts/5692.html" alt="">暂时性通知</a><div class="blog-slider__text">网站通知</div><a class="blog-slider__button" href="posts/5692.html" alt="">详情   </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" href="posts/9893.html" alt=""><img width="48" height="48" src="https://i.p-i.vip/68/20250629-6860fc11bca72.webp" alt="" onerror="this.src=https://unpkg.zhimg.com/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2025-06-29</span><a class="blog-slider__title" href="posts/9893.html" alt="">（进阶）更高级的Uptime Statusの部署笔记</a><div class="blog-slider__text">记录一下另一版的Uptime Status页面搭建</div><a class="blog-slider__button" href="posts/9893.html" alt="">详情   </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" href="posts/ed07.html" alt=""><img width="48" height="48" src="https://i.p-i.vip/68/20250622-6857a0e440dfe.webp" alt="" onerror="this.src=https://unpkg.zhimg.com/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2025-06-21</span><a class="blog-slider__title" href="posts/ed07.html" alt="">Heo Music&amp;Uptime Statusの搭建美化小记</a><div class="blog-slider__text">记录一下HeoMusic和UptimeRobot的搭建</div><a class="blog-slider__button" href="posts/ed07.html" alt="">详情   </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" href="posts/e323.html" alt=""><img width="48" height="48" src="https://i.p-i.vip/68/20250518-682999d014081.webp" alt="" onerror="this.src=https://unpkg.zhimg.com/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2025-05-18</span><a class="blog-slider__title" href="posts/e323.html" alt="">安卓Alist Flutter + Turmux cpolar实现内网穿透</a><div class="blog-slider__text">Alist Flutter + Turmux 🍰cpolar自部署网盘教程</div><a class="blog-slider__button" href="posts/e323.html" alt="">详情   </a></div></div></div><div class="blog-slider__pagination swiper-pagination-clickable swiper-pagination-bullets"></div></div></div>';
+    var item_html = '<div class="recent-post-item" style="height: auto;width: 100%"><div class="blog-slider swiper-container-fade swiper-container-horizontal" id="swiper_container"><div class="blog-slider__wrp swiper-wrapper" style="transition-duration: 0ms;"><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" onclick="pjax.loadUrl(&quot;posts/13472.html&quot;);" href="javascript:void(0);" rel="external nofollow noreferrer" alt=""><img width="48" height="48" src="https://i.p-i.vip/68/20250828-68b020f5a08dc.webp" alt="" onerror="this.src=https://unpkg.zhimg.com/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2025-08-25</span><a class="blog-slider__title" onclick="pjax.loadUrl(&quot;posts/13472.html&quot;);" href="javascript:void(0);" rel="external nofollow noreferrer" alt="">从安知鱼迁回Butterflyの札记</a><div class="blog-slider__text">一周过去了，直接一个诈尸行为</div><a class="blog-slider__button" onclick="pjax.loadUrl(&quot;posts/13472.html&quot;);" href="javascript:void(0);" rel="external nofollow noreferrer" alt="">详情       </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" onclick="pjax.loadUrl(&quot;posts/5692.html&quot;);" href="javascript:void(0);" rel="external nofollow noreferrer" alt=""><img width="48" height="48" src="https://i.p-i.vip/68/20250803-688f4eac9ae3e.webp" alt="" onerror="this.src=https://unpkg.zhimg.com/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2025-08-03</span><a class="blog-slider__title" onclick="pjax.loadUrl(&quot;posts/5692.html&quot;);" href="javascript:void(0);" rel="external nofollow noreferrer" alt="">暂时性通知</a><div class="blog-slider__text">网站通知</div><a class="blog-slider__button" onclick="pjax.loadUrl(&quot;posts/5692.html&quot;);" href="javascript:void(0);" rel="external nofollow noreferrer" alt="">详情       </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" onclick="pjax.loadUrl(&quot;posts/9893.html&quot;);" href="javascript:void(0);" rel="external nofollow noreferrer" alt=""><img width="48" height="48" src="https://i.p-i.vip/68/20250629-6860fc11bca72.webp" alt="" onerror="this.src=https://unpkg.zhimg.com/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2025-06-29</span><a class="blog-slider__title" onclick="pjax.loadUrl(&quot;posts/9893.html&quot;);" href="javascript:void(0);" rel="external nofollow noreferrer" alt="">（进阶）更高级的Uptime Statusの部署笔记</a><div class="blog-slider__text">记录一下另一版的Uptime Status页面搭建</div><a class="blog-slider__button" onclick="pjax.loadUrl(&quot;posts/9893.html&quot;);" href="javascript:void(0);" rel="external nofollow noreferrer" alt="">详情       </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" onclick="pjax.loadUrl(&quot;posts/ed07.html&quot;);" href="javascript:void(0);" rel="external nofollow noreferrer" alt=""><img width="48" height="48" src="https://i.p-i.vip/68/20250622-6857a0e440dfe.webp" alt="" onerror="this.src=https://unpkg.zhimg.com/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2025-06-21</span><a class="blog-slider__title" onclick="pjax.loadUrl(&quot;posts/ed07.html&quot;);" href="javascript:void(0);" rel="external nofollow noreferrer" alt="">Heo Music&amp;Uptime Statusの搭建美化小记</a><div class="blog-slider__text">记录一下HeoMusic和UptimeRobot的搭建</div><a class="blog-slider__button" onclick="pjax.loadUrl(&quot;posts/ed07.html&quot;);" href="javascript:void(0);" rel="external nofollow noreferrer" alt="">详情       </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" onclick="pjax.loadUrl(&quot;posts/e323.html&quot;);" href="javascript:void(0);" rel="external nofollow noreferrer" alt=""><img width="48" height="48" src="https://i.p-i.vip/68/20250518-682999d014081.webp" alt="" onerror="this.src=https://unpkg.zhimg.com/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2025-05-18</span><a class="blog-slider__title" onclick="pjax.loadUrl(&quot;posts/e323.html&quot;);" href="javascript:void(0);" rel="external nofollow noreferrer" alt="">安卓Alist Flutter + Turmux cpolar实现内网穿透</a><div class="blog-slider__text">Alist Flutter + Turmux 🍰cpolar自部署网盘教程</div><a class="blog-slider__button" onclick="pjax.loadUrl(&quot;posts/e323.html&quot;);" href="javascript:void(0);" rel="external nofollow noreferrer" alt="">详情       </a></div></div></div><div class="blog-slider__pagination swiper-pagination-clickable swiper-pagination-bullets"></div></div></div>';
     console.log('已挂载butterfly_swiper')
     parent_div_git.insertAdjacentHTML("afterbegin",item_html)
     }

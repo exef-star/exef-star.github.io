@@ -269,3 +269,17 @@ svg.social_icon {
 [data-theme="dark"] {
   --card-bg: rgba(255, 255, 255, 0.2);
 }
+
+/* 个人信息卡片背景图 */
+[data-theme="light"] #aside-content > .card-widget.card-info {
+    background-image: url(https://i.p-i.vip/68/20250908-68bead22ab50a.webp);
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-size: 100%;
+  }
+  [data-theme="dark"] #aside-content > .card-widget.card-info {
+    background-image: url(https://i.p-i.vip/68/20250908-68bead3ddbfd2.webp);
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-size: 100%;
+  }

@@ -49,18 +49,18 @@ svg.social_icon {
 
 /* 圆角设置 */
 .tk-meta-input input {
-    border-top-right-radius: 12px;
-    border-bottom-right-radius: 12px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .tk-meta-input div {
-    border-top-left-radius: 12px;
-    border-bottom-left-radius: 12px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 /* 输入框样式 */
 .tk-input.el-textarea textarea {
-    border-radius: 12px;
+    border-radius: 10px;
     min-height: 150px !important;
     height: auto;
 }
@@ -73,7 +73,7 @@ svg.social_icon {
 }
 
 :root {
-    --liushen-radius: 12px;
+    --liushen-radius: 10px;
     --liushen-card-border-width: 1px;
 }
 
@@ -103,6 +103,7 @@ svg.social_icon {
     margin-top: 0px;
     margin-bottom: 20px;
     /* 圆角 */
+    border-radius: 10px;
 
     /* 背景颜色 */
     background: var(--liushen-card-bg);
@@ -216,7 +217,7 @@ svg.social_icon {
 
 /* 评论区按钮样式 */
 .tk-row.actions button.el-button {
-    border-radius: 12px !important;
+    border-radius: 10px !important;
 }
 
 /* 由于twikoo内部函数不宜修改，为了合适，去掉弹窗中的刷新按钮，该部分不需要，这是为了适配右键回复弹窗的内容的

@@ -15,8 +15,29 @@
     <atom:link href="https://blog.hanta2011.top/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>The boy who lived</description>
-    <pubDate>Thu, 28 Aug 2025 10:32:06 GMT</pubDate>
+    <pubDate>Sun, 21 Sep 2025 11:55:44 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>[小记]在VMware上安装Debian13</title>
+      <link>https://blog.hanta2011.top/posts/10105.html</link>
+      <guid>https://blog.hanta2011.top/posts/10105.html</guid>
+      <pubDate>Sat, 20 Sep 2025 08:48:43 GMT</pubDate>
+      
+      <description>记录一下VMware上安装Debian13的过程。</description>
+      
+      
+      
+      
+      <category domain="https://blog.hanta2011.top/categories/VMWare/">VMWare</category>
+      
+      
+      <category domain="https://blog.hanta2011.top/tags/VMWare/">VMWare</category>
+      
+      
+      <comments>https://blog.hanta2011.top/posts/10105.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>从安知鱼迁回Butterflyの札记</title>

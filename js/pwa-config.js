@@ -6,8 +6,8 @@ const hostname = document.location.hostname;
 const isLocalHost = (hostname === 'localhost' || hostname === 'blog-1.hanta2011.top' || hostname === 'blog-2.hanta2011.top' || hostname === 'hanta.hanta2011.top');
 
 // 输出格式化控制台消息，便于测试
-const GENUINE_LEFT_STYLE = "color: #d1fae5; background: #064e3b; padding:5px 0;";
-const GENUINE_RIGHT_STYLE = "color: #064e3b; background: #d1fae5; padding:5px 0;";
+const GENUINE_LEFT_STYLE = "background:#A8D6D2 ; padding: 1px; border-radius: 3px 0 0 3px;  color: #fff";
+const GENUINE_RIGHT_STYLE = "background:#fff ; padding: 1px; border-radius: 0 3px 3px 0;  color: #67717d";
 const GENUINE_MESSAGE_TEMPLATE = `  
 %c hanta2011.top 镜像反制措施 %c V0.4.1 `;
 console.log(

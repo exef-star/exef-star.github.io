@@ -6,7 +6,7 @@
   <link href="https://blog.hanta2011.top/atom.xml" rel="self"/>
   
   <link href="https://blog.hanta2011.top/"/>
-  <updated>2025-08-28T10:32:06.938Z</updated>
+  <updated>2025-09-21T11:55:44.034Z</updated>
   <id>https://blog.hanta2011.top/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>[小记]在VMware上安装Debian13</title>
+    <link href="https://blog.hanta2011.top/posts/10105.html"/>
+    <id>https://blog.hanta2011.top/posts/10105.html</id>
+    <published>2025-09-20T08:48:43.000Z</published>
+    <updated>2025-09-21T11:55:44.034Z</updated>
+    
+    
+    <summary type="html">记录一下VMware上安装Debian13的过程。</summary>
+    
+    
+    
+    <category term="VMWare" scheme="https://blog.hanta2011.top/categories/VMWare/"/>
+    
+    
+    <category term="VMWare" scheme="https://blog.hanta2011.top/tags/VMWare/"/>
+    
+  </entry>
   
   <entry>
     <title>从安知鱼迁回Butterflyの札记</title>

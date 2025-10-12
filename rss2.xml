@@ -15,8 +15,29 @@
     <atom:link href="https://blog.hanta2011.top/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>The boy who lived</description>
-    <pubDate>Sun, 21 Sep 2025 11:55:44 GMT</pubDate>
+    <pubDate>Sun, 12 Oct 2025 08:54:03 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>[杂记]一个月过去了，我身边发生的事</title>
+      <link>https://blog.hanta2011.top/posts/17140.html</link>
+      <guid>https://blog.hanta2011.top/posts/17140.html</guid>
+      <pubDate>Sun, 12 Oct 2025 07:17:08 GMT</pubDate>
+      
+      <description>这一个月之间，我身边发生的一些事</description>
+      
+      
+      
+      
+      <category domain="https://blog.hanta2011.top/categories/%E6%9D%82%E8%AE%B0/">杂记</category>
+      
+      
+      <category domain="https://blog.hanta2011.top/tags/%E6%9D%82%E8%AE%B0/">杂记</category>
+      
+      
+      <comments>https://blog.hanta2011.top/posts/17140.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>[小记]在VMware上安装Debian13</title>

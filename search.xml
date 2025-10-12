@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>[杂记]一个月过去了，我身边发生的事</title>
+      <link href="/posts/17140.html"/>
+      <url>/posts/17140.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="🃏前言"><a href="#🃏前言" class="headerlink" title="🃏前言"></a>🃏前言</h1><p>Hmm···<br>国庆和中秋过了差不多4天，因为调休，所以现在只有一天时间休息一下，所以就写一篇文章记录一下九月份我身边发生的一些事情。<br>从发暂更通知到现在，一个月过去了，还是忍不住断断续续的更一两篇文章，欸···</p><h1 id="🎭换CDN"><a href="#🎭换CDN" class="headerlink" title="🎭换CDN"></a>🎭换CDN</h1><p>这次换<code>CDN</code>，需要从一次清退说起。</p><p>在<code>十月八号</code>这一天，刚从老家回来的第三天，丘盾的群里面突然发了个公告，大意就是说CDN<code>被人举报了</code>，要被运营商处罚，后续<code>要清退了</code>，群主的博客里也发了这件事，由于我的网站也使用了这个CDN加速，所以我也受到了<code>波及</code>，在这一天的可用率直线下降。如图：</p><p><img src="https://i.p-i.vip/68/20251012-68eb5a3689342.webp" alt="万青丛中一点红"></p><p>没办法，曾经<code>如山一样的CDN</code>现在轰然倒塌，<code>Vercel+Fgaoxing</code>的组合有人说访问的时候比较慢，正好，试过腾讯的<code>EdgeOne</code>，虽然没有备案用不了中国大陆加速，用<code>itdog</code>测速，虽然在某些地区有点难看，但是访问的时候还算不错，无可奈何之下，只能切到<code>EdgeOne</code>。这次使用的是<code>EO Page</code>，可以在我执行完<code>Hexo三连</code>时，自动拉取最新版本，速度很快。但我心中总落不下那颗石头：<code>谁也不会保证EdgeOne后续会强制收回这个套餐，EdgeOne本身会不会被SNI阻断，还是被长城防火墙或者像Github、Youtube一样被封杀，即使是大厂的产品，谁也没有准它有一天会不会垮掉。</code><br>现在的我感觉像一只<code>蝜蝂</code>，总想着<code>多多益善</code>，殊不知自己<code>越来越累</code>，被这些被这些背在身上的东西压得<code>越来越深</code>，直到那最后一刻的<code>无力挣扎</code>。</p><p>看了一下<code>柯朽丘</code>的告别文章（<a href="https://blog.koxiuqiu.cn/posts/21p2510061">原文链接</a>），我对<code>CDN被清退</code>感到<code>很遗憾</code>，从文章里也可以感到他自己为了维护这个项目的<code>心累</code>，也感到<code>无奈</code>和<code>愤怒</code>。确实，那位在电脑前举报的人，尽心尽力的把自己包装成一个光荣的<code>正道之光</code>，满足一时的快感，企图赢得一时的<code>荣誉</code>，却殊不知，背后的人为了收拾他弄的这个<code>完美之作！</code>耗费的<code>心血</code>和<code>时间</code>有多么的久！！！</p><p style="transform: scaleX(-1);transform: scaleY(-1);">%e8%84%b8%e9%83%bd%e4%b8%8d%e8%a6%81%e4%ba%86%ef%bc%81%ef%bc%81%ef%bc%81</p><p>不过在这里<code>感谢丘盾</code>近半年时间的加速，加速效果<code>很明显</code>，在此<code>感谢和悼念丘盾</code>。</p><p>有时网上的世界看累了，不如看一下真实的世界···</p><p><img src="https://i.p-i.vip/68/20251012-68eb63eff148c.webp" alt="原文节选"></p><h1 id="🏫学校生活"><a href="#🏫学校生活" class="headerlink" title="🏫学校生活"></a>🏫学校生活</h1><h2 id="📄月考"><a href="#📄月考" class="headerlink" title="📄月考"></a>📄月考</h2><p>下周就是月考了，会比期中期末考这些少一点题和简单一点，要准备考前复习了。</p><h2 id="📑留堂"><a href="#📑留堂" class="headerlink" title="📑留堂"></a>📑留堂</h2><p>组里面的<psw>猪队友</psw>啊！国庆作业死活不交，搞的班里就我们小组扣的最多分，还带着我一起下水，上午使劲拉分都抬不上来，还好提前问老师留堂要抄背哪里，最后才获得个<code>免留金牌</code>。</p><p><img src="https://i.p-i.vip/68/20251012-68eb69d3a94af.webp" alt=""></p><h1 id="🗂️最后"><a href="#🗂️最后" class="headerlink" title="🗂️最后"></a>🗂️最后</h1><p>这一个月，我身边发生的事，就这些吧，要真正的放下心来去认真对待学习了。</p><h1 id="⭐️封面图"><a href="#⭐️封面图" class="headerlink" title="⭐️封面图"></a>⭐️封面图</h1><p><img src="https://i.p-i.vip/68/20251012-68eb6b78dff16.webp" alt="【哲风壁纸】卡通插画-夏日树荫"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 杂记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 杂记 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>[小记]在VMware上安装Debian13</title>
       <link href="/posts/10105.html"/>
       <url>/posts/10105.html</url>

@@ -6,7 +6,7 @@
   <link href="https://blog.hanta2011.top/atom.xml" rel="self"/>
   
   <link href="https://blog.hanta2011.top/"/>
-  <updated>2025-09-21T11:55:44.034Z</updated>
+  <updated>2025-10-12T08:54:03.443Z</updated>
   <id>https://blog.hanta2011.top/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>[杂记]一个月过去了，我身边发生的事</title>
+    <link href="https://blog.hanta2011.top/posts/17140.html"/>
+    <id>https://blog.hanta2011.top/posts/17140.html</id>
+    <published>2025-10-12T07:17:08.000Z</published>
+    <updated>2025-10-12T08:54:03.443Z</updated>
+    
+    
+    <summary type="html">这一个月之间，我身边发生的一些事</summary>
+    
+    
+    
+    <category term="杂记" scheme="https://blog.hanta2011.top/categories/%E6%9D%82%E8%AE%B0/"/>
+    
+    
+    <category term="杂记" scheme="https://blog.hanta2011.top/tags/%E6%9D%82%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>[小记]在VMware上安装Debian13</title>
@@ -84,7 +103,7 @@
     <link href="https://blog.hanta2011.top/posts/5692.html"/>
     <id>https://blog.hanta2011.top/posts/5692.html</id>
     <published>2025-08-03T11:43:34.000Z</published>
-    <updated>2025-09-07T03:59:08.467Z</updated>
+    <updated>2025-10-12T07:24:59.279Z</updated>
     
     
     <summary type="html">网站通知</summary>

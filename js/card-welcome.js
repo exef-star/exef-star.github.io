@@ -1,8 +1,8 @@
 window.IP_CONFIG = {
     API_KEY: '2aef1e72dd4f05fe', // API密钥 申请地址：https://api.76.al/
     BLOG_LOCATION: {
-        lng: 113.666, // 经度
-        lat: 34.666 // 纬度
+        lng: 22.800, // 经度
+        lat: 113.558 // 纬度
     },
     CACHE_DURATION: 1000 * 60 * 60, // 可配置缓存时间(默认1小时)
     HOME_PAGE_ONLY: true, // 是否只在首页显示 开启后其它页面将不会显示这个容器

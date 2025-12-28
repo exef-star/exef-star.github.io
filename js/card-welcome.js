@@ -1,8 +1,8 @@
 window.IP_CONFIG = {
     API_KEY: '2aef1e72dd4f05fe', // API密钥 申请地址：https://api.76.al/
     BLOG_LOCATION: {
-        lng: 22.800, // 经度
-        lat: 113.558 // 纬度
+        lng: 113.558, // 经度
+        lat: 22.800 // 纬度
     },
     CACHE_DURATION: 1000 * 60 * 60, // 可配置缓存时间(默认1小时)
     HOME_PAGE_ONLY: true, // 是否只在首页显示 开启后其它页面将不会显示这个容器
@@ -127,15 +127,17 @@ const addStyles = () => {
             padding: 10px;
             margin-top: 5px;
             border-radius: 12px;
-            background-color: var(--anzhiyu-background);
             outline: 1px solid var(--anzhiyu-card-border);
+        }
+        #welcome-info b{
+            color: var(--btn-bg);
         }
         .loading-spinner {
             width: 50px;
             height: 50px;
             border: 3px solid rgba(0, 0, 0, 0.1);
             border-radius: 50%;
-            border-top: 3px solid var(--anzhiyu-main);
+            border-top: 3px solid var(--btn-bg);
             animation: spin 1s linear infinite;
         }
         @keyframes spin {
@@ -165,7 +167,7 @@ const addStyles = () => {
         }
         #retry-button {
             margin: 0 5px;
-            color: var(--anzhiyu-main);
+            color: var(--btn-bg);
             transition: transform 0.3s ease;
         }
         #retry-button:hover {
@@ -179,7 +181,7 @@ const addStyles = () => {
             padding: 5px 10px;
             border: none;
             border-radius: 5px;
-            background-color: var(--anzhiyu-main);
+            background-color: var(--btn-bg);
             color: white;
             transition: opacity 0.3s ease;
         }

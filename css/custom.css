@@ -265,10 +265,12 @@ svg.social_icon {
 /*侧边卡片的透明度 */
 :root {
   --card-bg: rgba(255, 255, 255, 0.85);
+  --btn-bg: #A8D6D2;
 }
 
 [data-theme="dark"] {
   --card-bg: rgba(255, 255, 255, 0.2);
+  --btn-bg: #000000;
 }
 
 /* 个人信息卡片背景图 */
@@ -284,3 +286,7 @@ svg.social_icon {
     background-attachment: inherit;
     background-size: 100%;
   }
+
+center {
+    text-align: center;
+}

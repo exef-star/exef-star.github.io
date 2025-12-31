@@ -514,13 +514,6 @@
   </url>
   
   <url>
-    <loc>https://blog.hanta2011.top/tags/MC/</loc>
-    <lastmod>2025-12-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.hanta2011.top/tags/Butterfly/</loc>
     <lastmod>2025-12-31</lastmod>
     <changefreq>weekly</changefreq>
@@ -528,7 +521,7 @@
   </url>
   
   <url>
-    <loc>https://blog.hanta2011.top/tags/PCL/</loc>
+    <loc>https://blog.hanta2011.top/tags/MC/</loc>
     <lastmod>2025-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -556,7 +549,7 @@
   </url>
   
   <url>
-    <loc>https://blog.hanta2011.top/tags/VSCode/</loc>
+    <loc>https://blog.hanta2011.top/tags/PCL/</loc>
     <lastmod>2025-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -577,6 +570,13 @@
   </url>
   
   <url>
+    <loc>https://blog.hanta2011.top/tags/VSCode/</loc>
+    <lastmod>2025-12-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.hanta2011.top/tags/HTML/</loc>
     <lastmod>2025-12-31</lastmod>
     <changefreq>weekly</changefreq>
@@ -585,13 +585,6 @@
   
   <url>
     <loc>https://blog.hanta2011.top/tags/AI/</loc>
-    <lastmod>2025-12-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.hanta2011.top/tags/Alist/</loc>
     <lastmod>2025-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -613,6 +606,13 @@
   
   <url>
     <loc>https://blog.hanta2011.top/tags/%E8%B7%A8%E5%B9%B3%E5%8F%B0/</loc>
+    <lastmod>2025-12-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hanta2011.top/tags/Alist/</loc>
     <lastmod>2025-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -647,20 +647,6 @@
   </url>
   
   <url>
-    <loc>https://blog.hanta2011.top/tags/%E6%9D%82%E8%AE%B0/</loc>
-    <lastmod>2025-12-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.hanta2011.top/tags/%E8%BD%AF%E4%BB%B6/</loc>
-    <lastmod>2025-12-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.hanta2011.top/tags/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95/</loc>
     <lastmod>2025-12-31</lastmod>
     <changefreq>weekly</changefreq>
@@ -676,6 +662,20 @@
   
   <url>
     <loc>https://blog.hanta2011.top/tags/Bilibili/</loc>
+    <lastmod>2025-12-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hanta2011.top/tags/%E6%9D%82%E8%AE%B0/</loc>
+    <lastmod>2025-12-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hanta2011.top/tags/%E8%BD%AF%E4%BB%B6/</loc>
     <lastmod>2025-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -740,13 +740,6 @@
   </url>
   
   <url>
-    <loc>https://blog.hanta2011.top/categories/MC/</loc>
-    <lastmod>2025-12-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.hanta2011.top/categories/Butterfly/</loc>
     <lastmod>2025-12-31</lastmod>
     <changefreq>weekly</changefreq>
@@ -754,7 +747,7 @@
   </url>
   
   <url>
-    <loc>https://blog.hanta2011.top/categories/PCL/</loc>
+    <loc>https://blog.hanta2011.top/categories/MC/</loc>
     <lastmod>2025-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -769,6 +762,13 @@
   
   <url>
     <loc>https://blog.hanta2011.top/categories/Minecraft/</loc>
+    <lastmod>2025-12-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hanta2011.top/categories/PCL/</loc>
     <lastmod>2025-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -796,20 +796,6 @@
   </url>
   
   <url>
-    <loc>https://blog.hanta2011.top/categories/AI/</loc>
-    <lastmod>2025-12-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.hanta2011.top/categories/Alist/</loc>
-    <lastmod>2025-12-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.hanta2011.top/categories/VMWare/</loc>
     <lastmod>2025-12-31</lastmod>
     <changefreq>weekly</changefreq>
@@ -817,7 +803,21 @@
   </url>
   
   <url>
+    <loc>https://blog.hanta2011.top/categories/AI/</loc>
+    <lastmod>2025-12-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.hanta2011.top/categories/%E6%96%87%E4%BB%B6%E5%85%B1%E4%BA%AB%E7%A8%8B%E5%BA%8F/</loc>
+    <lastmod>2025-12-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hanta2011.top/categories/Alist/</loc>
     <lastmod>2025-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -838,6 +838,13 @@
   </url>
   
   <url>
+    <loc>https://blog.hanta2011.top/categories/Twikoo/</loc>
+    <lastmod>2025-12-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.hanta2011.top/categories/%E6%9D%82%E8%AE%B0/</loc>
     <lastmod>2025-12-31</lastmod>
     <changefreq>weekly</changefreq>
@@ -846,13 +853,6 @@
   
   <url>
     <loc>https://blog.hanta2011.top/categories/%E8%BD%AF%E4%BB%B6/</loc>
-    <lastmod>2025-12-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.hanta2011.top/categories/Twikoo/</loc>
     <lastmod>2025-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

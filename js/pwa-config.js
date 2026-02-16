@@ -3,7 +3,7 @@ console.log(" %c Hanta %c 5.4.3 %c https://blog.hanta2011.top/", "background:#A8
 const validDomain = 'blog.hanta2011.top';
 const redirectUrl = 'https://blog.hanta2011.top';
 const hostname = document.location.hostname;
-const isLocalHost = (hostname === 'localhost' || hostname === 'blog-1.hanta2011.top' || hostname === 'blog-2.hanta2011.top' || hostname === 'hanta.hanta2011.top');
+const isLocalHost = (hostname === 'localhost' || hostname === 'blog-1.hanta2011.top' || hostname === 'blog-2.hanta2011.top' || hostname === 'hanta.hanta2011.top' || hostname === 'hanta-blog.netlify.app');
 
 // 输出格式化控制台消息，便于测试
 const GENUINE_LEFT_STYLE = "background:#A8D6D2 ; padding: 1px; border-radius: 3px 0 0 3px;  color: #fff";

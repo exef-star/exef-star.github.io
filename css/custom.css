@@ -831,3 +831,16 @@ center {
         margin-right: 20px;
     }
 }
+
+/* 进度条颜色 */
+#nprogress .bar {
+    background: var(--default-bg-color) !important;
+    height: 3px !important;
+    transition: width 0.2s ease-in-out;
+}
+
+#nprogress .spinner-icon {
+    border-top-color: var(--default-bg-color) !important;
+    /* 改成你想要的颜色，比如橙色 */
+    border-left-color: var(--default-bg-color) !important;
+}

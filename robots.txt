@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://blog.hanta2011.top/sitemap.xml
